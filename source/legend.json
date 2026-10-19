@@ -1,0 +1,677 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/12DA4amUPZKamX4hgUgKjbikZ_XEhZhi-Eopy2M64dpI/edit?gid=267726191",
+  "cells": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": "Color scheme used in the text cells:"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 1,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 1,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 2,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 3,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 4,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 5,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 6,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 7,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(221, 227, 234)",
+      "col": 8,
+      "color": "rgb(31, 31, 31)",
+      "row": 0,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 2,
+      "text": "S/NS - Support/No support"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 2,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(0, 0, 0)",
+      "row": 2,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 2,
+      "text": "OBSOLETE"
+    },
+    {
+      "background": "rgb(153, 153, 153)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 2,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 2,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(31, 31, 31)",
+      "row": 2,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(31, 31, 31)",
+      "row": 2,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 3,
+      "text": "H/NH - Hazard/No hazard"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 3,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(0, 0, 0)",
+      "row": 3,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 3,
+      "text": "S"
+    },
+    {
+      "background": "rgb(164, 219, 255)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 3,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 3,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(31, 31, 31)",
+      "row": 3,
+      "text": ""
+    },
+    {
+      "background": "rgb(211, 255, 136)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 3,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 4,
+      "text": "SHC - Starting Heavy Cruiser (aka HP node)"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 4,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(0, 0, 0)",
+      "row": 4,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 4,
+      "text": "H"
+    },
+    {
+      "background": "rgb(255, 176, 176)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 4,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 4,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(31, 31, 31)",
+      "row": 4,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 196, 115)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 4,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 5,
+      "text": "bolded numbers - best loadout for specific 'fleet damage and health' stat"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 5,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(31, 31, 31)",
+      "row": 5,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 5,
+      "text": "S/H"
+    },
+    {
+      "background": "rgb(184, 144, 219)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 5,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 5,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(31, 31, 31)",
+      "row": 5,
+      "text": ""
+    },
+    {
+      "background": "rgb(227, 37, 37)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 5,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 6,
+      "text": "italic numbers - best loadout for specific stat, yet the result is worse than with lower or highter stat\n(bold because it's still the best you can achieve at this stat)"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 6,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(31, 31, 31)",
+      "row": 6,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 6,
+      "text": "NS/NH"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 6,
+      "text": "(no color)"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(31, 31, 31)",
+      "row": 6,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(31, 31, 31)",
+      "row": 6,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(31, 31, 31)",
+      "row": 6,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 7,
+      "text": "struck out numbers - another loadout has a better result"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 7,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(31, 31, 31)",
+      "row": 7,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 7,
+      "text": "NS/H"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 7,
+      "text": "not possible"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 7,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(31, 31, 31)",
+      "row": 7,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 7,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 8,
+      "text": "red background - all attempts failed, looking for higher stats for this loadout to workout, if found, remove red background"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(31, 31, 31)",
+      "row": 8,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(31, 31, 31)",
+      "row": 8,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 8,
+      "text": "S/NH"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 8,
+      "text": "is the same as S"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 8,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(0, 0, 0)",
+      "row": 8,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 8,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 9,
+      "text": "yellow background = Non-standard (IE 2 fighter's) build"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(31, 31, 31)",
+      "row": 9,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(0, 0, 0)",
+      "row": 9,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 9,
+      "text": "non-standard mark:🟨\n(assuming we dont use yellow background and ignore other colors)"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 5,
+      "color": "rgb(31, 31, 31)",
+      "row": 9,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(31, 31, 31)",
+      "row": 9,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(0, 0, 0)",
+      "row": 9,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 9,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": "green background = ?"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 10,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 1,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": "blue background = ?"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 2,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 3,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 4,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 5,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 6,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 7,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "col": 8,
+      "color": "rgb(0, 0, 0)",
+      "row": 11,
+      "text": ""
+    }
+  ]
+}

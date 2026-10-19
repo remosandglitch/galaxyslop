@@ -1,0 +1,5009 @@
+{
+  "stats": {
+    "cells": 563,
+    "records": 1200,
+    "usable": 835,
+    "review": 144,
+    "obsolete": 219,
+    "failed": 2,
+    "missingImages": 9,
+    "orphanImages": 8
+  },
+  "cells": [
+    {
+      "layoutId": "0:H2",
+      "battle": "B8",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "H2",
+      "image": "source/images/0/007",
+      "text": "NS/H: 1.0x-129.08",
+      "note": "s/h 1.5x when",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "0:H2:6"
+      ],
+      "issues": [
+        "Source note needs review"
+      ]
+    },
+    {
+      "layoutId": "0:C6",
+      "battle": "B3",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "C6",
+      "image": "source/images/0/022",
+      "text": "S: 1.5x-14.77 / 1.75x-13.27 / 2.0x-12.46 (A5) / 2.25x-12.19 (A5) /2.5x-11.94 (A5)  /2.75x-13.48 (A5) / Best to 4.25? (stop at 2.25x (check f skip calc sheet))",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "0:C6:3",
+        "0:C6:16",
+        "0:C6:30",
+        "0:C6:48",
+        "0:C6:66",
+        "0:C6:84"
+      ],
+      "issues": [
+        "Additional multiplier text needs review: 2.25x",
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "0:D8",
+      "battle": "B4",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "D8",
+      "image": "source/images/0/031",
+      "text": "S: 1.5x-25",
+      "note": "literally not S",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": true,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "0:D8:3"
+      ],
+      "issues": [
+        "Source note needs review"
+      ]
+    },
+    {
+      "layoutId": "0:I8",
+      "battle": "B9",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "I8",
+      "image": "source/images/0/035",
+      "text": "S/NH: 1.25x-47.58 (use armor on fighters)\nS/NH 1.25x (No L1): 64",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 42
+        }
+      ],
+      "recordIds": [
+        "0:I8:6"
+      ],
+      "issues": [
+        "Additional multiplier text needs review: 1.25x"
+      ]
+    },
+    {
+      "layoutId": "0:G12",
+      "battle": "B7",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "G12",
+      "image": null,
+      "text": "S: 1.75x-11.6",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "0:G12:3"
+      ],
+      "issues": [
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "0:I12",
+      "battle": "B9",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "I12",
+      "image": "source/images/0/051",
+      "text": "S/NH: 1.75x-23.89",
+      "note": "turn on missiles for 30 or it doesn't work idk why",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "0:I12:6"
+      ],
+      "issues": [
+        "Source note needs review"
+      ]
+    },
+    {
+      "layoutId": "0:H16",
+      "battle": "B8",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "H16",
+      "image": "source/images/0/065",
+      "text": "S/NH: 1.5x-22.83 / 1.75x-18.22 / 2.0x-17.06 (no fighter mod)",
+      "note": "something is wrong here\nalso 1.75x = 19.38FR \n- This is incorrect ? Check your setup\n- change 1.5x from 21.13 to 22.83\n",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 30
+        }
+      ],
+      "recordIds": [
+        "0:H16:6",
+        "0:H16:19",
+        "0:H16:33"
+      ],
+      "issues": [
+        "Source note needs review"
+      ]
+    },
+    {
+      "layoutId": "0:J16",
+      "battle": "B10",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "J16",
+      "image": "source/images/0/067",
+      "text": "NS/NH: 3.75x-7.5 / 4.0x and 4.25x-5 (charge laser)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 7,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "0:J16:7",
+        "0:J16:28"
+      ],
+      "issues": [
+        "Uncertain or multiple costs",
+        "Shared cost or multiplier range needs review"
+      ]
+    },
+    {
+      "layoutId": "0:G18",
+      "battle": "B7",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "G18",
+      "image": "source/images/0/071",
+      "text": "NS: 2.25x-23.41 / 2.5x-21.55",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.8509804,
+          "green": 0.91764706,
+          "blue": 0.827451
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 4,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "0:G18:4",
+        "0:G18:18"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "0:D30",
+      "battle": "B4",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "D30",
+      "image": "source/images/0/097",
+      "text": "NS: 2.25x-22.??",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": true,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "bold": true,
+            "strikethrough": false
+          }
+        },
+        {
+          "startIndex": 4
+        }
+      ],
+      "recordIds": [
+        "0:D30:4"
+      ],
+      "issues": [
+        "Uncertain or multiple costs",
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "0:E30",
+      "battle": "B5",
+      "sheetId": 0,
+      "sheet": "B1-10",
+      "cell": "E30",
+      "image": "source/images/0/098",
+      "text": "NS: 2.6x-lose / 2.75x-18.75 / 3.0x-18.3 / 3.25x-18.05 / 3.5x-17.71 / 3.75x-16.62 / 4.0x-17.9 / 4.25x-17.73 (Probably best from 2.7x+ excluding HC builds)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 4,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 13
+        },
+        {
+          "startIndex": 15,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 27
+        },
+        {
+          "startIndex": 30,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 39
+        },
+        {
+          "startIndex": 41,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 53
+        },
+        {
+          "startIndex": 56,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 66
+        },
+        {
+          "startIndex": 80,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 81
+        },
+        {
+          "startIndex": 95,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 106
+        }
+      ],
+      "recordIds": [
+        "0:E30:4",
+        "0:E30:16",
+        "0:E30:30",
+        "0:E30:42",
+        "0:E30:56",
+        "0:E30:69",
+        "0:E30:83",
+        "0:E30:95"
+      ],
+      "issues": [
+        "Failed attempt",
+        "Additional multiplier text needs review: 2.7x"
+      ]
+    },
+    {
+      "layoutId": "697994241:A2",
+      "battle": "B11",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "A2",
+      "image": null,
+      "text": "S: 1.0x-30.1",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "697994241:A2:3"
+      ],
+      "issues": [
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "697994241:F2",
+      "battle": "B16",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "F2",
+      "image": "source/images/697994241/002",
+      "text": "H: 1.5x - 214.53 1 shot (L1 Fighter)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "697994241:F2:3"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "697994241:I2",
+      "battle": "B19",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "I2",
+      "image": "source/images/697994241/008",
+      "text": "1.5x-80.?? (no beam)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "697994241:I2:0"
+      ],
+      "issues": [
+        "Uncertain or multiple costs",
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "697994241:J2",
+      "battle": "B20",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "J2",
+      "image": "source/images/697994241/006",
+      "text": "H: 1.75x-88",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.95686275,
+          "green": 0.8,
+          "blue": 0.8
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "697994241:J2:3"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "697994241:J4",
+      "battle": "B20",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "J4",
+      "image": "source/images/697994241/022",
+      "text": "H: 2.0x-55.93 / 2.25x-51.11",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.95686275,
+          "green": 0.8,
+          "blue": 0.8
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "697994241:J4:3",
+        "697994241:J4:16"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "697994241:D6",
+      "battle": "B14",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "D6",
+      "image": "source/images/697994241/020",
+      "text": "H: 1.75x- 66(L1 Fighter, Heavy Cruiser Not Printed)",
+      "note": "please don't do this unless pushing for fuel efficiency (pushing b15-16 needs heavy cruiser so use above strategy in most cases to remove hazard instead)",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "697994241:D6:3"
+      ],
+      "issues": [
+        "Source note needs review"
+      ]
+    },
+    {
+      "layoutId": "697994241:F6",
+      "battle": "B16",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "F6",
+      "image": "source/images/697994241/025",
+      "text": "H: 1.7x-249.46 1 clear (No Heavy Cruiser)",
+      "note": "not worth it (also 1.7x literally doesn't exist anymore here)",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.8980392,
+          "blue": 0.6
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "697994241:F6:3"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard",
+        "Source note needs review",
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "697994241:H6",
+      "battle": "B18",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "H6",
+      "image": "source/images/697994241/023",
+      "text": "2.0x-50.33 / 2.0x-49.3 (with beam) / 2.25x-49.29",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 10
+        },
+        {
+          "startIndex": 37,
+          "format": {
+            "bold": false
+          }
+        }
+      ],
+      "recordIds": [
+        "697994241:H6:0",
+        "697994241:H6:13",
+        "697994241:H6:37"
+      ],
+      "issues": [
+        "Multiple variants at the same multiplier"
+      ]
+    },
+    {
+      "layoutId": "697994241:A10",
+      "battle": "B11",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "A10",
+      "image": "source/images/697994241/035",
+      "text": "NS: 1.25x-48.95 (got 51.65) / 1.5x-43.67",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 4,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 15
+        }
+      ],
+      "recordIds": [
+        "697994241:A10:4",
+        "697994241:A10:30"
+      ],
+      "issues": [
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "697994241:B12",
+      "battle": "B12",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "B12",
+      "image": "source/images/697994241/048",
+      "text": "S: 1.5x-55.0 (1.5x-45.0 with L1 Corvette)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 12
+        },
+        {
+          "startIndex": 14,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 23
+        }
+      ],
+      "recordIds": [
+        "697994241:B12:3",
+        "697994241:B12:14"
+      ],
+      "issues": [
+        "Nested variant or contextual numeric entry"
+      ]
+    },
+    {
+      "layoutId": "697994241:F16",
+      "battle": "B16",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "F16",
+      "image": "source/images/697994241/072",
+      "text": "NH: 2.0x-38.87 (no beam) / 2.0x-36.27 / 2.25x-34.72 (use heavy cruiser beam)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 4
+        },
+        {
+          "startIndex": 26,
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 27
+        }
+      ],
+      "recordIds": [
+        "697994241:F16:4",
+        "697994241:F16:27",
+        "697994241:F16:40"
+      ],
+      "issues": [
+        "Multiple variants at the same multiplier"
+      ]
+    },
+    {
+      "layoutId": "697994241:A28",
+      "battle": "B11",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "A28",
+      "image": "source/images/697994241/108",
+      "text": "NS: 3.0x thru 3.75x-16.25 / 4.0x-15.26",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 4,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 25
+        },
+        {
+          "startIndex": 26,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "697994241:A28:14",
+        "697994241:A28:28"
+      ],
+      "issues": [
+        "Shared cost or multiplier range needs review",
+        "Additional multiplier text needs review: 3.0x"
+      ]
+    },
+    {
+      "layoutId": "697994241:A32",
+      "battle": "B11",
+      "sheetId": 697994241,
+      "sheet": "B11-20",
+      "cell": "A32",
+      "image": "source/images/697994241/123",
+      "text": "NS: 1.6x-38.5 (may ocasionally give higher results, but never got it twice in a row a higher result)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "697994241:A32:4"
+      ],
+      "issues": [
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "49029630:C2",
+      "battle": "B23",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "C2",
+      "image": "source/images/49029630/002",
+      "text": "S: 2.0x-45.2 / S: 1.75x-61.?? (+ armor cruiser in B4)",
+      "note": "s/h would lowk be nice for a bit (continuing after b21 but cant afford to go to b22 this run)",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 12,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 15,
+          "format": {
+            "italic": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:C2:3",
+        "49029630:C2:18"
+      ],
+      "issues": [
+        "Source note needs review",
+        "Uncertain or multiple costs",
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "49029630:D6",
+      "battle": "B24",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "D6",
+      "image": "source/images/49029630/026",
+      "text": "2.25x-lose / 2.4x-58 / 2.5x-57.16 / 2.75x-51.78",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 10,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 20
+        },
+        {
+          "startIndex": 23,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:D6:0",
+        "49029630:D6:13",
+        "49029630:D6:23",
+        "49029630:D6:36"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "49029630:H6",
+      "battle": "B28",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "H6",
+      "image": "source/images/49029630/027",
+      "text": "H: 2.5x-56.84 (this is 75 now, HC on top)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:H6:3"
+      ],
+      "issues": [
+        "Disputed or outdated source"
+      ]
+    },
+    {
+      "layoutId": "49029630:I6",
+      "battle": "B29",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "I6",
+      "image": "source/images/49029630/028",
+      "text": "H: 2.4x- Fails",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "49029630:I6:3"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "49029630:B8",
+      "battle": "B22",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "B8",
+      "image": "source/images/49029630/029",
+      "text": "H (B22 only): 1.75, 274 of 300, oneshot",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [],
+      "issues": [
+        "No unambiguous numeric observations"
+      ]
+    },
+    {
+      "layoutId": "49029630:D8",
+      "battle": "B24",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "D8",
+      "image": "source/images/49029630/032",
+      "text": "2.25x-53.76 / 2.5x-52.72 / fail 2.75x-43.74 (remove B4, move B3→B4) / 3.0x-42.82 (do the same) / 3.25x-47",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 13
+        },
+        {
+          "startIndex": 14,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 24,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 25
+        },
+        {
+          "startIndex": 27,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 67,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 70,
+          "format": {
+            "bold": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 94
+        }
+      ],
+      "recordIds": [
+        "49029630:D8:0",
+        "49029630:D8:14",
+        "49029630:D8:32",
+        "49029630:D8:70",
+        "49029630:D8:97"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "49029630:E8",
+      "battle": "B25",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "E8",
+      "image": "source/images/49029630/034",
+      "text": "S: 2.75x-34.46 / 3.0x - 30.2 31.4 (Corvette B2>A2) 30.00(Corvette B2 switch shield with charge laser) / 3.25x - 28.23",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 24,
+          "format": {
+            "bold": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 28,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:E8:3",
+        "49029630:E8:17",
+        "49029630:E8:104"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "49029630:I8",
+      "battle": "B29",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "I8",
+      "image": "source/images/49029630/037",
+      "text": "H: 2.3x-88.1 / 2.4x-87.94 / 2.425x-87.91 (Fails at 2.25x and 2.5x)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 13,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 25
+        },
+        {
+          "startIndex": 28,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 41
+        }
+      ],
+      "recordIds": [
+        "49029630:I8:3",
+        "49029630:I8:15",
+        "49029630:I8:28"
+      ],
+      "issues": [
+        "Additional multiplier text needs review: 2.25x, 2.5x",
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "49029630:B10",
+      "battle": "B22",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "B10",
+      "image": "source/images/49029630/040",
+      "text": "NH: 1.75 46, advisor has 45",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [],
+      "issues": [
+        "No unambiguous numeric observations"
+      ]
+    },
+    {
+      "layoutId": "49029630:B12",
+      "battle": "B22",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "B12",
+      "image": "source/images/49029630/046",
+      "text": "NH: 2.0x-21.47 / 2.25x-20 / 2.5x-18.99 /\n2.75x → 4.25x-18.75",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 4,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 8
+        },
+        {
+          "startIndex": 17,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 25
+        },
+        {
+          "startIndex": 28,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 38
+        },
+        {
+          "startIndex": 41,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 54
+        }
+      ],
+      "recordIds": [
+        "49029630:B12:4",
+        "49029630:B12:17",
+        "49029630:B12:28",
+        "49029630:B12:49"
+      ],
+      "issues": [
+        "Additional multiplier text needs review: 2.75x",
+        "Uncertain or multiple costs",
+        "Shared cost or multiplier range needs review"
+      ]
+    },
+    {
+      "layoutId": "49029630:I12",
+      "battle": "B29",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "I12",
+      "image": "source/images/49029630/053",
+      "text": "H: (Fails at 2.5x and 2.75x, 3.0x - 54.12) 2.8x-54.25 / 2.9x-53.72",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 43,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 56,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:I12:29",
+        "49029630:I12:43",
+        "49029630:I12:56"
+      ],
+      "issues": [
+        "Nested variant or contextual numeric entry"
+      ]
+    },
+    {
+      "layoutId": "49029630:J16",
+      "battle": "B30",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "J16",
+      "image": "source/images/49029630/073",
+      "text": "S/NH: 2.7x fail / 2.825x-60.71 / 2.85x - 58.77 / 2.9x-58.57 / 3x-57.43 / 3.125x-55.89",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 15
+        },
+        {
+          "startIndex": 18,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 31
+        },
+        {
+          "startIndex": 49,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 59
+        },
+        {
+          "startIndex": 62,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 70
+        },
+        {
+          "startIndex": 73,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:J16:6",
+        "49029630:J16:18",
+        "49029630:J16:33",
+        "49029630:J16:49",
+        "49029630:J16:62",
+        "49029630:J16:73"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "49029630:A18",
+      "battle": "B21",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "A18",
+      "image": "source/images/49029630/071",
+      "text": "S/NH: 2.7x-fail / 2.825x-25.72 / 3.0x-25.39 / 3.025x-25.35 / 3.95x-23.06",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 15
+        }
+      ],
+      "recordIds": [
+        "49029630:A18:6",
+        "49029630:A18:18",
+        "49029630:A18:33",
+        "49029630:A18:46",
+        "49029630:A18:61"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "49029630:E20",
+      "battle": "B25",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "E20",
+      "image": "source/images/49029630/086",
+      "text": "NS: 2.25x - 78.8 64.95 57.62\n",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 4,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 10,
+          "format": {
+            "bold": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 11,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 12,
+          "format": {
+            "bold": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 16,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 17,
+          "format": {
+            "bold": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 23,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:E20:4"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "49029630:I22",
+      "battle": "B29",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "I22",
+      "image": "source/images/49029630/092",
+      "text": "H: Fail 3.0x-44.34 / 3.025x-49.16",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 18,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:I22:8",
+        "49029630:I22:21"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "49029630:J24",
+      "battle": "B30",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "J24",
+      "image": "source/images/49029630/097",
+      "text": "NS/NH:  3.0x-61.02 60.55 / 3.25x-70",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 7,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 13,
+          "format": {
+            "bold": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 18,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 27
+        }
+      ],
+      "recordIds": [
+        "49029630:J24:8",
+        "49029630:J24:27"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "49029630:D26",
+      "battle": "B24",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "D26",
+      "image": "source/images/49029630/100",
+      "text": "SHC (change fighter to no gun): 2.5x/2.7x/2.8x-fail / 3x-49.6 / 3.1x-45.36 (fighter no gun) / 3.125x-44.42 / 3.2x-45.09(45.08 fighter no gun) (I got 45.02 with fighter no gun?) / 3.225x-44.94 / 3.3x-44.62 / 3.4x-44.19 / 3.425x-42.55?? (44.32) / 3.5x-43.78 (I got -42.12?) / 3.525x-42.06 / 3.6x-41.89(40.89 HC no beam) / 3.7x-41.67 / 3.725x-41.62 (this cell also needs test & check for inconsistencies)",
+      "note": "3.325x-44.62 Same result with or w/o alternate fighter",
+      "format": {
+        "backgroundColor": {
+          "red": 0.8,
+          "green": 0.25490198,
+          "blue": 0.14509805
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 320,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 329
+        },
+        {
+          "startIndex": 333,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 345
+        }
+      ],
+      "recordIds": [
+        "49029630:D26:42",
+        "49029630:D26:54",
+        "49029630:D26:64",
+        "49029630:D26:94",
+        "49029630:D26:109",
+        "49029630:D26:179",
+        "49029630:D26:194",
+        "49029630:D26:207",
+        "49029630:D26:220",
+        "49029630:D26:245",
+        "49029630:D26:274",
+        "49029630:D26:289",
+        "49029630:D26:320",
+        "49029630:D26:333"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard",
+        "Source note needs review",
+        "Disputed or outdated source",
+        "Shared cost or multiplier range needs review",
+        "Failed attempt",
+        "Uncertain result or failure context",
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "49029630:E32",
+      "battle": "B25",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "E32",
+      "image": "source/images/49029630/112",
+      "text": "2.2x-65.01 / 2.3x-61.61 / 2.325x-61.41 / 2.4x-60.65 / 2.5x-59.41 / 2.6x 56.18\n / 2.7x-54.4 / 2.8x-53.43 / 2.9x-53.04 / 2.925x-52.95 / 3.0x-59.59 (re-upload new image)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.8,
+          "green": 0.25490198,
+          "blue": 0.14509805
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 67,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 90
+        },
+        {
+          "startIndex": 93,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 103
+        },
+        {
+          "startIndex": 106,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 116
+        },
+        {
+          "startIndex": 119,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 131
+        },
+        {
+          "startIndex": 134,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 144
+        }
+      ],
+      "recordIds": [
+        "49029630:E32:0",
+        "49029630:E32:13",
+        "49029630:E32:26",
+        "49029630:E32:41",
+        "49029630:E32:54",
+        "49029630:E32:67",
+        "49029630:E32:81",
+        "49029630:E32:93",
+        "49029630:E32:106",
+        "49029630:E32:119",
+        "49029630:E32:134"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "49029630:E36",
+      "battle": "B25",
+      "sheetId": 49029630,
+      "sheet": "B21-30",
+      "cell": "E36",
+      "image": "source/images/49029630/114",
+      "text": "NS: 3.5x-40.77 / 3.75x-40.32",
+      "note": "look 2 down",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 4,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 14,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "49029630:E36:4",
+        "49029630:E36:17"
+      ],
+      "issues": [
+        "Source note needs review"
+      ]
+    },
+    {
+      "layoutId": "1589854559:C2",
+      "battle": "B33",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "C2",
+      "image": "source/images/1589854559/002",
+      "text": "S/H: 2.25x-240 (11637 DMG)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "1589854559:C2:5"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "1589854559:E4",
+      "battle": "B35",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "E4",
+      "image": "source/images/1589854559/014",
+      "text": "2.8x-fail\n2.9x-67.32 / 2.925x-68.36",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 10,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 20
+        },
+        {
+          "startIndex": 23,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "1589854559:E4:0",
+        "1589854559:E4:10",
+        "1589854559:E4:23"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "1589854559:H6",
+      "battle": "B38",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "H6",
+      "image": null,
+      "text": "S: 3.225x-29.6 / 3.325x-29.47 / 3.4x-27.91 / 3.425x-27.89 / 3.5x-fail / 3.525x-27.81",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 29
+        },
+        {
+          "startIndex": 60,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 69
+        }
+      ],
+      "recordIds": [
+        "1589854559:H6:3",
+        "1589854559:H6:17",
+        "1589854559:H6:32",
+        "1589854559:H6:45",
+        "1589854559:H6:60",
+        "1589854559:H6:72"
+      ],
+      "issues": [
+        "Failed attempt",
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "1589854559:D8",
+      "battle": "B34",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "D8",
+      "image": "source/images/1589854559/031",
+      "text": "3.25x-54.48 (screenshot below is wrong, just take above and move corvette to B3)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "1589854559:D8:0"
+      ],
+      "issues": [
+        "Disputed or outdated source"
+      ]
+    },
+    {
+      "layoutId": "1589854559:H8",
+      "battle": "B38",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "H8",
+      "image": "source/images/1589854559/035",
+      "text": "S: <=3.5x-fail / 3.525x-30",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 3,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 14
+        }
+      ],
+      "recordIds": [
+        "1589854559:H8:5",
+        "1589854559:H8:17"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "1589854559:J8",
+      "battle": "B40",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "J8",
+      "image": "source/images/1589854559/037",
+      "text": "NH/SHC: 3.1x-fail\n3.2x-77.98(missile) / 3.25x-67(.91) mini railgun+vertical flip / 3.325x-73.95 / 3.425x-71.12 / 3.45x-73.25 / 3.5x-74.3 / 3.525x-74.23 / 3.825x-68.42",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 8,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 18
+        },
+        {
+          "startIndex": 113,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 124,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 136
+        },
+        {
+          "startIndex": 139,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 151
+        },
+        {
+          "startIndex": 154,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "1589854559:J8:8",
+        "1589854559:J8:18",
+        "1589854559:J8:40",
+        "1589854559:J8:83",
+        "1589854559:J8:98",
+        "1589854559:J8:113",
+        "1589854559:J8:127",
+        "1589854559:J8:139",
+        "1589854559:J8:154"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "1589854559:H10",
+      "battle": "B38",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "H10",
+      "image": "source/images/1589854559/044",
+      "text": "S: 3.025x-36.64(35.56 how?)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "1589854559:H10:3"
+      ],
+      "issues": [
+        "Uncertain result or failure context"
+      ]
+    },
+    {
+      "layoutId": "1589854559:C14",
+      "battle": "B33",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "C14",
+      "image": "source/images/1589854559/057",
+      "text": "S/NH: 2.5x-47.76  50.51 / 2.75x-40",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 17,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 23
+        },
+        {
+          "startIndex": 26,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "1589854559:C14:6",
+        "1589854559:C14:26"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "1589854559:G16",
+      "battle": "B37",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "G16",
+      "image": null,
+      "text": "NS/SHC: 3.5x - 55",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "1589854559:G16:8"
+      ],
+      "issues": [
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "1589854559:B20",
+      "battle": "B32",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "B20",
+      "image": "source/images/1589854559/070",
+      "text": "S/NH: 2.9x-fail / 2.925x-49.74 / 3.0x-47.64 / 3.025x-46.91 / 3.1x-46.84 / 3.125x-46.64 / 3.225x-46.88 / 3.2x-43.45 ",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 15
+        },
+        {
+          "startIndex": 18,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 30
+        },
+        {
+          "startIndex": 33,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 43
+        },
+        {
+          "startIndex": 61,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 71
+        },
+        {
+          "startIndex": 74,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 86
+        },
+        {
+          "startIndex": 89,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 102
+        }
+      ],
+      "recordIds": [
+        "1589854559:B20:6",
+        "1589854559:B20:18",
+        "1589854559:B20:33",
+        "1589854559:B20:46",
+        "1589854559:B20:61",
+        "1589854559:B20:74",
+        "1589854559:B20:89",
+        "1589854559:B20:104"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "1589854559:B24",
+      "battle": "B32",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "B24",
+      "image": "source/images/1589854559/076",
+      "text": "S/NH: 3.0x-48.52 / 3.25x-43.2 42.52 (replace frigate with corvette w/laser)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 16
+        },
+        {
+          "startIndex": 17,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 19,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 35,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "1589854559:B24:6",
+        "1589854559:B24:19"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "1589854559:C31",
+      "battle": "B33",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "C31",
+      "image": null,
+      "text": "s",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.8784314,
+          "green": 0.96862745,
+          "blue": 0.98039216
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [],
+      "issues": [
+        "No unambiguous numeric observations",
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "1589854559:B38",
+      "battle": "B32",
+      "sheetId": 1589854559,
+      "sheet": "B31-40",
+      "cell": "B38",
+      "image": "source/images/1589854559/085",
+      "text": "NS/NH/SHC: 3.5x-53.7 48.34 (all A => B) / 3.75x-42.87 / 4.0-41.97",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 16,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 20,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 26
+        },
+        {
+          "startIndex": 39,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 56,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "1589854559:B38:11",
+        "1589854559:B38:42",
+        "1589854559:B38:56"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:A2",
+      "battle": "B41",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "A2",
+      "image": "source/images/872145342/001",
+      "text": "H/SHC: 3.0x-136.54 (oneshot)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.95686275,
+          "green": 0.8,
+          "blue": 0.8
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 7,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 18
+        }
+      ],
+      "recordIds": [
+        "872145342:A2:7"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "872145342:C2",
+      "battle": "B43",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "C2",
+      "image": "source/images/872145342/006",
+      "text": "S/H/SHC: Commit 150 ONE SHOT\n3.0x-116.04 121.49",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 9,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 19
+        },
+        {
+          "startIndex": 29,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 34,
+          "format": {
+            "bold": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 40,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:C2:29"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:D2",
+      "battle": "B44",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "D2",
+      "image": "source/images/872145342/008",
+      "text": "SHC: 3.0x-156 /Switch A5->B3 then B5->A5 for 3.0x-147(.74) / 3.5x-135",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 15,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 58
+        }
+      ],
+      "recordIds": [
+        "872145342:D2:5",
+        "872145342:D2:45",
+        "872145342:D2:61"
+      ],
+      "issues": [
+        "Multiple variants at the same multiplier"
+      ]
+    },
+    {
+      "layoutId": "872145342:F2",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F2",
+      "image": "source/images/872145342/002",
+      "text": "S/H/SHC: 3.25x 310 (3515.85 dmg) (Needs 5 shots) / 3.5x 310 (4025.7 dmg)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 51,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:F2:9",
+        "872145342:F2:51"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:G2",
+      "battle": "BB1",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "G2",
+      "image": "source/images/872145342/003",
+      "text": "S/H: 1.5x-280 (906.11 damage)",
+      "note": "there's... no hazard anymore on this one",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": true,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:G2:5"
+      ],
+      "issues": [
+        "Source note needs review",
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:H2",
+      "battle": "BB2",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "H2",
+      "image": "source/images/872145342/005",
+      "text": "S(F1,F4)/H: 2.25x-180 (1088.64) (2 shot, 357.43 total) / S(F1,F4)/H: 2.0x-236 (>1100) (2 shot) (+ cruiser B3)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 12,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 57
+        }
+      ],
+      "recordIds": [
+        "872145342:H2:12",
+        "872145342:H2:69"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:I2",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I2",
+      "image": "source/images/872145342/004",
+      "text": "S/H/SHC: 2.75x-200 (2402.95 dmg)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:I2:9"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:A4",
+      "battle": "B41",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "A4",
+      "image": "source/images/872145342/009",
+      "text": "H/SHC: 3.0x-148.37 (no shield for cruiser, no charge for corvette) / 3.025x-154.12 / 3.225x-145.12 / 3.25x-144.88 / 3.4x-139.52 / 3.75x-133.19 of 160",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.95686275,
+          "green": 0.8,
+          "blue": 0.8
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 7,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 66
+        },
+        {
+          "startIndex": 101,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 113
+        },
+        {
+          "startIndex": 116,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 142
+        }
+      ],
+      "recordIds": [
+        "872145342:A4:7",
+        "872145342:A4:69",
+        "872145342:A4:85",
+        "872145342:A4:101",
+        "872145342:A4:116",
+        "872145342:A4:130"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "872145342:F4",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F4",
+      "image": "source/images/872145342/013",
+      "text": "S/H/SHC: 3.5x 340 (5409.6 dmg)\n3 shot (Turn on Corvette armor in 3rd to save 5FR)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F4:9"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:G4",
+      "battle": "BB1",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "G4",
+      "image": "source/images/872145342/016",
+      "text": "S/H: 1.5x-200 (775.05 dmg) ",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": true,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:G4:5"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:H4",
+      "battle": "BB2",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "H4",
+      "image": "source/images/872145342/015",
+      "text": "S(F1,4)/H: 2.5x-160/156.26 (1009.68 dmg), (use for 2 shot, total 316.26FR)",
+      "note": "2.75x you can remove 2nd hc on 2nd clear to save FR",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 11,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 19
+        },
+        {
+          "startIndex": 59,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 71
+        }
+      ],
+      "recordIds": [
+        "872145342:H4:11"
+      ],
+      "issues": [
+        "Source note needs review",
+        "Multi-shot or damage entry: verify the full clear and each shot cost",
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:I4",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I4",
+      "image": "source/images/872145342/017",
+      "text": "S/H/SHC: 3.0x-170 (2699.23 dmg) +151=321 / 3.25x-170 (2924.17 dmg) +137.84=307.84 2nd (Move Corvette A4→A3, Add Frigate A4)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:I4:9",
+        "872145342:I4:43"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:D6",
+      "battle": "B44",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "D6",
+      "image": "source/images/872145342/020",
+      "text": "SHC: 3.25x (failed) / 3.5x-107",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.95686275,
+          "green": 0.8,
+          "blue": 0.8
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:D6:22"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "872145342:E6",
+      "battle": "B45",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "E6",
+      "image": null,
+      "text": "3.25x 109(.99)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:E6:0"
+      ],
+      "issues": [
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "872145342:F6",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F6",
+      "image": "source/images/872145342/023",
+      "text": "S/H/SHC: 3.5x 340 (5000.4 dmg) (with HC Laser) 4.0x 340 (6766.4 dmg)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 8,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 46
+        }
+      ],
+      "recordIds": [
+        "872145342:F6:9",
+        "872145342:F6:47"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:G6",
+      "battle": "BB1",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "G6",
+      "image": "source/images/872145342/022",
+      "text": "S/H 1.5x-220 (828.07 dmg) (no heavy cruiser) ",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": true,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:G6:4"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:H6",
+      "battle": "BB2",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "H6",
+      "image": "source/images/872145342/024",
+      "text": "S(F1,4)/H: 2.25x-200(1097.71 dmg), (use for 2 shot)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:H6:11"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:I6",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I6",
+      "image": "source/images/872145342/026",
+      "text": "S/H/SHC: 3.5x-140+130.34=270.34\ndefault cruiser on 2nd run for -0.26 FR ♥",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 9,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 31
+        }
+      ],
+      "recordIds": [
+        "872145342:I6:9"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost",
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:A8",
+      "battle": "B41",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "A8",
+      "image": null,
+      "text": "H/SHC 3.5x- 125 of 140 (oneshot)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": true,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 5,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 22
+        }
+      ],
+      "recordIds": [
+        "872145342:A8:6"
+      ],
+      "issues": [
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "872145342:C8",
+      "battle": "B43",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "C8",
+      "image": "source/images/872145342/028",
+      "text": "S/NH: (if you need it)\n3.35x-47.33, 3.5-48.03 (no charge corv), ..., 4.25x-45.56 / 3.5x-51.51",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 23,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 83,
+          "format": {
+            "bold": true,
+            "italic": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:C8:23",
+        "872145342:C8:36",
+        "872145342:C8:69",
+        "872145342:C8:83"
+      ],
+      "issues": [
+        "Multiple variants at the same multiplier"
+      ]
+    },
+    {
+      "layoutId": "872145342:D8",
+      "battle": "B44",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "D8",
+      "image": "source/images/872145342/025",
+      "text": "3.5x-fail\n3.6x-103.59 / 3.625x-103.46 / 3.65x-101.82 / 3.725x-100.24 (Switch Corvette to CL only) / 3.75x-99.07 (Switch Corvette to CL ONLY) / 3.8x-98.8 w/ CL-only corvette / 3.85x-97.08 (Switch Corvette to CL/Shield) / 3.875x-98.87 (Corvette JUST shield) (these last 2 results are likely outdated, compared with layouts further below)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.9882353,
+          "green": 0.8980392,
+          "blue": 0.8039216
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 10,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 21
+        },
+        {
+          "startIndex": 143,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 172
+        }
+      ],
+      "recordIds": [
+        "872145342:D8:0",
+        "872145342:D8:10",
+        "872145342:D8:24",
+        "872145342:D8:40",
+        "872145342:D8:55",
+        "872145342:D8:100",
+        "872145342:D8:143",
+        "872145342:D8:175",
+        "872145342:D8:220"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard",
+        "Disputed or outdated source",
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "872145342:E8",
+      "battle": "B45",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "E8",
+      "image": "source/images/872145342/034",
+      "text": "<=3.25x-fail (check viability between 3.3 and 3.4)\n3.4x-106.25 / 3.425x-106.25\n3.5x-105 / 3.6x-100 / 3.8x-100.33",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 2,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 12,
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 50
+        },
+        {
+          "startIndex": 79,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 87
+        },
+        {
+          "startIndex": 88,
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 90,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 98,
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 101,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:E8:2",
+        "872145342:E8:51",
+        "872145342:E8:65",
+        "872145342:E8:79",
+        "872145342:E8:90",
+        "872145342:E8:101"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "872145342:F8",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F8",
+      "image": "source/images/872145342/033",
+      "text": "S/H: 3.75x 250 (4530) TWO FOUR SHOT",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 22,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 26
+        }
+      ],
+      "recordIds": [
+        "872145342:F8:5"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:G8",
+      "battle": "BB1",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "G8",
+      "image": "source/images/872145342/036",
+      "text": "S/H: 1.5x-160 (799.17 dmg)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:G8:5"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:H8",
+      "battle": "BB2",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "H8",
+      "image": "source/images/872145342/031",
+      "text": "S(F1,4)/NH:  2.0x-27.5 / 2.25x-25 / 2.5x-25.0 / 2.75x-24.09 / 3.0x-22.5 / 3.25x-22.31 / 3.5x-22.14 / 3.75x-22",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.2901961,
+          "green": 0.5254902,
+          "blue": 0.9098039
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 2
+        },
+        {
+          "startIndex": 6,
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 11
+        }
+      ],
+      "recordIds": [
+        "872145342:H8:13",
+        "872145342:H8:25",
+        "872145342:H8:36",
+        "872145342:H8:48",
+        "872145342:H8:62",
+        "872145342:H8:74",
+        "872145342:H8:88",
+        "872145342:H8:101"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "872145342:I8",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I8",
+      "image": "source/images/872145342/029",
+      "text": "S/NH/SHC: 3.0x-73.35 67.95 (use HC beam)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 15,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 20
+        }
+      ],
+      "recordIds": [
+        "872145342:I8:10"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:D10",
+      "battle": "B44",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "D10",
+      "image": "source/images/872145342/039",
+      "text": "3.5x-fail\n3.725x-101.01 / 3.8x-100.01 / 3.825x-99.88 (may be inferior to above w/ adjusted corvette)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.95686275,
+          "green": 0.8,
+          "blue": 0.8
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 10
+        },
+        {
+          "startIndex": 26,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 37
+        },
+        {
+          "startIndex": 40,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 52
+        }
+      ],
+      "recordIds": [
+        "872145342:D10:0",
+        "872145342:D10:10",
+        "872145342:D10:26",
+        "872145342:D10:40"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard",
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "872145342:E10",
+      "battle": "B45",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "E10",
+      "image": "source/images/872145342/037",
+      "text": "<=3.425x-fail\n3.45x-108.75 / 3.475x-103.37\n3.5x-106.25 / 3.55x-103.3 / 3.6x-103.25",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 2,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 14
+        },
+        {
+          "startIndex": 43,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 54,
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 57,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 68
+        },
+        {
+          "startIndex": 71,
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:E10:2",
+        "872145342:E10:14",
+        "872145342:E10:29",
+        "872145342:E10:43",
+        "872145342:E10:57",
+        "872145342:E10:71"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "872145342:F10",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F10",
+      "image": "source/images/872145342/040",
+      "text": "S/H/SHC: 3.6x-600+600=1200 (7569) 4.0x 600 (8646.98)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F10:9",
+        "872145342:F10:34"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost",
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:I10",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I10",
+      "image": "source/images/872145342/042",
+      "text": "S/NH/SHC: 3.0x-fail\n3.25x-69.68 /\ncan probably use one of the other loadouts",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 10,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 19
+        },
+        {
+          "startIndex": 20,
+          "format": {
+            "italic": true,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 31
+        },
+        {
+          "startIndex": 33,
+          "format": {
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 34
+        }
+      ],
+      "recordIds": [
+        "872145342:I10:10",
+        "872145342:I10:20"
+      ],
+      "issues": [
+        "Failed attempt"
+      ]
+    },
+    {
+      "layoutId": "872145342:B12",
+      "battle": "B42",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "B12",
+      "image": "source/images/872145342/044",
+      "text": "NS/H: 3.75x-63.95 / 4.0x-53 / 4.25x-53",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.9882353,
+          "green": 0.8980392,
+          "blue": 0.8039216
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6
+        },
+        {
+          "startIndex": 17
+        },
+        {
+          "startIndex": 27
+        },
+        {
+          "startIndex": 29
+        }
+      ],
+      "recordIds": [
+        "872145342:B12:6",
+        "872145342:B12:20",
+        "872145342:B12:30"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "872145342:E12",
+      "battle": "B45",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "E12",
+      "image": "source/images/872145342/046",
+      "text": "<=3.25x-fail\n3.5x-89.03 (no beam) / 3.6x-87.93 (no beam, cruiser no armor)\ncheck 3.3x~3.5x and >3.6x for viability",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": false,
+            "strikethrough": true
+          }
+        },
+        {
+          "startIndex": 13
+        },
+        {
+          "startIndex": 75,
+          "format": {
+            "bold": false
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:E12:2",
+        "872145342:E12:13",
+        "872145342:E12:36"
+      ],
+      "issues": [
+        "Failed attempt",
+        "Additional multiplier text needs review: 3.3x, 3.5x, 3.6x"
+      ]
+    },
+    {
+      "layoutId": "872145342:F12",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F12",
+      "image": "source/images/872145342/047",
+      "text": "S/H/SHC: 3.625x-490+479.82/490=969.82 (8872) There is almost exactly the same build below which says M1 HC but actually uses M1 Cruiser and gives worse result. This one is standard build.",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "foregroundColor": {
+            "red": 0.23529412,
+            "green": 0.2509804,
+            "blue": 0.2627451
+          },
+          "fontFamily": "Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {
+              "red": 0.23529412,
+              "green": 0.2509804,
+              "blue": 0.2627451
+            }
+          }
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F12:9"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost",
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:G12",
+      "battle": "BB1",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "G12",
+      "image": "source/images/872145342/052",
+      "text": "S/NH: 1.5x-18.75 / 1.75x-17.5 / 2.0x-16.75 (corvette without shield)\n2.25x/2.5x/2.75x/3.0x/3.25x-16.25 / 3.5x-15\n",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.6431373,
+          "green": 0.85882354,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 6,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:G12:6",
+        "872145342:G12:19",
+        "872145342:G12:32",
+        "872145342:G12:91",
+        "872145342:G12:105"
+      ],
+      "issues": [
+        "Additional multiplier text needs review: 2.25x, 2.5x, 2.75x, 3.0x",
+        "Shared cost or multiplier range needs review"
+      ]
+    },
+    {
+      "layoutId": "872145342:I14",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I14",
+      "image": "source/images/872145342/059",
+      "text": "S+NS/NH/SHC: 3.0x-80.94",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:I14:13"
+      ],
+      "issues": [
+        "Mixed support requirements"
+      ]
+    },
+    {
+      "layoutId": "872145342:B16",
+      "battle": "B42",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "B16",
+      "image": "source/images/872145342/060",
+      "text": "NS/H: 4.0x-44.73 / 4.25x-43.91",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.8509804,
+          "green": 0.91764706,
+          "blue": 0.827451
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {
+          "format": {
+            "bold": false
+          }
+        },
+        {
+          "startIndex": 6
+        }
+      ],
+      "recordIds": [
+        "872145342:B16:6",
+        "872145342:B16:19"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard"
+      ]
+    },
+    {
+      "layoutId": "872145342:F16",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F16",
+      "image": null,
+      "text": "S/H (L1 Fighter M1 HC L2 Fighter): 3.6x-490 (6076.17 dmg) / 3.625x-490 (8408.72 dmg) / 3.65x-490 (8466.72 dmg) / 3.8x-510(8814) (PART A with 410 below, for less than 900FR total)(please show L/M choice to get 490 FR next to S/H)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "foregroundColor": {
+            "red": 0.23529412,
+            "green": 0.2509804,
+            "blue": 0.2627451
+          },
+          "fontFamily": "Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {
+              "red": 0.23529412,
+              "green": 0.2509804,
+              "blue": 0.2627451
+            }
+          }
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F16:35",
+        "872145342:F16:60",
+        "872145342:F16:87",
+        "872145342:F16:113"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost",
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "872145342:I16",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I16",
+      "image": "source/images/872145342/065",
+      "text": "S+NS/NH: 3.125x-78.98 / 3.3x-76.01 NOT UP TO DATE VALUES\ncompare against above loadout, this is probably worse",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.8980392,
+          "blue": 0.6
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 35,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 56
+        }
+      ],
+      "recordIds": [
+        "872145342:I16:9",
+        "872145342:I16:24"
+      ],
+      "issues": [
+        "Unrecognized condition color; confirm support and hazard",
+        "Disputed or outdated source",
+        "Mixed support requirements"
+      ]
+    },
+    {
+      "layoutId": "872145342:F18",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F18",
+      "image": null,
+      "text": "S/H/SHC: 3.625x-490 (8437.43 dmg) (does better than above for me) 3.8x-490(9300) (alternate PART A with 410(405) below, for less than 900FR total)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "foregroundColor": {
+            "red": 0.23529412,
+            "green": 0.2509804,
+            "blue": 0.2627451
+          },
+          "fontFamily": "Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {
+              "red": 0.23529412,
+              "green": 0.2509804,
+              "blue": 0.2627451
+            }
+          }
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F18:9",
+        "872145342:F18:66"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost",
+        "No adjacent fleet image"
+      ]
+    },
+    {
+      "layoutId": "872145342:I18",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I18",
+      "image": "source/images/872145342/072",
+      "text": "NS/NH: 3.25x-63.6 / 3.5x- 59.73 63.8 (frigate armor)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 7,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 17
+        },
+        {
+          "startIndex": 20,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 32,
+          "format": {
+            "strikethrough": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:I18:7",
+        "872145342:I18:20"
+      ],
+      "issues": [
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:F20",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F20",
+      "image": "source/images/872145342/078",
+      "text": "S/H/SHC: 3.625x-410 (7160.97 dmg), 3.65x-410(405)(7210.36 dmg) 3.8x-410(6963) (PART B with 490 above, for less than 900FR total)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "foregroundColor": {
+            "red": 0.23529412,
+            "green": 0.2509804,
+            "blue": 0.2627451
+          },
+          "fontFamily": "Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {
+              "red": 0.23529412,
+              "green": 0.2509804,
+              "blue": 0.2627451
+            }
+          }
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F20:9",
+        "872145342:F20:35",
+        "872145342:F20:63"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:F22",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F22",
+      "image": "source/images/872145342/083",
+      "text": "S/H/SHC: 3.75x-7917.84 - 430+420FR",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "foregroundColor": {
+            "red": 0.23529412,
+            "green": 0.2509804,
+            "blue": 0.2627451
+          },
+          "fontFamily": "Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {
+              "red": 0.23529412,
+              "green": 0.2509804,
+              "blue": 0.2627451
+            }
+          }
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F22:9",
+        "872145342:F22:15"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost",
+        "Uncertain or multiple costs"
+      ]
+    },
+    {
+      "layoutId": "872145342:I22",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I22",
+      "image": "source/images/872145342/085",
+      "text": "S/H/SHC: 3.0x-200 two shot(remove A2 to save 20FR)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 18,
+          "format": {
+            "bold": true
+          }
+        }
+      ],
+      "recordIds": [
+        "872145342:I22:9"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:H24",
+      "battle": "BB2",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "H24",
+      "image": "source/images/872145342/090",
+      "text": "NS/NH/SHC: 3.825x - 54.79 / 3.925x - 53.46 / 4.025x - 53.13 NOT UPDATED\nthis is a waste of FR; much cheaper to get here with S(F4)\njust because you can do it, doesn't mean you should",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [
+        {},
+        {
+          "startIndex": 60,
+          "format": {
+            "bold": true
+          }
+        },
+        {
+          "startIndex": 71
+        }
+      ],
+      "recordIds": [
+        "872145342:H24:11",
+        "872145342:H24:28",
+        "872145342:H24:45"
+      ],
+      "issues": [
+        "Disputed or outdated source"
+      ]
+    },
+    {
+      "layoutId": "872145342:I24",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I24",
+      "image": "source/images/872145342/088",
+      "text": "NS/H/SCH 3.25x-200 (2690.38 dmg) (no frigate armor)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:I24:9"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:I26",
+      "battle": "BB3",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "I26",
+      "image": "source/images/872145342/096",
+      "text": "FINISH ABOVE WITH THIS 172.5 180 commit",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.6901961,
+          "blue": 0.6901961
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [],
+      "issues": [
+        "No unambiguous numeric observations"
+      ]
+    },
+    {
+      "layoutId": "872145342:G28",
+      "battle": "BB1",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "G28",
+      "image": "source/images/872145342/095",
+      "text": "S/H: 1.5x-190 (768 damage)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 0.72156864,
+          "green": 0.5647059,
+          "blue": 0.85882354
+        },
+        "textFormat": {
+          "fontFamily": "Arial",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:G28:5"
+      ],
+      "issues": [
+        "Multi-shot or damage entry: verify the full clear and each shot cost"
+      ]
+    },
+    {
+      "layoutId": "872145342:F34",
+      "battle": "B46",
+      "sheetId": 872145342,
+      "sheet": "B41-46 and BB1-3",
+      "cell": "F34",
+      "image": "source/images/872145342/102",
+      "text": "NS/NH/SHC: 3.525x-193.21 (not worth it, costs more than w/ support; maybe worth for a bit higher damages though, needs checking)",
+      "note": "",
+      "format": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        },
+        "textFormat": {
+          "foregroundColor": {
+            "red": 0.23529412,
+            "green": 0.2509804,
+            "blue": 0.2627451
+          },
+          "fontFamily": "Roboto, RobotoDraft, Helvetica, Arial, sans-serif",
+          "fontSize": 11,
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "foregroundColorStyle": {
+            "rgbColor": {
+              "red": 0.23529412,
+              "green": 0.2509804,
+              "blue": 0.2627451
+            }
+          }
+        }
+      },
+      "textFormatRuns": [],
+      "recordIds": [
+        "872145342:F34:11"
+      ],
+      "issues": [
+        "Disputed or outdated source"
+      ]
+    }
+  ],
+  "orphanImages": [
+    {
+      "sheetId": 697994241,
+      "row": null,
+      "url": "https://docs.google.com/spreadsheets/u/0/d/12DA4amUPZKamX4hgUgKjbikZ_XEhZhi-Eopy2M64dpI/htmlview/sheet?headers=true&gid=697994241"
+    },
+    {
+      "sheetId": 49029630,
+      "col": 2,
+      "row": 5,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLbnySXsG32MAqjOXFbKsEf78OdCpPEopxwls8ztv4xgXytvSlh_S6YqpfefRXgI-tsShg9oGi47zrobOPZf11FVY4Uw8TYspKcAoT6qwkmy5p904xi5OnauajB4ltCXsEv0AWJwies3d6xex_ENpJL7vR_ne-D6iDFXHPE=w520-h286",
+      "path": "source/images/49029630/013"
+    },
+    {
+      "sheetId": 49029630,
+      "col": 2,
+      "row": 7,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYnxA8W87ktWZLddeCirH6W1EZY7jJRf8-1Jz6gVvB64UlHKtxpvI34IbqIDmVy39uSPDDVNzMN40cD3Ku6ev2BEJAQ6PmY1gzDUT2XB8n8mzUnHFDGPWxS5RR2q0CqZpNTy6XRTYvhizXQrG5WOopj5UB5A1urzvNFc2g=w520-h286",
+      "path": "source/images/49029630/019"
+    },
+    {
+      "sheetId": 49029630,
+      "row": null,
+      "url": "https://docs.google.com/spreadsheets/u/0/d/12DA4amUPZKamX4hgUgKjbikZ_XEhZhi-Eopy2M64dpI/htmlview/sheet?headers=true&gid=49029630"
+    },
+    {
+      "sheetId": 1589854559,
+      "row": null,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZ2LL-etcWGMPaZN0XuatZd8SJ6h-c-GSQ9y08frC5N1K4DRb1YWXtHi8HhI9_CyczKwGBGqExmmx1ia4K2DijQt4Tw1cSjvXys42_lL-ZY4lnHtd46htbwXjB0RwAYwAuiKu0NriWhF4xdhTF5c02oOKGkstMQfyOt=s2048",
+      "path": "source/images/1589854559/089"
+    },
+    {
+      "sheetId": 872145342,
+      "row": null,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLbsbR1Z0jYOupv6grX5RWYXfnEfnauLsR-3qEBs-t15QQn_oN8EFQfSN79asOgmmoCeVs_VOJWr26bNPtpp1Z2_SfvpYuTxqQVFDCbcuZC_9NUTqQiBQBUPynVAAj2WSLE8fme9y1BNnNEnZrdcjbpzJzMWm98RGRFeYDo=s2048",
+      "path": "source/images/872145342/105"
+    },
+    {
+      "sheetId": 872145342,
+      "row": null,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYtdoAYCX4hFTKUnoYv12Fbuh3U7M2SyPJfpNGcEbfKVqhEgM6SMw5rzMr9k_8TssuaLAjgx257RhsknhqBaiy1LiV2cyKIeHNGnRX_zvwFosw56XD37vNa26HQLmnaiEFlYNgibfSF3tCfl9vyTAVwTlB9h4V8QBPpVMY=s2048",
+      "path": "source/images/872145342/107"
+    },
+    {
+      "sheetId": 872145342,
+      "row": null,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLbqtZu9_qM2JefTbZBy0PHbWUR0ZDpky6oNPVJrk2tstEIuuOKDlYpgEPEzyJ6qDBQv1qkGTwCSTkjK5Q0b_U1ZGtjm56SPUTj83mh_d_IIeMG_ZPHMFsGYqUHAVV4szbaqBGqv0Xq5-VbtJE_HTWXf_kPFUm6Mnp5D6wY=s2048",
+      "path": "source/images/872145342/106"
+    }
+  ]
+}

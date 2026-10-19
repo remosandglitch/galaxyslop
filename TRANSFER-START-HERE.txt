@@ -1,0 +1,61 @@
+GALAXIES FLEET PLANNER — TRANSFER GUIDE
+Prepared 19 October 2026
+
+GITHUB TRANSFER (preferred after download problems)
+Clone https://github.com/remosandglitch/galaxyslop into a new folder, then open
+that folder in the new client. Start with step 2 below; no ZIP or reassembly
+is needed. The project, source assets, guides and saved-progress snapshots
+are included in Git. Generated archives and split parts have been removed
+and are excluded by .gitignore. ZIP-specific instructions below describe the
+earlier optional packaging workflow. TRANSFER-MANIFEST.json is generated only
+inside packages; it is not required for a Git checkout.
+
+FOR YOU
+1. Extract the entire ZIP into a new folder. Keep its directory structure.
+2. Install Node.js 20 or newer if the destination does not already have it.
+   The runtime is not bundled. The app has no package dependencies.
+3. On Windows, open Launch Fleet Planner.cmd. The planner runs at
+   http://127.0.0.1:4173. Stop Fleet Planner.cmd stops its background server.
+   On macOS/Linux, open a terminal in the extracted Galaxies directory and
+   run: node server.mjs. Stop it with Ctrl+C.
+4. Open the extracted Galaxies directory as the new agent's workspace.
+5. Give that agent NEXT-GALAXY-GUIDE.txt and the next galaxy's source link.
+
+This archive includes your G6 and G7 progress and local corrections at the
+time of packaging. G6 uses local-data/state.json; G7 uses
+local-data/state-g7.json. Both preceding .previous saves are included.
+Do not import these files over newer saves on the destination unintentionally.
+The original project is left intact. Changes made here after packaging will
+not appear in the archive; use Export backup for a later per-galaxy snapshot.
+
+WHAT IS INCLUDED
+- Working G6/G7 website, Node server, Windows launchers and tests.
+- All local fleet images, source extracts, mappings, legends and import audits.
+- README.md, HANDOVER.md, VERIFICATION.md and the new agent guide.
+- data-merge/Galaxy 3: separate prepared dataset, full-size images, original
+  workbook, conversion scripts, user decisions and audit reports. It is NOT
+  wired into the website. See its README.txt before interpreting its fields.
+- QA screenshots and the reusable scripts/package-transfer.ps1 packager.
+- TRANSFER-MANIFEST.json: file sizes and SHA-256 checksums of every payload file.
+
+Process IDs, server logs, temporary save files, previous transfer ZIPs and
+machine-specific agent configuration folders are excluded. Google login,
+connector authorization, API tools, Node.js and Python are not transferred.
+The existing website works from its local data without Google access.
+Importing new online data may require signing in again on the new client.
+
+FOR THE NEW AGENT
+Read NEXT-GALAXY-GUIDE.txt first, then README.md and current source code.
+HANDOVER.md preserves earlier research: anything under "Original research
+handover (historical)" may be superseded. In particular, the old statements
+that image acquisition or website implementation is unfinished are obsolete.
+Tests and import counts in older sections are historical, not fresh evidence.
+The current implementation has 18 automated tests; rerun them on destination.
+
+Suggested opening request:
+"Read TRANSFER-START-HERE.txt and NEXT-GALAXY-GUIDE.txt. Preserve the existing
+G6/G7 data and progress. Import this next galaxy as a separate tab: [source
+link]. Ask me before resolving anything ambiguous. Keep everything local."
+
+To verify the ZIP before extraction, compare its SHA-256 with the adjacent
+.sha256 file. The packager also verifies each entry against the manifest.

@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "galaxy": "g7",
+  "settings": {
+    "multiplier": 1.5,
+    "support": false,
+    "hazard": false,
+    "special": true
+  },
+  "conditions": {
+    "B4A": {
+      "support": false,
+      "hazard": false
+    },
+    "BB1": {
+      "support": true,
+      "hazard": false
+    },
+    "B4C": {
+      "support": false,
+      "hazard": false
+    },
+    "B6": {
+      "support": false,
+      "hazard": false
+    },
+    "B5": {
+      "support": true,
+      "hazard": true
+    },
+    "B7": {
+      "support": false,
+      "hazard": false
+    }
+  },
+  "done": {
+    "B1": {
+      "battle": "B1",
+      "cost": 24,
+      "at": "2026-10-17T18:00:37.002Z",
+      "multiplier": 1.5
+    },
+    "B2C": {
+      "battle": "B2C",
+      "cost": 14,
+      "at": "2026-10-17T17:29:46.017Z",
+      "multiplier": 1.25
+    },
+    "B2A": {
+      "battle": "B2A",
+      "cost": 12,
+      "at": "2026-10-17T18:00:59.564Z",
+      "multiplier": 1.5
+    },
+    "B3A": {
+      "battle": "B3A",
+      "cost": 12,
+      "at": "2026-10-17T17:46:55.523Z",
+      "multiplier": 1.5
+    },
+    "B2B": {
+      "battle": "B2B",
+      "cost": 13,
+      "at": "2026-10-17T17:46:36.531Z",
+      "multiplier": 1.5
+    },
+    "B3C": {
+      "battle": "B3C",
+      "cost": 19,
+      "at": "2026-10-17T17:30:08.519Z",
+      "multiplier": 1.25
+    },
+    "B3D": {
+      "battle": "B3D",
+      "cost": 10,
+      "at": "2026-10-17T17:18:31.708Z",
+      "multiplier": 1
+    },
+    "B4C": {
+      "battle": "B4C",
+      "cost": 20,
+      "at": "2026-10-17T18:13:41.558Z",
+      "multiplier": 1.5
+    },
+    "B4B": {
+      "battle": "B4B",
+      "cost": 24,
+      "at": "2026-10-17T17:48:01.289Z",
+      "multiplier": 1.5
+    },
+    "B5D": {
+      "battle": "B5D",
+      "cost": 34,
+      "at": "2026-10-17T17:45:52.690Z",
+      "multiplier": 1.25
+    },
+    "B5": {
+      "battle": "B5",
+      "cost": 23,
+      "at": "2026-10-17T18:01:51.781Z",
+      "multiplier": 1.5
+    },
+    "BB1": {
+      "battle": "BB1",
+      "cost": 20,
+      "at": "2026-10-17T18:03:36.371Z",
+      "multiplier": 1.5
+    },
+    "B6": {
+      "battle": "B6",
+      "cost": 38,
+      "at": "2026-10-17T18:12:02.370Z",
+      "multiplier": 1.5
+    },
+    "B4A": {
+      "battle": "B4A",
+      "cost": 20,
+      "at": "2026-10-17T18:13:03.774Z",
+      "multiplier": 1.5
+    }
+  },
+  "edits": {},
+  "custom": [],
+  "history": [
+    {
+      "battle": "B1",
+      "cost": 33,
+      "at": "2026-10-17T17:05:50.470Z",
+      "multiplier": 1
+    },
+    {
+      "battle": "B2C",
+      "cost": 16,
+      "at": "2026-10-17T17:07:43.421Z",
+      "multiplier": 1
+    },
+    {
+      "battle": "B2A",
+      "cost": 19,
+      "at": "2026-10-17T17:08:37.156Z",
+      "multiplier": 1
+    },
+    {
+      "battle": "B3A",
+      "cost": 18,
+      "at": "2026-10-17T17:09:39.924Z",
+      "multiplier": 1
+    },
+    {
+      "battle": "B2B",
+      "cost": 18,
+      "at": "2026-10-17T17:16:16.855Z",
+      "multiplier": 1
+    },
+    {
+      "battle": "B3C",
+      "cost": 23,
+      "at": "2026-10-17T17:16:57.688Z",
+      "multiplier": 1
+    },
+    {
+      "battle": "B3D",
+      "cost": 10,
+      "at": "2026-10-17T17:18:31.708Z",
+      "multiplier": 1
+    },
+    {
+      "battle": "B1",
+      "cost": 27,
+      "at": "2026-10-17T17:23:22.137Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B2A",
+      "cost": 13,
+      "at": "2026-10-17T17:25:04.368Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B3A",
+      "cost": 15,
+      "at": "2026-10-17T17:25:31.289Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B4A",
+      "cost": 31,
+      "at": "2026-10-17T17:26:47.198Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B2B",
+      "cost": 17,
+      "at": "2026-10-17T17:29:13.964Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B2C",
+      "cost": 14,
+      "at": "2026-10-17T17:29:46.017Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B3C",
+      "cost": 19,
+      "at": "2026-10-17T17:30:08.519Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B4C",
+      "cost": 33,
+      "at": "2026-10-17T17:36:49.690Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B4B",
+      "cost": 27,
+      "at": "2026-10-17T17:40:13.663Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B5D",
+      "cost": 34,
+      "at": "2026-10-17T17:45:52.690Z",
+      "multiplier": 1.25
+    },
+    {
+      "battle": "B2B",
+      "cost": 13,
+      "at": "2026-10-17T17:46:36.531Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B3A",
+      "cost": 12,
+      "at": "2026-10-17T17:46:55.523Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B4A",
+      "cost": 26,
+      "at": "2026-10-17T17:47:27.664Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B4B",
+      "cost": 24,
+      "at": "2026-10-17T17:48:01.289Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B1",
+      "cost": 24,
+      "at": "2026-10-17T18:00:37.002Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B2A",
+      "cost": 12,
+      "at": "2026-10-17T18:00:59.564Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B5",
+      "cost": 23,
+      "at": "2026-10-17T18:01:51.781Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "BB1",
+      "cost": 20,
+      "at": "2026-10-17T18:03:36.371Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B6",
+      "cost": 38,
+      "at": "2026-10-17T18:12:02.370Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B4A",
+      "cost": 20,
+      "at": "2026-10-17T18:13:03.774Z",
+      "multiplier": 1.5
+    },
+    {
+      "battle": "B4C",
+      "cost": 20,
+      "at": "2026-10-17T18:13:41.558Z",
+      "multiplier": 1.5
+    }
+  ]
+}

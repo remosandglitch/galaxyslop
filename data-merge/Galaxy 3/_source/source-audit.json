@@ -1,0 +1,4176 @@
+{
+  "images": [
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "sheet_index": 1,
+      "cell": "A18",
+      "row": 18,
+      "column": 0,
+      "stage": null,
+      "label_cell": "A17",
+      "label": "6. Video explanation: https://gyazo.com/4fc5e44d9fc206f245a64825773589b4",
+      "struck_label": "",
+      "media_path": "xl/media/image6.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image6.png",
+      "dimensions": [
+        719,
+        344
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        875.0,
+        419.0
+      ],
+      "sha256": "6d565a6ec64238b6db2ced735fc164331f97a310edfa59549a929b1b5f9c4a81",
+      "bytes": 196574
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "A3",
+      "row": 3,
+      "column": 0,
+      "stage": "B1",
+      "label_cell": "A2",
+      "label": "1.0x - 12",
+      "struck_label": "",
+      "media_path": "xl/media/image14.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image14.png",
+      "dimensions": [
+        1591,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        520.0,
+        293.0
+      ],
+      "sha256": "2ec087f6b33a3862cf4ee98cdb38ead26d6926f58da1e86004a006728cc7bb78",
+      "bytes": 413235
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B3",
+      "row": 3,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B2",
+      "label": "1.0x - 15 (L1 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image5.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image5.png",
+      "dimensions": [
+        1592,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        520.0,
+        293.0
+      ],
+      "sha256": "ea75a10a5969cfb9c4c918b0df0f7b6a8302f0d7d1afbbdc7f25998e50e7eba5",
+      "bytes": 410778
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C3",
+      "row": 3,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C2",
+      "label": "1.0x - 23 (L1 - Corvette) / 2.375x 10",
+      "struck_label": "",
+      "media_path": "xl/media/image32.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image32.png",
+      "dimensions": [
+        1597,
+        907
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        515.0,
+        293.0
+      ],
+      "sha256": "d9ab32dd91e595e3fe4661b02ca69ce3341afbe16a418992dd7e16e8add15398",
+      "bytes": 358578
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D3",
+      "row": 3,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D2",
+      "label": "1.1x - 15 (L1 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image57.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image57.png",
+      "dimensions": [
+        1599,
+        906
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        517.0,
+        293.0
+      ],
+      "sha256": "b4acb0045d63112a481ae924016c2eb86a0a06dc1463608f3f4af86c12eddff8",
+      "bytes": 423840
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "E3",
+      "row": 3,
+      "column": 4,
+      "stage": "B3B",
+      "label_cell": "E2",
+      "label": "1.1x - 20 (L1 - Corvette)",
+      "struck_label": "",
+      "media_path": "xl/media/image7.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image7.png",
+      "dimensions": [
+        1601,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        291.0
+      ],
+      "sha256": "4c66d3cf046b7cdc449120868c2c85b0ed6d79e7cea56b14115a9e310aa0291a",
+      "bytes": 347673
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "F3",
+      "row": 3,
+      "column": 5,
+      "stage": "B4A",
+      "label_cell": "F2",
+      "label": "1.2x - 22 (L1 - Frigate W/Armour and shield)",
+      "struck_label": "",
+      "media_path": "xl/media/image75.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image75.png",
+      "dimensions": [
+        1570,
+        883
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        520.0,
+        293.0
+      ],
+      "sha256": "137bcff5f1bb2e4c378945608a63b8ee73588774a46864348470c16baca3716e",
+      "bytes": 330201
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G3",
+      "row": 3,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G2",
+      "label": "1.1x - 32 (L1 - Corvette / Advisor has 27 but I couldn't match it)",
+      "struck_label": "",
+      "media_path": "xl/media/image16.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image16.png",
+      "dimensions": [
+        1602,
+        901
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        520.0,
+        293.0
+      ],
+      "sha256": "0cb5c8bdd8a2577324c216cf0056877725fd7836277562a2b2067ded4d7e5e08",
+      "bytes": 355645
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "A5",
+      "row": 5,
+      "column": 0,
+      "stage": "B1",
+      "label_cell": "A4",
+      "label": "1.1x - 11",
+      "struck_label": "",
+      "media_path": "xl/media/image25.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image25.png",
+      "dimensions": [
+        1592,
+        903
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        520.0,
+        295.0
+      ],
+      "sha256": "534ae271daff2dd7692ceec967283d96950db09b679a041661c86ef1a97d6eb4",
+      "bytes": 331645
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B5",
+      "row": 5,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B4",
+      "label": "1.1x - 22 (L1 - Corvette) / 1.1x - 20 (L1 - Corvette/Use Shield)",
+      "struck_label": "",
+      "media_path": "xl/media/image27.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image27.png",
+      "dimensions": [
+        1591,
+        897
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        523.0,
+        295.0
+      ],
+      "sha256": "e4f526ea2d8ac0e2b10199b71a0c0c0f15565c3600e0f16d4866916b84f62b46",
+      "bytes": 355140
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C5",
+      "row": 5,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C4",
+      "label": "1.1x - 19.32 (L1 corv)",
+      "struck_label": "",
+      "media_path": "xl/media/image3.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image3.png",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        293.0
+      ],
+      "sha256": "e13a242d4683177bc13800c1b14c7503add669330c707619e99f1cbca357d95d",
+      "bytes": 477827
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D5",
+      "row": 5,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D4",
+      "label": "1.1x - 20 (L1 - Corvette)",
+      "struck_label": "",
+      "media_path": "xl/media/image20.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image20.png",
+      "dimensions": [
+        1586,
+        894
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        293.0
+      ],
+      "sha256": "ddc162832b7f25cda4d31505a52543c0059746690cf748574315c0b1fd2a7b6f",
+      "bytes": 353811
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "E5",
+      "row": 5,
+      "column": 4,
+      "stage": "B3B",
+      "label_cell": "E4",
+      "label": "1.1x - 25 (L1 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image13.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image13.png",
+      "dimensions": [
+        1380,
+        823
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        494.0,
+        295.0
+      ],
+      "sha256": "0631a42ca3a9e114dd5609f7147a6455cedf55bce0676a09af36325d268d55f0",
+      "bytes": 306922
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "F5",
+      "row": 5,
+      "column": 5,
+      "stage": "B4A",
+      "label_cell": "F4",
+      "label": "1.5x - 13",
+      "struck_label": "",
+      "media_path": "xl/media/image63.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image63.png",
+      "dimensions": [
+        1585,
+        899
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        520.0,
+        295.0
+      ],
+      "sha256": "a952ad4eaa60be665fca50c946231ec486d43f0f611839ea16ded6519e22628a",
+      "bytes": 321268
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G5",
+      "row": 5,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G4",
+      "label": "1.2x - 25.55 (L1 corv, SH, no AR)",
+      "struck_label": "",
+      "media_path": "xl/media/image31.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image31.png",
+      "dimensions": [
+        1378,
+        822
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        494.0,
+        295.0
+      ],
+      "sha256": "e22852ec117c5867be0ff00813a79820d966bcd6294ae737a315f90b0c36ec4d",
+      "bytes": 314442
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "A7",
+      "row": 7,
+      "column": 0,
+      "stage": "B1",
+      "label_cell": "A6",
+      "label": "1.2x - 7 (W/ Corvette Shield)",
+      "struck_label": "",
+      "media_path": "xl/media/image51.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image51.png",
+      "dimensions": [
+        1591,
+        901
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        295.0
+      ],
+      "sha256": "8d48acb3d6d1c5c876c40b0125c1ed5ad5393ad62c1961fee385b84e463f41a1",
+      "bytes": 319401
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B7",
+      "row": 7,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B6",
+      "label": "1.1x - 14.98 (L1 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image52.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image52.png",
+      "dimensions": [
+        1378,
+        827
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        503.0,
+        302.0
+      ],
+      "sha256": "007c1a4e01b1ef5c31501e0d5f714744bbdc4ccbbb7a35ed124dff95ebd2f641",
+      "bytes": 289268
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C7",
+      "row": 7,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C6",
+      "label": "1.1x - 22.56 (L1 Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image47.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image47.png",
+      "dimensions": [
+        1379,
+        821
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        507.0,
+        302.0
+      ],
+      "sha256": "4b498aaf03cc4101f5b052bead77f61e8fdc8af0dc829541240fe9e9cc342ec7",
+      "bytes": 309965
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "E7",
+      "row": 7,
+      "column": 4,
+      "stage": "B3B",
+      "label_cell": "E6",
+      "label": "1.2x - 17.5 / 1.4x - 11.25 (L1 corv)",
+      "struck_label": "",
+      "media_path": "xl/media/image8.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image8.png",
+      "dimensions": [
+        1387,
+        824
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        508.0,
+        302.0
+      ],
+      "sha256": "b608d53fc8c9fa35e64e2dea82d32bde4aafabd93c0df292a8b26df3cf54f10b",
+      "bytes": 306624
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "F7",
+      "row": 7,
+      "column": 5,
+      "stage": "B4A",
+      "label_cell": "F6",
+      "label": "1.325x L1 Corvette w/ Armor and Shield",
+      "struck_label": "",
+      "media_path": "xl/media/image30.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image30.png",
+      "dimensions": [
+        2048,
+        1160
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        295.0
+      ],
+      "sha256": "6abf7b4c746a3cd6bdfb5377dd2d0be52b1027f6e62a687cd59a18b5521cbf9b",
+      "bytes": 777445
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G7",
+      "row": 7,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G6",
+      "label": "1.3x - 22 (L1 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image64.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image64.png",
+      "dimensions": [
+        1568,
+        888
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        295.0
+      ],
+      "sha256": "c9b1b350985df073f7d969f1837c9dd1a7e7d256e06d27de3cc1867bc0462ceb",
+      "bytes": 331337
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "A9",
+      "row": 9,
+      "column": 0,
+      "stage": "B1",
+      "label_cell": "A8",
+      "label": "1.4x / 1.5x - 6",
+      "struck_label": "",
+      "media_path": "xl/media/image78.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image78.png",
+      "dimensions": [
+        1593,
+        904
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        516.0,
+        293.0
+      ],
+      "sha256": "a4e83df86df6c14fb35258da81c7f582f2d55910fa6c0302148d2bd35800a631",
+      "bytes": 321719
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B9",
+      "row": 9,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B8",
+      "label": "1.2x - 14 (L1 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image45.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image45.png",
+      "dimensions": [
+        1594,
+        900
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        518.0,
+        293.0
+      ],
+      "sha256": "61c16d731d4c7b4a655b85d4f2689c4e69f35802ba3dc11f8988d78d4ecb06b8",
+      "bytes": 329686
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C9",
+      "row": 9,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C8",
+      "label": "1.2x - 16.46 (no L1)",
+      "struck_label": "",
+      "media_path": "xl/media/image58.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image58.png",
+      "dimensions": [
+        1369,
+        827
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        485.0,
+        293.0
+      ],
+      "sha256": "4d775090bcd126db4df20c9bb1993b9fd1f04d2e7098c64645492debb9c9ef57",
+      "bytes": 295404
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D9",
+      "row": 9,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D8",
+      "label": "1.2x - 14 (L1 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image40.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image40.png",
+      "dimensions": [
+        1596,
+        895
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        292.0
+      ],
+      "sha256": "23cacfedcabe1d2ebdbc6113c265b604db214412bcf8353a526b155e1c6341ba",
+      "bytes": 384711
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G9",
+      "row": 9,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G8",
+      "label": "1.4x - 15 (L1 corv)",
+      "struck_label": "",
+      "media_path": "xl/media/image61.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image61.png",
+      "dimensions": [
+        1379,
+        825
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        489.0,
+        293.0
+      ],
+      "sha256": "fde4fa621c615c40d8d2b868bb9424e7c5a9a0b918bad44c9e0e24b13bcaa00d",
+      "bytes": 307802
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "A11",
+      "row": 11,
+      "column": 0,
+      "stage": "B1",
+      "label_cell": "A10",
+      "label": "1.825x - 5",
+      "struck_label": "",
+      "media_path": "xl/media/image1.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image1.png",
+      "dimensions": [
+        1609,
+        895
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        515.0,
+        287.0
+      ],
+      "sha256": "5360b2cff153e3fb9db9fa5f852c2451a4747da4a44d334bf15f486f7ef00839",
+      "bytes": 393594
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B11",
+      "row": 11,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B10",
+      "label": "1.2x - 16.34 (no L1)",
+      "struck_label": "",
+      "media_path": "xl/media/image73.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image73.png",
+      "dimensions": [
+        1380,
+        825
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        480.0,
+        287.0
+      ],
+      "sha256": "464d2af8258e13b90cf03e48d12a8224eeb5d3e3054c8b348df758d254a50f4b",
+      "bytes": 295958
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C11",
+      "row": 11,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C10",
+      "label": "1.3x - 12 (W/ Armour and Shield)",
+      "struck_label": "",
+      "media_path": "xl/media/image65.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image65.png",
+      "dimensions": [
+        1584,
+        890
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        510.0,
+        287.0
+      ],
+      "sha256": "51199405664ad851070b3de8d888ed6794d3dcebbcb352ba10fbf03bf0cbfcee",
+      "bytes": 411050
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D11",
+      "row": 11,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D10",
+      "label": "1.2x - 17.63 (no L1)",
+      "struck_label": "",
+      "media_path": "xl/media/image56.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image56.png",
+      "dimensions": [
+        1373,
+        820
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        480.0,
+        287.0
+      ],
+      "sha256": "f02d529d22cc734a2c3b861dbd70d0fed2929231eabb7f0ad3f93c56dadf39d1",
+      "bytes": 298403
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "E11",
+      "row": 11,
+      "column": 4,
+      "stage": "B3B",
+      "label_cell": "E10",
+      "label": "2.375x - 10 (L1 - Corvette w/CL and shield)",
+      "struck_label": "",
+      "media_path": "xl/media/image42.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image42.png",
+      "dimensions": [
+        1594,
+        903
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        506.0,
+        287.0
+      ],
+      "sha256": "5139091874fd9f3f29fe7b1b23bec43e9bc61013861048ddeaeb8b9c667c75e3",
+      "bytes": 435492
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G11",
+      "row": 11,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G10",
+      "label": "1.5x / 1.6x - 10 (L1 - Corvette)",
+      "struck_label": "",
+      "media_path": "xl/media/image33.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image33.png",
+      "dimensions": [
+        1592,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        509.0,
+        287.0
+      ],
+      "sha256": "e6e07712c0d0fdc1aa37d1fbc903ae6d7fa9f760cff1a47ad6c9ce0b83c2cc15",
+      "bytes": 338838
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "A13",
+      "row": 13,
+      "column": 0,
+      "stage": "B1",
+      "label_cell": null,
+      "label": null,
+      "struck_label": null,
+      "media_path": "xl/media/image11.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image11.png",
+      "dimensions": [
+        1432,
+        797
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        515.0,
+        287.0
+      ],
+      "sha256": "8145935f36f29664f8ecf90963efe0b9ca19f897c509ec89827658a1d648a9a0",
+      "bytes": 305608
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B13",
+      "row": 13,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B12",
+      "label": "1.3x / 1.4x - 13",
+      "struck_label": "",
+      "media_path": "xl/media/image12.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image12.png",
+      "dimensions": [
+        1597,
+        894
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        512.0,
+        287.0
+      ],
+      "sha256": "d48fe52c6ae31451562151aaa8aac18d0d5bd8a99fe1189e20a670fe5b3547f5",
+      "bytes": 448873
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C13",
+      "row": 13,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C12",
+      "label": "1.4x",
+      "struck_label": "",
+      "media_path": "xl/media/image26.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image26.png",
+      "dimensions": [
+        1594,
+        894
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        511.0,
+        287.0
+      ],
+      "sha256": "1bc9ea54e75f501c85701e78592377145072a67c0dd3c2c4bd9dea5999869d79",
+      "bytes": 425634
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D13",
+      "row": 13,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D12",
+      "label": "1.3x - 14 / 1.4x - 13 / 1.5x - 12 (no L1)",
+      "struck_label": "",
+      "media_path": "xl/media/image72.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image72.png",
+      "dimensions": [
+        1377,
+        817
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        483.0,
+        287.0
+      ],
+      "sha256": "26607c47c2bc68f245c89982fd63fd277ad5c9af15a029a2de94b26ca7cc0afe",
+      "bytes": 301811
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "F13",
+      "row": 13,
+      "column": 5,
+      "stage": "B4A",
+      "label_cell": "F12",
+      "label": "1.75x / 2.0x - 12 / 2.4x - 11",
+      "struck_label": "",
+      "media_path": "xl/media/image34.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image34.png",
+      "dimensions": [
+        1563,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        500.0,
+        287.0
+      ],
+      "sha256": "df4a5f6574a3d4420aaa8a6cb43f68dac492bf365b6e595d8647a9ed76bf11a1",
+      "bytes": 313801
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G13",
+      "row": 13,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G12",
+      "label": "1.625x - 15",
+      "struck_label": "",
+      "media_path": "xl/media/image36.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image36.png",
+      "dimensions": [
+        1588,
+        889
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        512.0,
+        287.0
+      ],
+      "sha256": "a309aef5ca7fed26a6bc849088894ad0e164ce84f6b0ecab11b4f2560032b5d9",
+      "bytes": 434517
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B15",
+      "row": 15,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B14",
+      "label": "1.4x",
+      "struck_label": "",
+      "media_path": "xl/media/image35.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image35.png",
+      "dimensions": [
+        1593,
+        903
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        506.0,
+        287.0
+      ],
+      "sha256": "edc5466cde8f47b48072c944597cad97d08c7b92778d51c18b92b002c49f1e07",
+      "bytes": 432666
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C15",
+      "row": 15,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C14",
+      "label": "1.4x - 10 (L1 - Corvette)",
+      "struck_label": "",
+      "media_path": "xl/media/image70.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image70.png",
+      "dimensions": [
+        1591,
+        901
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        506.0,
+        287.0
+      ],
+      "sha256": "8e5fca24291bdb0c42e8823505d55d3d7c3101468007531e5a343f45ae81b956",
+      "bytes": 340304
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D15",
+      "row": 15,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D14",
+      "label": "",
+      "struck_label": "1.4x",
+      "media_path": "xl/media/image28.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image28.png",
+      "dimensions": [
+        1597,
+        911
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        503.0,
+        287.0
+      ],
+      "sha256": "1150d377ecd75a67df708c8585ff6e658c560146d61c4e858d6ada6adc6d11a5",
+      "bytes": 432915
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "F15",
+      "row": 15,
+      "column": 5,
+      "stage": "B4A",
+      "label_cell": "F14",
+      "label": "2.2x - 11",
+      "struck_label": "",
+      "media_path": "xl/media/image54.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image54.png",
+      "dimensions": [
+        1382,
+        828
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        479.0,
+        287.0
+      ],
+      "sha256": "95b3e0681a75dd962f6ba827e4248b9d1112449f67b495f06c6f15cc5710ae97",
+      "bytes": 304190
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G15",
+      "row": 15,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G14",
+      "label": "3.0x - 6",
+      "struck_label": "",
+      "media_path": "xl/media/image101.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image101.png",
+      "dimensions": [
+        1591,
+        918
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        497.0,
+        287.0
+      ],
+      "sha256": "f288e8d25a074d66174de20f7729d12e2094a0b31b7dcc16bd4dbbac1c283d3a",
+      "bytes": 325566
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B17",
+      "row": 17,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B16",
+      "label": "1.5x -12 /  / 2.0x - 11",
+      "struck_label": "1.8x - 12",
+      "media_path": "xl/media/image39.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image39.png",
+      "dimensions": [
+        1587,
+        892
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        512.0,
+        288.0
+      ],
+      "sha256": "066c7ad9ff5d347da6a599542a6bbf93dff760a79b44e51ae6e167aeae73c962",
+      "bytes": 318365
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C17",
+      "row": 17,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C16",
+      "label": "2.025x - 8 / 2.1x - 6",
+      "struck_label": "",
+      "media_path": "xl/media/image9.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image9.png",
+      "dimensions": [
+        1385,
+        825
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        483.0,
+        288.0
+      ],
+      "sha256": "d0cb100a4881dcbf03ce0aa00a742a6a7fab4e88ebdf4046e8122c859d49dd9f",
+      "bytes": 294486
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D17",
+      "row": 17,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D16",
+      "label": "1.5x - 12",
+      "struck_label": "",
+      "media_path": "xl/media/image17.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image17.png",
+      "dimensions": [
+        1587,
+        903
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        506.0,
+        288.0
+      ],
+      "sha256": "602096ca38b35f38af765273068638da32ee4a1d95c0de17be713ef0929e360e",
+      "bytes": 330068
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B19",
+      "row": 19,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B18",
+      "label": "1.6x / 1.7x / 1.8x - 11",
+      "struck_label": "",
+      "media_path": "xl/media/image44.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image44.png",
+      "dimensions": [
+        1374,
+        819
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        481.0,
+        287.0
+      ],
+      "sha256": "e8095ac583ccce1b91849acd6a7b287a2bbc41ce16886ba7b49138002cba0db5",
+      "bytes": 296935
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D19",
+      "row": 19,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D18",
+      "label": "1.75x / 2.0x - 11 / 2.3x - 10",
+      "struck_label": "",
+      "media_path": "xl/media/image29.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image29.png",
+      "dimensions": [
+        1585,
+        891
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        510.0,
+        287.0
+      ],
+      "sha256": "007df77a1b8ed50a190d163a5379ed6e2dc98d02c734eca5f01bcc05e53a7403",
+      "bytes": 324677
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "F19",
+      "row": 19,
+      "column": 5,
+      "stage": "B4A",
+      "label_cell": "F18",
+      "label": "Stats 3.25 - 7(.38) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image10.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image10.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "6795ce62d0547c4fffc58fcb0035c2d6dbb9abe476901774389b679609d920ec",
+      "bytes": 478654
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B21",
+      "row": 21,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B20",
+      "label": "2.425x - 8 / 2.5x - 8(.24) / 2.65x - 8(.04)",
+      "struck_label": "",
+      "media_path": "xl/media/image46.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image46.png",
+      "dimensions": [
+        1585,
+        895
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        508.0,
+        287.0
+      ],
+      "sha256": "c776dacd64d58f30d397544d010616690ca3248bc3f84fd2be06f00bfa19cf40",
+      "bytes": 309952
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D21",
+      "row": 21,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D20",
+      "label": "2.25x - 6",
+      "struck_label": "",
+      "media_path": "xl/media/image21.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image21.png",
+      "dimensions": [
+        1580,
+        894
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        507.0,
+        287.0
+      ],
+      "sha256": "9a0ea83c1c960279e6a4b10f36ac6e7135b080d023be51b8cc9d07fd8d8c10f5",
+      "bytes": 315925
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "G21",
+      "row": 21,
+      "column": 6,
+      "stage": "B4B",
+      "label_cell": "G20",
+      "label": "Stats 1.5 - 10 by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image18.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image18.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "ec8003307d12c658bb00944d3f7b1ffe41dccad1ea41054fa77aae378b3ccfda",
+      "bytes": 524389
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "B23",
+      "row": 23,
+      "column": 1,
+      "stage": "B2A",
+      "label_cell": "B22",
+      "label": "Stats 3.25 - 7.(32) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image4.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image4.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        552.0,
+        236.0
+      ],
+      "sha256": "dbf4400818015dcf8c2cac52886e059ec031ad581f43570d011e7e70366d5b34",
+      "bytes": 478952
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "C23",
+      "row": 23,
+      "column": 2,
+      "stage": "B2B",
+      "label_cell": "C22",
+      "label": "Stats 3.25 - 8(.71) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image2.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image2.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "12239d091904e96d22c8f4d100bbf23e604144fbd5de61baf285bf24d4dfe066",
+      "bytes": 477765
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "D23",
+      "row": 23,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D22",
+      "label": "Stats 2.65x - 5(.81) / 3.25 - 5.(66) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image55.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image55.png",
+      "dimensions": [
+        2048,
+        879
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "1cc0425d78ecfc20fce01e94e30b3425a1977fb85a82cc64ce1203389c13f930",
+      "bytes": 490538
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
+      "cell": "E23",
+      "row": 23,
+      "column": 4,
+      "stage": "B3B",
+      "label_cell": "E22",
+      "label": "Stats 3.25 - 10 by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image23.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image23.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "bb04d7721ded88e6100a5331182fdb768fbb945eec3e2f94c42781f5a00fdd00",
+      "bytes": 514471
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "E25",
+      "row": 25,
+      "column": 4,
+      "stage": "B7A",
+      "label_cell": null,
+      "label": null,
+      "struck_label": null,
+      "media_path": "xl/media/image19.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image19.png",
+      "dimensions": [
+        2048,
+        1149
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        512.0,
+        287.0
+      ],
+      "sha256": "3fee853d26347385005a9bd998610e9af3e3665bf7f34beecc0ee4830a94bcf3",
+      "bytes": 929412
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "B3",
+      "row": 3,
+      "column": 1,
+      "stage": "B5B",
+      "label_cell": "B2",
+      "label": "1.3x - 37 (L1/L2 corv, SH, AR)",
+      "struck_label": "",
+      "media_path": "xl/media/image24.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image24.png",
+      "dimensions": [
+        1602,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        513.0,
+        287.0
+      ],
+      "sha256": "26ab8acb1b2ef29a04ab0c883b6cc949e71aae9291c6fa7fb8dab39b462fa95a",
+      "bytes": 447757
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C3",
+      "row": 3,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C2",
+      "label": "1.5x - 46 (L1 - Corvette / L2 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image15.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image15.png",
+      "dimensions": [
+        1575,
+        875
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        516.0,
+        287.0
+      ],
+      "sha256": "afaa83dd243be27649c6e4394fb99a8c6191f1658afc86aa3f8acd685a8e48de",
+      "bytes": 420566
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "F3",
+      "row": 3,
+      "column": 5,
+      "stage": "B7B",
+      "label_cell": "F2",
+      "label": "1.625x - 72",
+      "struck_label": "",
+      "media_path": "xl/media/image37.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image37.png",
+      "dimensions": [
+        1578,
+        892
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        507.0,
+        287.0
+      ],
+      "sha256": "1de8fc8237ac597fbe02c427c8f0c297e3121abacc18debc35827fc06b53da8e",
+      "bytes": 502031
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "G3",
+      "row": 3,
+      "column": 6,
+      "stage": "B8",
+      "label_cell": "G2",
+      "label": "2.125x - 71",
+      "struck_label": "",
+      "media_path": "xl/media/image85.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image85.png",
+      "dimensions": [
+        1582,
+        901
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        503.0,
+        287.0
+      ],
+      "sha256": "915b7ecdd45252d629ff3ca39dd6da1b89ca473b1ec6748627076d3034d76f3f",
+      "bytes": 514456
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "H3",
+      "row": 3,
+      "column": 7,
+      "stage": "B9",
+      "label_cell": "H2",
+      "label": "2.125x - 49",
+      "struck_label": "",
+      "media_path": "xl/media/image90.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image90.png",
+      "dimensions": [
+        1589,
+        892
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        511.0,
+        287.0
+      ],
+      "sha256": "045bf0ac7d55db63fdea22dd07665e6f922e6b53136f01754fcfecd04630c4d6",
+      "bytes": 463422
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "A5",
+      "row": 5,
+      "column": 0,
+      "stage": "B5A",
+      "label_cell": "A4",
+      "label": "1.4x",
+      "struck_label": "",
+      "media_path": "xl/media/image114.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image114.png",
+      "dimensions": [
+        1597,
+        892
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        513.0,
+        287.0
+      ],
+      "sha256": "fcf31b0ff9e786e8487a0bc264f6c44df308cb490eef2d4af37ac5f0f79d430b",
+      "bytes": 448935
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "B5",
+      "row": 5,
+      "column": 1,
+      "stage": "B5B",
+      "label_cell": "B4",
+      "label": "1.4x - 43.75 (L1 corv, SH, no AR)",
+      "struck_label": "",
+      "media_path": "xl/media/image69.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image69.png",
+      "dimensions": [
+        1383,
+        823
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        482.0,
+        287.0
+      ],
+      "sha256": "cdd86c8f5de55acc01534a3aa29a14a1759012d4a1e16056f6ca2c56eaf2de6c",
+      "bytes": 356822
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C5",
+      "row": 5,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C4",
+      "label": "1.6x - 36 / 1.8x - 31",
+      "struck_label": "",
+      "media_path": "xl/media/image48.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image48.png",
+      "dimensions": [
+        1587,
+        898
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        507.0,
+        287.0
+      ],
+      "sha256": "02c52d0eadc1d8210c68a6b8dfc762d7e014a8304593be5cf6435e5ddbae31c9",
+      "bytes": 478154
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "D5",
+      "row": 5,
+      "column": 3,
+      "stage": "B6B",
+      "label_cell": "D4",
+      "label": "1.625x - 45",
+      "struck_label": "",
+      "media_path": "xl/media/image41.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image41.png",
+      "dimensions": [
+        1597,
+        891
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        514.0,
+        287.0
+      ],
+      "sha256": "c66ef186a329293c47e1481f1d3cb013e35ab257300b1d355d49464d25f2ed49",
+      "bytes": 480139
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "E5",
+      "row": 5,
+      "column": 4,
+      "stage": "B7A",
+      "label_cell": "E4",
+      "label": "1.8x - 52 / 1.95x / 2.0x - 47",
+      "struck_label": "",
+      "media_path": "xl/media/image79.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image79.png",
+      "dimensions": [
+        1771,
+        1037
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        490.0,
+        287.0
+      ],
+      "sha256": "29c828f0589de1691e60852cb0f7821df48b4c053dda20cde936d5f949a1044e",
+      "bytes": 555331
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "F5",
+      "row": 5,
+      "column": 5,
+      "stage": "B7B",
+      "label_cell": "F4",
+      "label": "1.8x - 55 / 1.925x - 51 / 1.95 - 50",
+      "struck_label": "",
+      "media_path": "xl/media/image53.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image53.png",
+      "dimensions": [
+        1600,
+        887
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        517.0,
+        287.0
+      ],
+      "sha256": "acf28e5d995fbb4c16da9f72bc7468c3a77746c7c3ecd4d4439c4256fcc61b42",
+      "bytes": 514268
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "G5",
+      "row": 5,
+      "column": 6,
+      "stage": "B8",
+      "label_cell": "G4",
+      "label": "2.65x - 29 / 2.825x - 30 / 2.975 - 29.28",
+      "struck_label": "",
+      "media_path": "xl/media/image62.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image62.png",
+      "dimensions": [
+        1577,
+        897
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        504.0,
+        287.0
+      ],
+      "sha256": "91f799fd1ce1321e498a56f290b267c2fa937f281f5450571e72fe468e1b677a",
+      "bytes": 368176
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "H5",
+      "row": 5,
+      "column": 7,
+      "stage": "B9",
+      "label_cell": "H4",
+      "label": "2.625x - 37",
+      "struck_label": "",
+      "media_path": "xl/media/image22.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image22.png",
+      "dimensions": [
+        1596,
+        894
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        512.0,
+        287.0
+      ],
+      "sha256": "0a757cfd21e2991e5d87731eb5674fee51d4adc68bac93afe375f60ca64970e0",
+      "bytes": 449285
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "A7",
+      "row": 7,
+      "column": 0,
+      "stage": "B5A",
+      "label_cell": "A6",
+      "label": "1.6x / 1.8x - 19",
+      "struck_label": "",
+      "media_path": "xl/media/image71.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image71.png",
+      "dimensions": [
+        1372,
+        828
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        475.0,
+        287.0
+      ],
+      "sha256": "3196755d04286e630d3ce528ab39a359e372583622485183880f8c2809d3276a",
+      "bytes": 321612
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "B7",
+      "row": 7,
+      "column": 1,
+      "stage": "B5B",
+      "label_cell": "B6",
+      "label": "1.5x - 30 (L1 - Corvette / L2 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image38.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image38.png",
+      "dimensions": [
+        1561,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        500.0,
+        287.0
+      ],
+      "sha256": "c4d0fed166621fe4bf20f4eeedc8952d3fc22124183edb07a2bab7652015a4ab",
+      "bytes": 359711
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C7",
+      "row": 7,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C6",
+      "label": "1.7x - 28",
+      "struck_label": "",
+      "media_path": "xl/media/image95.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image95.png",
+      "dimensions": [
+        1378,
+        825
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        479.0,
+        287.0
+      ],
+      "sha256": "1af0073d9abe0d0e72091e905f6d06c6c35302186c7f5e2d41afca962bd4f9a2",
+      "bytes": 349737
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "D7",
+      "row": 7,
+      "column": 3,
+      "stage": "B6B",
+      "label_cell": "D6",
+      "label": "1.7x / 1.8x - 51 with 0 ships, 31 with frigate+corvette",
+      "struck_label": "",
+      "media_path": "xl/media/image86.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image86.png",
+      "dimensions": [
+        1798,
+        1133
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        455.0,
+        287.0
+      ],
+      "sha256": "298f8326670143ca411f634c791aa219ea8d3ac4661130b9f94061b994294210",
+      "bytes": 551763
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "E7",
+      "row": 7,
+      "column": 4,
+      "stage": "B7A",
+      "label_cell": "E6",
+      "label": "2.25x - 35 / 2.275x - ??",
+      "struck_label": "",
+      "media_path": "xl/media/image113.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image113.png",
+      "dimensions": [
+        1771,
+        1037
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        490.0,
+        287.0
+      ],
+      "sha256": "485f3582098255e750c031478ee9d37a1203b730e315cd4f7841b5cf52a7b2ce",
+      "bytes": 544281
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "F7",
+      "row": 7,
+      "column": 5,
+      "stage": "B7B",
+      "label_cell": "F6",
+      "label": "2.35x - 27(.4) / 2.375x - 27(?) / 2.45x -22(.37)",
+      "struck_label": "",
+      "media_path": "xl/media/image60.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image60.png",
+      "dimensions": [
+        1606,
+        909
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        507.0,
+        287.0
+      ],
+      "sha256": "294e80cbac4be4b2e76678b4ee666f547e7eae8207559a79b035b0a39342b1e7",
+      "bytes": 472061
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "G7",
+      "row": 7,
+      "column": 6,
+      "stage": "B8",
+      "label_cell": "G6",
+      "label": "2.85x - 28",
+      "struck_label": "",
+      "media_path": "xl/media/image117.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image117.png",
+      "dimensions": [
+        1377,
+        830
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        476.0,
+        287.0
+      ],
+      "sha256": "c0bed8a6018bc9d0e833659415eb3059979ebadc48e7699f82deb56466d1459b",
+      "bytes": 357405
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "H7",
+      "row": 7,
+      "column": 7,
+      "stage": "B9",
+      "label_cell": "H6",
+      "label": "2.65x - 32.5 / 2.9x - 30",
+      "struck_label": "",
+      "media_path": "xl/media/image80.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image80.png",
+      "dimensions": [
+        1591,
+        898
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        508.0,
+        287.0
+      ],
+      "sha256": "1971f7a8475e0861d213e84d27cb781a598bac070eead0ee5ee370bef97bdd69",
+      "bytes": 441696
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "A9",
+      "row": 9,
+      "column": 0,
+      "stage": "B5A",
+      "label_cell": "A8",
+      "label": "1.5x - 34 (L1 - Corvette / L2 - Frigate)",
+      "struck_label": "",
+      "media_path": "xl/media/image92.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image92.png",
+      "dimensions": [
+        1579,
+        899
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        504.0,
+        287.0
+      ],
+      "sha256": "99fe5f5d334a5065601838f2ab5e32d4c6e3c854ed3130d725a252dc685999ea",
+      "bytes": 357736
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "B9",
+      "row": 9,
+      "column": 1,
+      "stage": "B5B",
+      "label_cell": "B8",
+      "label": "1.6x - 20 / 1.7x - 20? / 1.8x - 19?",
+      "struck_label": "",
+      "media_path": "xl/media/image107.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image107.png",
+      "dimensions": [
+        1383,
+        821
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        483.0,
+        287.0
+      ],
+      "sha256": "2f41b5a4b5012462668c57270fde1b1a1439b414edc139a375d4bbcf5876bdc8",
+      "bytes": 328581
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C9",
+      "row": 9,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C8",
+      "label": "1.8x / 1.825x - 28 / 1.9x - 27 / 1.925x - 26",
+      "struck_label": "",
+      "media_path": "xl/media/image43.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image43.png",
+      "dimensions": [
+        1372,
+        824
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        477.0,
+        287.0
+      ],
+      "sha256": "20b56a90f8aedf58ed7a81bde89d7574dad7e370bedf71df1cdced01f28227b5",
+      "bytes": 348031
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "D9",
+      "row": 9,
+      "column": 3,
+      "stage": "B6B",
+      "label_cell": "D8",
+      "label": "2.025x - 22(no SH and AR) / 2.15x - 22.33 / 2.125x - 21 / ",
+      "struck_label": "2.225x - 20",
+      "media_path": "xl/media/image103.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image103.png",
+      "dimensions": [
+        1588,
+        899
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        506.0,
+        287.0
+      ],
+      "sha256": "ac91eb0c57435cc9246f05b8023877391ec946d24316e2b0629f36558038f974",
+      "bytes": 456099
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "E9",
+      "row": 9,
+      "column": 4,
+      "stage": "B7A",
+      "label_cell": "E8",
+      "label": "2.45x - 24(.78)",
+      "struck_label": "",
+      "media_path": "xl/media/image49.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image49.png",
+      "dimensions": [
+        1411,
+        794
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        510.0,
+        287.0
+      ],
+      "sha256": "3d70adeb1a9c7613bfa580958f5b172b496324c7dd6bd3658aba39aeae82b8b0",
+      "bytes": 316111
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "G9",
+      "row": 9,
+      "column": 6,
+      "stage": "B8",
+      "label_cell": "G8",
+      "label": "3.3x - 25(.48)",
+      "struck_label": "",
+      "media_path": "xl/media/image66.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image66.png",
+      "dimensions": [
+        1246,
+        700
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        510.0,
+        287.0
+      ],
+      "sha256": "9f917e014553b9f12c6ae32fd2e1b4b007dbcb2876da0185892542901f125304",
+      "bytes": 317247
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "H9",
+      "row": 9,
+      "column": 7,
+      "stage": "B9",
+      "label_cell": "H8",
+      "label": "3.3x - 26(.98)",
+      "struck_label": "",
+      "media_path": "xl/media/image105.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image105.png",
+      "dimensions": [
+        1607,
+        900
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        512.0,
+        287.0
+      ],
+      "sha256": "68b01fb6f6a393247d44b3096fc649a9250d0b841d17352fb186915b3260ecad",
+      "bytes": 404328
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "A11",
+      "row": 11,
+      "column": 0,
+      "stage": "B5A",
+      "label_cell": "A10",
+      "label": "1.925x - 18 / 2.2x - 17",
+      "struck_label": "",
+      "media_path": "xl/media/image68.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image68.png",
+      "dimensions": [
+        1375,
+        817
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        483.0,
+        287.0
+      ],
+      "sha256": "1b38eca454458d4ccdadc417384dff8be23292770f769daa46e4eca4cca89bee",
+      "bytes": 322478
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "B11",
+      "row": 11,
+      "column": 1,
+      "stage": "B5B",
+      "label_cell": "B10",
+      "label": "1.925x -  17",
+      "struck_label": "",
+      "media_path": "xl/media/image115.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image115.png",
+      "dimensions": [
+        1594,
+        888
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        515.0,
+        287.0
+      ],
+      "sha256": "b6a04853627ab63940d2bdd5d067c9d34fdcbd5395843fdd6d2287df430cac83",
+      "bytes": 460420
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C11",
+      "row": 11,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C10",
+      "label": "2.125x - 22",
+      "struck_label": "",
+      "media_path": "xl/media/image100.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image100.png",
+      "dimensions": [
+        1379,
+        833
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        475.0,
+        287.0
+      ],
+      "sha256": "3e802b9930468016e97969a9075e0d2eccba5e6a2dbb57d9640bc7778193f6eb",
+      "bytes": 331418
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "D11",
+      "row": 11,
+      "column": 3,
+      "stage": "B6B",
+      "label_cell": "D10",
+      "label": "2.45x - 19",
+      "struck_label": "",
+      "media_path": "xl/media/image89.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image89.png",
+      "dimensions": [
+        1383,
+        830
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        478.0,
+        287.0
+      ],
+      "sha256": "b959c284e70a5a20e02add7ed5c69a5d2e36c945b8e36147a42dff47b48331f3",
+      "bytes": 333518
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "E11",
+      "row": 11,
+      "column": 4,
+      "stage": "B7A",
+      "label_cell": "E10",
+      "label": "2.6x - 22(.21)",
+      "struck_label": "",
+      "media_path": "xl/media/image50.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image50.png",
+      "dimensions": [
+        1326,
+        746
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        510.0,
+        287.0
+      ],
+      "sha256": "e3a56a5c5ec5ce73e25bce3f1bd0e188c636c1779e0b85e7833cbcd010d3367a",
+      "bytes": 329836
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "F11",
+      "row": 11,
+      "column": 5,
+      "stage": "B7B",
+      "label_cell": "F10",
+      "label": "2.65x - 21(.52) / 2.9x - 19(.72)",
+      "struck_label": "",
+      "media_path": "xl/media/image98.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image98.png",
+      "dimensions": [
+        1246,
+        700
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        510.0,
+        287.0
+      ],
+      "sha256": "6db9bfb66d167b9f081ff03820c6f7a06e4067aa33b234600f3be6ef496295ec",
+      "bytes": 302867
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "G11",
+      "row": 11,
+      "column": 6,
+      "stage": "B8",
+      "label_cell": "G10",
+      "label": "3.25x - 26",
+      "struck_label": "",
+      "media_path": "xl/media/image112.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image112.png",
+      "dimensions": [
+        1386,
+        843
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        471.0,
+        287.0
+      ],
+      "sha256": "a3ef739fa77181e6c25bb1ffab1fd18ff23ef82db7142f87e8b485d0c3460cbb",
+      "bytes": 340267
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "H11",
+      "row": 11,
+      "column": 7,
+      "stage": "B9",
+      "label_cell": null,
+      "label": null,
+      "struck_label": null,
+      "media_path": "xl/media/image87.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image87.png",
+      "dimensions": [
+        1597,
+        896
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        511.0,
+        287.0
+      ],
+      "sha256": "a381b1db5dcc4c2af0718e8145bdde09ddfe2f76a10670a8efcaf09ca3ae671c",
+      "bytes": 414884
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "A13",
+      "row": 13,
+      "column": 0,
+      "stage": "B5A",
+      "label_cell": "A12",
+      "label": "1.6x - 21 / 1.75x - 20 / 2.0x - 18 / 2.275x - 17",
+      "struck_label": "",
+      "media_path": "xl/media/image84.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image84.png",
+      "dimensions": [
+        1589,
+        901
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        506.0,
+        287.0
+      ],
+      "sha256": "59cad18838715a4213eebe79aa22648c22410067244e1f55611e8d339fb21db2",
+      "bytes": 440393
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "B13",
+      "row": 13,
+      "column": 1,
+      "stage": "B5B",
+      "label_cell": "B12",
+      "label": "2.0x - 17 / 2.125x - 16 / 2.3x - 15 / 2.725 - 13(.88)",
+      "struck_label": "",
+      "media_path": "xl/media/image116.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image116.png",
+      "dimensions": [
+        1601,
+        894
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        513.0,
+        287.0
+      ],
+      "sha256": "d80fa1bbefe05a86f9b333a381acc3f5d860f3e5145bbba15549a0829033de35",
+      "bytes": 410643
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C13",
+      "row": 13,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C12",
+      "label": "",
+      "struck_label": "2.225x - 22",
+      "media_path": "xl/media/image59.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image59.png",
+      "dimensions": [
+        1587,
+        898
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        507.0,
+        287.0
+      ],
+      "sha256": "9c2aca2dbb29cba32c82120aebe085b26b1dc722a9ad5b35274da7a7180ad6c9",
+      "bytes": 455187
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "E13",
+      "row": 13,
+      "column": 4,
+      "stage": "B7A",
+      "label_cell": "E12",
+      "label": "2.675x - 24",
+      "struck_label": "",
+      "media_path": "xl/media/image83.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image83.png",
+      "dimensions": [
+        1771,
+        1037
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        490.0,
+        287.0
+      ],
+      "sha256": "ebb3f087f5563b3a10815b87360e09b78ad3ea270aae1b963323b2f04ee2edf8",
+      "bytes": 552459
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "A15",
+      "row": 15,
+      "column": 0,
+      "stage": "B5A",
+      "label_cell": "A14",
+      "label": "2.75x - 16 / 2.85x - 15(.03)",
+      "struck_label": "",
+      "media_path": "xl/media/image109.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image109.png",
+      "dimensions": [
+        1385,
+        830
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        478.0,
+        287.0
+      ],
+      "sha256": "daa05476618a0354bf893ec033fee581258408f327a4423dfaae5d72f509596e",
+      "bytes": 302065
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C15",
+      "row": 15,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C14",
+      "label": "2.225x - 21 / 2.6x - 19(.65)",
+      "struck_label": "",
+      "media_path": "xl/media/image93.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image93.png",
+      "dimensions": [
+        1326,
+        746
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        510.0,
+        287.0
+      ],
+      "sha256": "df0c00d01f0a7f800323ffb7786e664113f3700f11e2c369f59cb041386a92d5",
+      "bytes": 334440
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "E15",
+      "row": 15,
+      "column": 4,
+      "stage": "B7A",
+      "label_cell": null,
+      "label": null,
+      "struck_label": null,
+      "media_path": "xl/media/image118.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image118.png",
+      "dimensions": [
+        1773,
+        1069
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        476.0,
+        287.0
+      ],
+      "sha256": "59469d4b1929266aea5139f44897d88a5f3f3f83dd76965d11c0c6ef0ead240b",
+      "bytes": 553921
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C17",
+      "row": 17,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C16",
+      "label": "2.65x - 18 / 2.75x - 17",
+      "struck_label": "",
+      "media_path": "xl/media/image110.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image110.png",
+      "dimensions": [
+        1384,
+        839
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        473.0,
+        287.0
+      ],
+      "sha256": "d2d270499f2a01a73ad6883c125dc8e1fe011fece338822d44a92b4479691623",
+      "bytes": 336705
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "D19",
+      "row": 19,
+      "column": 3,
+      "stage": "B6B",
+      "label_cell": "D18",
+      "label": "Stats 3.25 - 19(.06) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image99.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image99.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "18767f189d26ec75a64ebaed6cbccecc6b46049c030917c7a37d11c073ec245f",
+      "bytes": 545239
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "H19",
+      "row": 19,
+      "column": 7,
+      "stage": "B9",
+      "label_cell": "H18",
+      "label": "Stats 3.85 - 28(.75) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image76.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image76.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "69907bc952b05d71531394b31cb33dd053b2683cab98164d4ff7f9d3dedca4a5",
+      "bytes": 516689
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "B21",
+      "row": 21,
+      "column": 1,
+      "stage": "B5B",
+      "label_cell": "B20",
+      "label": "Stats 3.25 - 12(.31) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image94.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image94.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "b5e76eb246b6194d2b25ebe8dd853a212ec15fb55b5cc26075b9822406102d6e",
+      "bytes": 516479
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "F21",
+      "row": 21,
+      "column": 5,
+      "stage": "B7B",
+      "label_cell": "F20",
+      "label": "Stats 3.25 - 19(.62) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image91.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image91.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "9ac0c400a76463a293df8d14d9ed3e09f88fe4f07f69f20dac5cf727187019fa",
+      "bytes": 535822
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "G21",
+      "row": 21,
+      "column": 6,
+      "stage": "B8",
+      "label_cell": "G20",
+      "label": "Stats 3.25 - 28(.75) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image67.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image67.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "e6ee9b656472468433f65b051b811f53e491edce9854b528f29cf3ff069dc80e",
+      "bytes": 516856
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "A23",
+      "row": 23,
+      "column": 0,
+      "stage": "B5A",
+      "label_cell": "A22",
+      "label": "Stats 3.25 - 17(.5) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image104.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image104.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "01c182ad6d65d94494161474ef6c07c50d45645acc75d7bde578aea14215aa47",
+      "bytes": 501334
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "C25",
+      "row": 25,
+      "column": 2,
+      "stage": "B6A",
+      "label_cell": "C24",
+      "label": "Stats 3.25 - 18(.64) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image88.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image88.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "fdc3c8702a2e8beef91bad0600b0db3c94433ad44f45bfee2b2483b5f7858ec1",
+      "bytes": 539643
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "A3",
+      "row": 3,
+      "column": 0,
+      "stage": "BB1",
+      "label_cell": "A2",
+      "label": "1.6x - 110 (375.44 dmg)",
+      "struck_label": "",
+      "media_path": "xl/media/image74.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image74.png",
+      "dimensions": [
+        1585,
+        901
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        296.0
+      ],
+      "sha256": "c799453eb543bd3aeb3415b9e8c5d2c81898a69f4faa10860213e63ebd680630",
+      "bytes": 549098
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "B3",
+      "row": 3,
+      "column": 1,
+      "stage": "B10",
+      "label_cell": "B2",
+      "label": "2.85x - 120 (1043.1 dmg, 2 shot)",
+      "struck_label": "",
+      "media_path": "xl/media/image119.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image119.png",
+      "dimensions": [
+        1382,
+        829
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        500.0,
+        300.0
+      ],
+      "sha256": "13782f4506eff397404768da7254473e181babb5945acea7b2ed891efe5baac4",
+      "bytes": 435059
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "A5",
+      "row": 5,
+      "column": 0,
+      "stage": "BB1",
+      "label_cell": "A4",
+      "label": "2.3x - 107 - One shot",
+      "struck_label": "",
+      "media_path": "xl/media/image102.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image102.png",
+      "dimensions": [
+        1594,
+        871
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        284.0
+      ],
+      "sha256": "ccae79567417414c3293fd784fe0e05a600b92435f1683b863177db49bdb15ef",
+      "bytes": 431454
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "B5",
+      "row": 5,
+      "column": 1,
+      "stage": "B10",
+      "label_cell": "B4",
+      "label": "3.725x - up to 110 deploy (with no ships) 1139.85 DMG",
+      "struck_label": "",
+      "media_path": "xl/media/image82.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image82.png",
+      "dimensions": [
+        1595,
+        895
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        523.0,
+        294.0
+      ],
+      "sha256": "d3d578cf5975bc7f082b2832c07feaf03765d94ec3a6689fd35add07a8c04aac",
+      "bytes": 569352
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "A7",
+      "row": 7,
+      "column": 0,
+      "stage": "BB1",
+      "label_cell": "A6",
+      "label": "2.85x - 58 - One shot",
+      "struck_label": "",
+      "media_path": "xl/media/image77.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image77.png",
+      "dimensions": [
+        1590,
+        857
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        280.0
+      ],
+      "sha256": "5d0626a42ea8ae75e53648cb97ffa6a54c44383c1b4be1b4596b68cf22facab7",
+      "bytes": 488633
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "B7",
+      "row": 7,
+      "column": 1,
+      "stage": "B10",
+      "label_cell": "B6",
+      "label": "3.725x - 62 (with no ships chosen)",
+      "struck_label": "",
+      "media_path": "xl/media/image97.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image97.png",
+      "dimensions": [
+        1596,
+        900
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        294.0
+      ],
+      "sha256": "3f54ca04d26861238c000192da4a8b1b2ec97a4eac64a1496d90d3007990e365",
+      "bytes": 527593
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "A9",
+      "row": 9,
+      "column": 0,
+      "stage": "BB1",
+      "label_cell": "A8",
+      "label": "2.15x - 47 (with no ships chosen) / 2.775x - 24",
+      "struck_label": "",
+      "media_path": "xl/media/image108.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image108.png",
+      "dimensions": [
+        1599,
+        904
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        294.0
+      ],
+      "sha256": "272580894ecedfb1a024b26204d82f347b2f659058ad060c710136b9f06720ad",
+      "bytes": 504326
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "B9",
+      "row": 9,
+      "column": 1,
+      "stage": "B10",
+      "label_cell": "B8",
+      "label": "3.05x 170 (1300dmg)",
+      "struck_label": "",
+      "media_path": "xl/media/image111.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image111.png",
+      "dimensions": [
+        1592,
+        901
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        523.0,
+        296.0
+      ],
+      "sha256": "4327e58697069920fb15d87ae2fe07ad3c80d31019532db25c1845d3d0373d10",
+      "bytes": 595638
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "B11",
+      "row": 11,
+      "column": 1,
+      "stage": "B10",
+      "label_cell": "B10",
+      "label": "3.05x - 82 (no base)",
+      "struck_label": "",
+      "media_path": "xl/media/image81.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image81.png",
+      "dimensions": [
+        1601,
+        892
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        538.0,
+        300.0
+      ],
+      "sha256": "d749fdc9e9f7b9eb5e6724578d57889a5b4a49a7ff9f7feee9361ecdfebafc9a",
+      "bytes": 476844
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "B13",
+      "row": 13,
+      "column": 1,
+      "stage": "B10",
+      "label_cell": "B12",
+      "label": "3.15x - 69(.23)",
+      "struck_label": "",
+      "media_path": "xl/media/image96.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image96.png",
+      "dimensions": [
+        1511,
+        847
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        542.0,
+        304.0
+      ],
+      "sha256": "8b1fbb8f43793ac5d3be0b94ec311570c41f14d5a74b28f7e0537ddeb0c6cf50",
+      "bytes": 454888
+    },
+    {
+      "sheet": "BB1 & B10",
+      "sheet_index": 5,
+      "cell": "B15",
+      "row": 15,
+      "column": 1,
+      "stage": "B10",
+      "label_cell": "B14",
+      "label": "3.25x - 46 (no base)",
+      "struck_label": "",
+      "media_path": "xl/media/image106.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image106.png",
+      "dimensions": [
+        1600,
+        891
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        536.0,
+        299.0
+      ],
+      "sha256": "83ce70bcb5145a015d818f4a7a92c3e7f2ee53811387c646c86f156613c2beae",
+      "bytes": 461622
+    }
+  ],
+  "cells": [
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "A11",
+      "row": 11,
+      "column": 0,
+      "original": "To add an image into a cell: (PLEASE ALWAYS DO THIS!!!)",
+      "active": "To add an image into a cell: (PLEASE ALWAYS DO THIS!!!)",
+      "struck": ""
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "B11",
+      "row": 11,
+      "column": 1,
+      "original": "!!!Please write integer stats as 2.0x/3.0x and so on!!! \nIt is impossible to search for 2x/3x because of 1.2x/1.3x/2.2x/2.3x etc\nIt's hard to search for integer stats otherwise",
+      "active": "!!!Please write integer stats as 2.0x/3.0x and so on!!! \nIt's hard to search for integer stats otherwise",
+      "struck": "It is impossible to search for 2x/3x because of 1.2x/1.3x/2.2x/2.3x etc\n"
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "A12",
+      "row": 12,
+      "column": 0,
+      "original": "1. copy and paste image into the sheet",
+      "active": "1. copy and paste image into the sheet",
+      "struck": ""
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "A13",
+      "row": 13,
+      "column": 0,
+      "original": "2. select destination cell",
+      "active": "2. select destination cell",
+      "struck": ""
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "B13",
+      "row": 13,
+      "column": 1,
+      "original": "If you want quick stats to paste: 1.0x / 1.25x / 1.5x / 1.75x / 2.0x / 2.25x / 2.5x / 2.75x / 3.0x / 3.25x / 3.5x / 3.75x / 4.0x / 4.25x",
+      "active": "If you want quick stats to paste: 1.0x / 1.25x / 1.5x / 1.75x / 2.0x / 2.25x / 2.5x / 2.75x / 3.0x / 3.25x / 3.5x / 3.75x / 4.0x / 4.25x",
+      "struck": ""
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "A14",
+      "row": 14,
+      "column": 0,
+      "original": "3. click on image",
+      "active": "3. click on image",
+      "struck": ""
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "A15",
+      "row": 15,
+      "column": 0,
+      "original": "4. click on ⋮ three dots in upper right corner of image",
+      "active": "4. click on ⋮ three dots in upper right corner of image",
+      "struck": ""
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "A16",
+      "row": 16,
+      "column": 0,
+      "original": "5. click \"put image in selected cell\"",
+      "active": "5. click \"put image in selected cell\"",
+      "struck": ""
+    },
+    {
+      "sheet": "legend (PLEASE READ before adding!)",
+      "cell": "A17",
+      "row": 17,
+      "column": 0,
+      "original": "6. Video explanation: https://gyazo.com/4fc5e44d9fc206f245a64825773589b4",
+      "active": "6. Video explanation: https://gyazo.com/4fc5e44d9fc206f245a64825773589b4",
+      "struck": ""
+    },
+    {
+      "sheet": "Suggestions",
+      "cell": "A1",
+      "row": 1,
+      "column": 0,
+      "original": "Write here if you need to",
+      "active": "Write here if you need to",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "A1",
+      "row": 1,
+      "column": 0,
+      "original": "B1",
+      "active": "B1",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B1",
+      "row": 1,
+      "column": 1,
+      "original": "B2A",
+      "active": "B2A",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C1",
+      "row": 1,
+      "column": 2,
+      "original": "B2B",
+      "active": "B2B",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D1",
+      "row": 1,
+      "column": 3,
+      "original": "B3A",
+      "active": "B3A",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E1",
+      "row": 1,
+      "column": 4,
+      "original": "B3B",
+      "active": "B3B",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F1",
+      "row": 1,
+      "column": 5,
+      "original": "B4A",
+      "active": "B4A",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G1",
+      "row": 1,
+      "column": 6,
+      "original": "B4B",
+      "active": "B4B",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "A2",
+      "row": 2,
+      "column": 0,
+      "original": "1.0x - 12",
+      "active": "1.0x - 12",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B2",
+      "row": 2,
+      "column": 1,
+      "original": "1.0x - 15 (L1 - Frigate)",
+      "active": "1.0x - 15 (L1 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C2",
+      "row": 2,
+      "column": 2,
+      "original": "1.0x - 23 (L1 - Corvette) / 2.375x 10",
+      "active": "1.0x - 23 (L1 - Corvette) / 2.375x 10",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D2",
+      "row": 2,
+      "column": 3,
+      "original": "1.1x - 15 (L1 - Frigate)",
+      "active": "1.1x - 15 (L1 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E2",
+      "row": 2,
+      "column": 4,
+      "original": "1.1x - 20 (L1 - Corvette)",
+      "active": "1.1x - 20 (L1 - Corvette)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F2",
+      "row": 2,
+      "column": 5,
+      "original": "1.2x - 22 (L1 - Frigate W/Armour and shield)",
+      "active": "1.2x - 22 (L1 - Frigate W/Armour and shield)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G2",
+      "row": 2,
+      "column": 6,
+      "original": "1.1x - 32 (L1 - Corvette / Advisor has 27 but I couldn't match it)",
+      "active": "1.1x - 32 (L1 - Corvette / Advisor has 27 but I couldn't match it)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "A4",
+      "row": 4,
+      "column": 0,
+      "original": "1.1x - 11",
+      "active": "1.1x - 11",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B4",
+      "row": 4,
+      "column": 1,
+      "original": "1.1x - 22 (L1 - Corvette) / 1.1x - 20 (L1 - Corvette/Use Shield)",
+      "active": "1.1x - 22 (L1 - Corvette) / 1.1x - 20 (L1 - Corvette/Use Shield)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C4",
+      "row": 4,
+      "column": 2,
+      "original": "1.1x - 19.32 (L1 corv)",
+      "active": "1.1x - 19.32 (L1 corv)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D4",
+      "row": 4,
+      "column": 3,
+      "original": "1.1x - 20 (L1 - Corvette)",
+      "active": "1.1x - 20 (L1 - Corvette)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E4",
+      "row": 4,
+      "column": 4,
+      "original": "1.1x - 25 (L1 - Frigate)",
+      "active": "1.1x - 25 (L1 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F4",
+      "row": 4,
+      "column": 5,
+      "original": "1.5x - 13",
+      "active": "1.5x - 13",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G4",
+      "row": 4,
+      "column": 6,
+      "original": "1.2x - 25.55 (L1 corv, SH, no AR)",
+      "active": "1.2x - 25.55 (L1 corv, SH, no AR)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "A6",
+      "row": 6,
+      "column": 0,
+      "original": "1.2x - 7 (W/ Corvette Shield)",
+      "active": "1.2x - 7 (W/ Corvette Shield)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B6",
+      "row": 6,
+      "column": 1,
+      "original": "1.1x - 14.98 (L1 - Frigate)",
+      "active": "1.1x - 14.98 (L1 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C6",
+      "row": 6,
+      "column": 2,
+      "original": "1.1x - 22.56 (L1 Frigate)",
+      "active": "1.1x - 22.56 (L1 Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D6",
+      "row": 6,
+      "column": 3,
+      "original": "1.1x - 25",
+      "active": "1.1x - 25",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E6",
+      "row": 6,
+      "column": 4,
+      "original": "1.2x - 17.5 / 1.4x - 11.25 (L1 corv)",
+      "active": "1.2x - 17.5 / 1.4x - 11.25 (L1 corv)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F6",
+      "row": 6,
+      "column": 5,
+      "original": "1.325x L1 Corvette w/ Armor and Shield",
+      "active": "1.325x L1 Corvette w/ Armor and Shield",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G6",
+      "row": 6,
+      "column": 6,
+      "original": "1.3x - 22 (L1 - Frigate)",
+      "active": "1.3x - 22 (L1 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "A8",
+      "row": 8,
+      "column": 0,
+      "original": "1.4x / 1.5x - 6",
+      "active": "1.4x / 1.5x - 6",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B8",
+      "row": 8,
+      "column": 1,
+      "original": "1.2x - 14 (L1 - Frigate)",
+      "active": "1.2x - 14 (L1 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C8",
+      "row": 8,
+      "column": 2,
+      "original": "1.2x - 16.46 (no L1)",
+      "active": "1.2x - 16.46 (no L1)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D8",
+      "row": 8,
+      "column": 3,
+      "original": "1.2x - 14 (L1 - Frigate)",
+      "active": "1.2x - 14 (L1 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E8",
+      "row": 8,
+      "column": 4,
+      "original": "1.3x - 23 (L1 - Frigate) / 1.5x - 10",
+      "active": "1.3x - 23 (L1 - Frigate) / 1.5x - 10",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G8",
+      "row": 8,
+      "column": 6,
+      "original": "1.4x - 15 (L1 corv)",
+      "active": "1.4x - 15 (L1 corv)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "A10",
+      "row": 10,
+      "column": 0,
+      "original": "1.825x - 5",
+      "active": "1.825x - 5",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B10",
+      "row": 10,
+      "column": 1,
+      "original": "1.2x - 16.34 (no L1)",
+      "active": "1.2x - 16.34 (no L1)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C10",
+      "row": 10,
+      "column": 2,
+      "original": "1.3x - 12 (W/ Armour and Shield)",
+      "active": "1.3x - 12 (W/ Armour and Shield)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D10",
+      "row": 10,
+      "column": 3,
+      "original": "1.2x - 17.63 (no L1)",
+      "active": "1.2x - 17.63 (no L1)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E10",
+      "row": 10,
+      "column": 4,
+      "original": "2.375x - 10 (L1 - Corvette w/CL and shield)",
+      "active": "2.375x - 10 (L1 - Corvette w/CL and shield)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F10",
+      "row": 10,
+      "column": 5,
+      "original": "1.5x - 13",
+      "active": "1.5x - 13",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G10",
+      "row": 10,
+      "column": 6,
+      "original": "1.5x / 1.6x - 10 (L1 - Corvette)",
+      "active": "1.5x / 1.6x - 10 (L1 - Corvette)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B12",
+      "row": 12,
+      "column": 1,
+      "original": "1.3x / 1.4x - 13",
+      "active": "1.3x / 1.4x - 13",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C12",
+      "row": 12,
+      "column": 2,
+      "original": "1.4x",
+      "active": "1.4x",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D12",
+      "row": 12,
+      "column": 3,
+      "original": "1.3x - 14 / 1.4x - 13 / 1.5x - 12 (no L1)",
+      "active": "1.3x - 14 / 1.4x - 13 / 1.5x - 12 (no L1)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F12",
+      "row": 12,
+      "column": 5,
+      "original": "1.75x / 2.0x - 12 / 2.4x - 11",
+      "active": "1.75x / 2.0x - 12 / 2.4x - 11",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G12",
+      "row": 12,
+      "column": 6,
+      "original": "1.625x - 15",
+      "active": "1.625x - 15",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B14",
+      "row": 14,
+      "column": 1,
+      "original": "1.4x",
+      "active": "1.4x",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C14",
+      "row": 14,
+      "column": 2,
+      "original": "1.4x - 10 (L1 - Corvette)",
+      "active": "1.4x - 10 (L1 - Corvette)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D14",
+      "row": 14,
+      "column": 3,
+      "original": "1.4x",
+      "active": "",
+      "struck": "1.4x"
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F14",
+      "row": 14,
+      "column": 5,
+      "original": "2.2x - 11",
+      "active": "2.2x - 11",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G14",
+      "row": 14,
+      "column": 6,
+      "original": "3.0x - 6",
+      "active": "3.0x - 6",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B16",
+      "row": 16,
+      "column": 1,
+      "original": "1.5x -12 / 1.8x - 12 / 2.0x - 11",
+      "active": "1.5x -12 /  / 2.0x - 11",
+      "struck": "1.8x - 12"
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C16",
+      "row": 16,
+      "column": 2,
+      "original": "2.025x - 8 / 2.1x - 6",
+      "active": "2.025x - 8 / 2.1x - 6",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D16",
+      "row": 16,
+      "column": 3,
+      "original": "1.5x - 12",
+      "active": "1.5x - 12",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G16",
+      "row": 16,
+      "column": 6,
+      "original": "2.375x - 10 (Corvette w/CL + shield)",
+      "active": "2.375x - 10 (Corvette w/CL + shield)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G17",
+      "row": 17,
+      "column": 6,
+      "original": "Corvettes on B2 and B4",
+      "active": "Corvettes on B2 and B4",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B18",
+      "row": 18,
+      "column": 1,
+      "original": "1.6x / 1.7x / 1.8x - 11",
+      "active": "1.6x / 1.7x / 1.8x - 11",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D18",
+      "row": 18,
+      "column": 3,
+      "original": "1.75x / 2.0x - 11 / 2.3x - 10",
+      "active": "1.75x / 2.0x - 11 / 2.3x - 10",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F18",
+      "row": 18,
+      "column": 5,
+      "original": "Stats 3.25 - 7(.38) by Nepriceputu",
+      "active": "Stats 3.25 - 7(.38) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B20",
+      "row": 20,
+      "column": 1,
+      "original": "2.425x - 8 / 2.5x - 8(.24) / 2.65x - 8(.04)",
+      "active": "2.425x - 8 / 2.5x - 8(.24) / 2.65x - 8(.04)",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D20",
+      "row": 20,
+      "column": 3,
+      "original": "2.25x - 6",
+      "active": "2.25x - 6",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G20",
+      "row": 20,
+      "column": 6,
+      "original": "Stats 1.5 - 10 by Nepriceputu",
+      "active": "Stats 1.5 - 10 by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B22",
+      "row": 22,
+      "column": 1,
+      "original": "Stats 3.25 - 7.(32) by Nepriceputu",
+      "active": "Stats 3.25 - 7.(32) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C22",
+      "row": 22,
+      "column": 2,
+      "original": "Stats 3.25 - 8(.71) by Nepriceputu",
+      "active": "Stats 3.25 - 8(.71) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D22",
+      "row": 22,
+      "column": 3,
+      "original": "Stats 2.65x - 5(.81) / 3.25 - 5.(66) by Nepriceputu",
+      "active": "Stats 2.65x - 5(.81) / 3.25 - 5.(66) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E22",
+      "row": 22,
+      "column": 4,
+      "original": "Stats 3.25 - 10 by Nepriceputu",
+      "active": "Stats 3.25 - 10 by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A1",
+      "row": 1,
+      "column": 0,
+      "original": "B5A",
+      "active": "B5A",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B1",
+      "row": 1,
+      "column": 1,
+      "original": "B5B",
+      "active": "B5B",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C1",
+      "row": 1,
+      "column": 2,
+      "original": "B6A",
+      "active": "B6A",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "D1",
+      "row": 1,
+      "column": 3,
+      "original": "B6B",
+      "active": "B6B",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E1",
+      "row": 1,
+      "column": 4,
+      "original": "B7A",
+      "active": "B7A",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "F1",
+      "row": 1,
+      "column": 5,
+      "original": "B7B",
+      "active": "B7B",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "G1",
+      "row": 1,
+      "column": 6,
+      "original": "B8",
+      "active": "B8",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "H1",
+      "row": 1,
+      "column": 7,
+      "original": "B9",
+      "active": "B9",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B2",
+      "row": 2,
+      "column": 1,
+      "original": "1.3x - 37 (L1/L2 corv, SH, AR)",
+      "active": "1.3x - 37 (L1/L2 corv, SH, AR)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C2",
+      "row": 2,
+      "column": 2,
+      "original": "1.5x - 46 (L1 - Corvette / L2 - Frigate)",
+      "active": "1.5x - 46 (L1 - Corvette / L2 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "F2",
+      "row": 2,
+      "column": 5,
+      "original": "1.625x - 72",
+      "active": "1.625x - 72",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "G2",
+      "row": 2,
+      "column": 6,
+      "original": "2.125x - 71",
+      "active": "2.125x - 71",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "H2",
+      "row": 2,
+      "column": 7,
+      "original": "2.125x - 49",
+      "active": "2.125x - 49",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A4",
+      "row": 4,
+      "column": 0,
+      "original": "1.4x",
+      "active": "1.4x",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B4",
+      "row": 4,
+      "column": 1,
+      "original": "1.4x - 43.75 (L1 corv, SH, no AR)",
+      "active": "1.4x - 43.75 (L1 corv, SH, no AR)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C4",
+      "row": 4,
+      "column": 2,
+      "original": "1.6x - 36 / 1.8x - 31",
+      "active": "1.6x - 36 / 1.8x - 31",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "D4",
+      "row": 4,
+      "column": 3,
+      "original": "1.625x - 45",
+      "active": "1.625x - 45",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E4",
+      "row": 4,
+      "column": 4,
+      "original": "1.8x - 52 / 1.95x / 2.0x - 47",
+      "active": "1.8x - 52 / 1.95x / 2.0x - 47",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "F4",
+      "row": 4,
+      "column": 5,
+      "original": "1.8x - 55 / 1.925x - 51 / 1.95 - 50",
+      "active": "1.8x - 55 / 1.925x - 51 / 1.95 - 50",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "G4",
+      "row": 4,
+      "column": 6,
+      "original": "2.65x - 29 / 2.825x - 30 / 2.975 - 29.28",
+      "active": "2.65x - 29 / 2.825x - 30 / 2.975 - 29.28",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "H4",
+      "row": 4,
+      "column": 7,
+      "original": "2.625x - 37",
+      "active": "2.625x - 37",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A6",
+      "row": 6,
+      "column": 0,
+      "original": "1.6x / 1.8x - 19",
+      "active": "1.6x / 1.8x - 19",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B6",
+      "row": 6,
+      "column": 1,
+      "original": "1.5x - 30 (L1 - Corvette / L2 - Frigate)",
+      "active": "1.5x - 30 (L1 - Corvette / L2 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C6",
+      "row": 6,
+      "column": 2,
+      "original": "1.7x - 28",
+      "active": "1.7x - 28",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "D6",
+      "row": 6,
+      "column": 3,
+      "original": "1.7x / 1.8x - 51 with 0 ships, 31 with frigate+corvette",
+      "active": "1.7x / 1.8x - 51 with 0 ships, 31 with frigate+corvette",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E6",
+      "row": 6,
+      "column": 4,
+      "original": "2.25x - 35 / 2.275x - ??",
+      "active": "2.25x - 35 / 2.275x - ??",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "F6",
+      "row": 6,
+      "column": 5,
+      "original": "2.35x - 27(.4) / 2.375x - 27(?) / 2.45x -22(.37)",
+      "active": "2.35x - 27(.4) / 2.375x - 27(?) / 2.45x -22(.37)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "G6",
+      "row": 6,
+      "column": 6,
+      "original": "2.85x - 28",
+      "active": "2.85x - 28",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "H6",
+      "row": 6,
+      "column": 7,
+      "original": "2.65x - 32.5 / 2.9x - 30",
+      "active": "2.65x - 32.5 / 2.9x - 30",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A8",
+      "row": 8,
+      "column": 0,
+      "original": "1.5x - 34 (L1 - Corvette / L2 - Frigate)",
+      "active": "1.5x - 34 (L1 - Corvette / L2 - Frigate)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B8",
+      "row": 8,
+      "column": 1,
+      "original": "1.6x - 20 / 1.7x - 20? / 1.8x - 19?",
+      "active": "1.6x - 20 / 1.7x - 20? / 1.8x - 19?",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C8",
+      "row": 8,
+      "column": 2,
+      "original": "1.8x / 1.825x - 28 / 1.9x - 27 / 1.925x - 26",
+      "active": "1.8x / 1.825x - 28 / 1.9x - 27 / 1.925x - 26",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "D8",
+      "row": 8,
+      "column": 3,
+      "original": "2.025x - 22(no SH and AR) / 2.15x - 22.33 / 2.125x - 21 / 2.225x - 20",
+      "active": "2.025x - 22(no SH and AR) / 2.15x - 22.33 / 2.125x - 21 / ",
+      "struck": "2.225x - 20"
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E8",
+      "row": 8,
+      "column": 4,
+      "original": "2.45x - 24(.78)",
+      "active": "2.45x - 24(.78)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "G8",
+      "row": 8,
+      "column": 6,
+      "original": "3.3x - 25(.48)",
+      "active": "3.3x - 25(.48)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "H8",
+      "row": 8,
+      "column": 7,
+      "original": "3.3x - 26(.98)",
+      "active": "3.3x - 26(.98)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A10",
+      "row": 10,
+      "column": 0,
+      "original": "1.925x - 18 / 2.2x - 17",
+      "active": "1.925x - 18 / 2.2x - 17",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B10",
+      "row": 10,
+      "column": 1,
+      "original": "1.925x -  17",
+      "active": "1.925x -  17",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C10",
+      "row": 10,
+      "column": 2,
+      "original": "2.125x - 22",
+      "active": "2.125x - 22",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "D10",
+      "row": 10,
+      "column": 3,
+      "original": "2.45x - 19",
+      "active": "2.45x - 19",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E10",
+      "row": 10,
+      "column": 4,
+      "original": "2.6x - 22(.21)",
+      "active": "2.6x - 22(.21)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "F10",
+      "row": 10,
+      "column": 5,
+      "original": "2.65x - 21(.52) / 2.9x - 19(.72)",
+      "active": "2.65x - 21(.52) / 2.9x - 19(.72)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "G10",
+      "row": 10,
+      "column": 6,
+      "original": "3.25x - 26",
+      "active": "3.25x - 26",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A12",
+      "row": 12,
+      "column": 0,
+      "original": "1.6x - 21 / 1.75x - 20 / 2.0x - 18 / 2.275x - 17",
+      "active": "1.6x - 21 / 1.75x - 20 / 2.0x - 18 / 2.275x - 17",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B12",
+      "row": 12,
+      "column": 1,
+      "original": "2.0x - 17 / 2.125x - 16 / 2.3x - 15 / 2.725 - 13(.88)",
+      "active": "2.0x - 17 / 2.125x - 16 / 2.3x - 15 / 2.725 - 13(.88)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C12",
+      "row": 12,
+      "column": 2,
+      "original": "2.225x - 22",
+      "active": "",
+      "struck": "2.225x - 22"
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E12",
+      "row": 12,
+      "column": 4,
+      "original": "2.675x - 24",
+      "active": "2.675x - 24",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A14",
+      "row": 14,
+      "column": 0,
+      "original": "2.75x - 16 / 2.85x - 15(.03)",
+      "active": "2.75x - 16 / 2.85x - 15(.03)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C14",
+      "row": 14,
+      "column": 2,
+      "original": "2.225x - 21 / 2.6x - 19(.65)",
+      "active": "2.225x - 21 / 2.6x - 19(.65)",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C16",
+      "row": 16,
+      "column": 2,
+      "original": "2.65x - 18 / 2.75x - 17",
+      "active": "2.65x - 18 / 2.75x - 17",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "D18",
+      "row": 18,
+      "column": 3,
+      "original": "Stats 3.25 - 19(.06) by Nepriceputu",
+      "active": "Stats 3.25 - 19(.06) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "H18",
+      "row": 18,
+      "column": 7,
+      "original": "Stats 3.85 - 28(.75) by Nepriceputu",
+      "active": "Stats 3.85 - 28(.75) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B20",
+      "row": 20,
+      "column": 1,
+      "original": "Stats 3.25 - 12(.31) by Nepriceputu",
+      "active": "Stats 3.25 - 12(.31) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "F20",
+      "row": 20,
+      "column": 5,
+      "original": "Stats 3.25 - 19(.62) by Nepriceputu",
+      "active": "Stats 3.25 - 19(.62) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "G20",
+      "row": 20,
+      "column": 6,
+      "original": "Stats 3.25 - 28(.75) by Nepriceputu",
+      "active": "Stats 3.25 - 28(.75) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A22",
+      "row": 22,
+      "column": 0,
+      "original": "Stats 3.25 - 17(.5) by Nepriceputu",
+      "active": "Stats 3.25 - 17(.5) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "C24",
+      "row": 24,
+      "column": 2,
+      "original": "Stats 3.25 - 18(.64) by Nepriceputu",
+      "active": "Stats 3.25 - 18(.64) by Nepriceputu",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "A1",
+      "row": 1,
+      "column": 0,
+      "original": "BB1",
+      "active": "BB1",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B1",
+      "row": 1,
+      "column": 1,
+      "original": "B10",
+      "active": "B10",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "A2",
+      "row": 2,
+      "column": 0,
+      "original": "1.6x - 110 (375.44 dmg)",
+      "active": "1.6x - 110 (375.44 dmg)",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B2",
+      "row": 2,
+      "column": 1,
+      "original": "2.85x - 120 (1043.1 dmg, 2 shot)",
+      "active": "2.85x - 120 (1043.1 dmg, 2 shot)",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "A4",
+      "row": 4,
+      "column": 0,
+      "original": "2.3x - 107 - One shot",
+      "active": "2.3x - 107 - One shot",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B4",
+      "row": 4,
+      "column": 1,
+      "original": "3.725x - up to 110 deploy (with no ships) 1139.85 DMG",
+      "active": "3.725x - up to 110 deploy (with no ships) 1139.85 DMG",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "A6",
+      "row": 6,
+      "column": 0,
+      "original": "2.85x - 58 - One shot",
+      "active": "2.85x - 58 - One shot",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B6",
+      "row": 6,
+      "column": 1,
+      "original": "3.725x - 62 (with no ships chosen)",
+      "active": "3.725x - 62 (with no ships chosen)",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "A8",
+      "row": 8,
+      "column": 0,
+      "original": "2.15x - 47 (with no ships chosen) / 2.775x - 24",
+      "active": "2.15x - 47 (with no ships chosen) / 2.775x - 24",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B8",
+      "row": 8,
+      "column": 1,
+      "original": "3.05x 170 (1300dmg)",
+      "active": "3.05x 170 (1300dmg)",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B10",
+      "row": 10,
+      "column": 1,
+      "original": "3.05x - 82 (no base)",
+      "active": "3.05x - 82 (no base)",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B12",
+      "row": 12,
+      "column": 1,
+      "original": "3.15x - 69(.23)",
+      "active": "3.15x - 69(.23)",
+      "struck": ""
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B14",
+      "row": 14,
+      "column": 1,
+      "original": "3.25x - 46 (no base)",
+      "active": "3.25x - 46 (no base)",
+      "struck": ""
+    }
+  ]
+}

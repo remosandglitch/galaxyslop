@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "output": "galaxy3.json",
+  "sha256": "c8836c6b99afa8df7208f3cec42e413da1fbd787437848c1804186c5a420305f",
+  "stages": 17,
+  "exactMultiplierGroups": 145,
+  "builds": 157,
+  "originalImages": 108,
+  "imagesReferenced": 106,
+  "buildsWithEmptyImage": 1,
+  "originalImagesNotNeededAfterDeduplication": [
+    "images/B3A_6.png",
+    "images/B8_6.png"
+  ],
+  "duplicatesRemoved": 4,
+  "checks": [
+    "JSON round trip and field types",
+    "Every nonempty image reference resolves to the correct stage",
+    "All 108 image bytes, SHA-256 hashes, dimensions and formats match the source originals",
+    "Sequential per-stage image naming",
+    "User-confirmed values, comments and omissions",
+    "Two valid Light purchase orders retained for B6B",
+    "Trailing versus local Light annotation scope",
+    "Unspecified fractional cost preserved",
+    "Struck-through variants excluded",
+    "Cheapest matching builds selected",
+    "Distinct base and Light configurations preserved",
+    "All active multiplier captions accounted for by retained sources or explicit exclusions"
+  ],
+  "byStage": [
+    {
+      "stage": "B1",
+      "multiplierGroups": 6,
+      "builds": 6
+    },
+    {
+      "stage": "B2A",
+      "multiplierGroups": 14,
+      "builds": 17
+    },
+    {
+      "stage": "B2B",
+      "multiplierGroups": 9,
+      "builds": 10
+    },
+    {
+      "stage": "B3A",
+      "multiplierGroups": 11,
+      "builds": 13
+    },
+    {
+      "stage": "B3B",
+      "multiplierGroups": 5,
+      "builds": 6
+    },
+    {
+      "stage": "B4A",
+      "multiplierGroups": 7,
+      "builds": 7
+    },
+    {
+      "stage": "B4B",
+      "multiplierGroups": 9,
+      "builds": 10
+    },
+    {
+      "stage": "B5A",
+      "multiplierGroups": 11,
+      "builds": 11
+    },
+    {
+      "stage": "B5B",
+      "multiplierGroups": 12,
+      "builds": 12
+    },
+    {
+      "stage": "B6A",
+      "multiplierGroups": 13,
+      "builds": 13
+    },
+    {
+      "stage": "B6B",
+      "multiplierGroups": 8,
+      "builds": 10
+    },
+    {
+      "stage": "B7A",
+      "multiplierGroups": 7,
+      "builds": 7
+    },
+    {
+      "stage": "B7B",
+      "multiplierGroups": 10,
+      "builds": 10
+    },
+    {
+      "stage": "B8",
+      "multiplierGroups": 7,
+      "builds": 7
+    },
+    {
+      "stage": "B9",
+      "multiplierGroups": 6,
+      "builds": 6
+    },
+    {
+      "stage": "BB1",
+      "multiplierGroups": 5,
+      "builds": 5
+    },
+    {
+      "stage": "B10",
+      "multiplierGroups": 5,
+      "builds": 7
+    }
+  ],
+  "sourceCoverage": {
+    "unaccountedActiveCaptions": 0,
+    "captionSourcesRepresented": 109
+  }
+}

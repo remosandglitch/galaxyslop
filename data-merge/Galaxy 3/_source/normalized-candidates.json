@@ -1,0 +1,5444 @@
+{
+  "status": "Internal normalization and duplicate-selection audit. The final dataset is galaxy3.json.",
+  "normalizedCandidates": [
+    {
+      "stage": "B1",
+      "multiplier": "1.0x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B1_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 0
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B1_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 1
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 7,
+        "lightChoices": {},
+        "image": "images/B1_3.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "ship": "Corvette",
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 2
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B1_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 3
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B1_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 4
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.825x",
+      "build": {
+        "cost": 5,
+        "lightChoices": {},
+        "image": "images/B1_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 5
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.0x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 6
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 7
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2A_2.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 8
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 14.98,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 9
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 14,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 10
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 16.34,
+        "lightChoices": {},
+        "image": "images/B2A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 11
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B2A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 12
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B2A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 13
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B2A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 14
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 15
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 16
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 17
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 18
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.425x",
+      "build": {
+        "cost": 8,
+        "lightChoices": {},
+        "image": "images/B2A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 19
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.5x",
+      "build": {
+        "cost": 8.24,
+        "lightChoices": {},
+        "image": "images/B2A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 20
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 8.04,
+        "lightChoices": {},
+        "image": "images/B2A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 21
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 7.32,
+        "lightChoices": {},
+        "image": "images/B2A_10.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 22
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.0x",
+      "build": {
+        "cost": 23,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 23
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B2B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 24
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 19.32,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 25
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 22.56,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 26
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 16.46,
+        "lightChoices": {},
+        "image": "images/B2B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 27
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B2B_5.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "armour": true,
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 28
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 29
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "2.025x",
+      "build": {
+        "cost": 8,
+        "lightChoices": {},
+        "image": "images/B2B_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 30
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "2.1x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B2B_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 31
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 8.71,
+        "lightChoices": {},
+        "image": "images/B2B_8.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 32
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B3A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 33
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 34
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 14,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B3A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 35
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 17.63,
+        "lightChoices": {},
+        "image": "images/B3A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 36
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 14,
+        "lightChoices": {},
+        "image": "images/B3A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 37
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B3A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 38
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B3A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 39
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B3A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 40
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.75x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B3A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 41
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B3A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 42
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.3x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B3A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 43
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.25x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B3A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 44
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 5.81,
+        "lightChoices": {},
+        "image": "images/B3A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 45
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 5.66,
+        "lightChoices": {},
+        "image": "images/B3A_9.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 46
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 47
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 25,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B3B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 48
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 17.5,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 49
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 11.25,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 50
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_4.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "ship": "Corvette",
+          "CL": true,
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 51
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B3B_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 52
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B4A_1.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "ship": "Frigate",
+          "armour": true,
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 53
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B4A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 54
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "1.75x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B4A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 55
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B4A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 56
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "2.4x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B4A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 57
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "2.2x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B4A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 58
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 7.38,
+        "lightChoices": {},
+        "image": "images/B4A_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 59
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 32,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_1.png",
+        "comments": "Advisor has 27 but I couldn't match it."
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 60
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 25.55,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_2.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "shield": true,
+          "armour": false
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 61
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B4B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 62
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 63
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 64
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 65
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.625x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {},
+        "image": "images/B4B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 66
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "3.0x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B4B_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 67
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B4B_8.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 68
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B5A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 69
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B5A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 70
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 34,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Frigate"
+        },
+        "image": "images/B5A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 71
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 18,
+        "lightChoices": {},
+        "image": "images/B5A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 72
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.2x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 73
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 21,
+        "lightChoices": {},
+        "image": "images/B5A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 74
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.75x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {},
+        "image": "images/B5A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 75
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 18,
+        "lightChoices": {},
+        "image": "images/B5A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 76
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.275x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 77
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.75x",
+      "build": {
+        "cost": 16,
+        "lightChoices": {},
+        "image": "images/B5A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 78
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 15.03,
+        "lightChoices": {},
+        "image": "images/B5A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 79
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 17.5,
+        "lightChoices": {},
+        "image": "images/B5A_6.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 80
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 37,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Corvette"
+        },
+        "image": "images/B5B_1.png",
+        "comments": "SH, AR"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B2"
+      },
+      "requirementComment": "SH, AR",
+      "sourceIndex": 81
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 43.75,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B5B_2.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "shield": true,
+          "armour": false
+        }
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 82
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 30,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Frigate"
+        },
+        "image": "images/B5B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 83
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {},
+        "image": "images/B5B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 84
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {},
+        "image": "images/B5B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 85
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B5B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 86
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5B_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 87
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 88
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 16,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 89
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.3x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 90
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.725x",
+      "build": {
+        "cost": 13.88,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 91
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 12.31,
+        "lightChoices": {},
+        "image": "images/B5B_7.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 92
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 46,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Frigate"
+        },
+        "image": "images/B6A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 93
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 36,
+        "lightChoices": {},
+        "image": "images/B6A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 94
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 31,
+        "lightChoices": {},
+        "image": "images/B6A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 95
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B6A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 96
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 97
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.825x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 98
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.9x",
+      "build": {
+        "cost": 27,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 99
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 26,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 100
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {},
+        "image": "images/B6A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 101
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.225x",
+      "build": {
+        "cost": 21,
+        "lightChoices": {},
+        "image": "images/B6A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 102
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.6x",
+      "build": {
+        "cost": 19.65,
+        "lightChoices": {},
+        "image": "images/B6A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 103
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 18,
+        "lightChoices": {},
+        "image": "images/B6A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 104
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.75x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B6A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 105
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 18.64,
+        "lightChoices": {},
+        "image": "images/B6A_8.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C24"
+      },
+      "requirementComment": "",
+      "sourceIndex": 106
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.625x",
+      "build": {
+        "cost": 45,
+        "lightChoices": {},
+        "image": "images/B6B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 107
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 51,
+        "lightChoices": {},
+        "image": "images/B6B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 108
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 31,
+        "image": "images/B6B_2.png",
+        "comments": "",
+        "lightChoiceAlternatives": [
+          {
+            "L1": "Frigate",
+            "L2": "Corvette"
+          },
+          {
+            "L1": "Corvette",
+            "L2": "Frigate"
+          }
+        ]
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 109
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 51,
+        "lightChoices": {},
+        "image": "images/B6B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 110
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 31,
+        "image": "images/B6B_2.png",
+        "comments": "",
+        "lightChoiceAlternatives": [
+          {
+            "L1": "Frigate",
+            "L2": "Corvette"
+          },
+          {
+            "L1": "Corvette",
+            "L2": "Frigate"
+          }
+        ]
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 111
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.025x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {},
+        "image": "images/B6B_3.png",
+        "comments": "Neither Shield nor Armour."
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D8"
+      },
+      "requirementComment": "Neither Shield nor Armour.",
+      "sourceIndex": 112
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.15x",
+      "build": {
+        "cost": 22.33,
+        "lightChoices": {},
+        "image": "images/B6B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 113
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 21,
+        "lightChoices": {},
+        "image": "images/B6B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 114
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.45x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B6B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 115
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 19.06,
+        "lightChoices": {},
+        "image": "images/B6B_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 116
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 52,
+        "lightChoices": {},
+        "image": "images/B7A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 117
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "1.95x",
+      "build": {
+        "cost": 47,
+        "lightChoices": {},
+        "image": "images/B7A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 118
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 47,
+        "lightChoices": {},
+        "image": "images/B7A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 119
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.25x",
+      "build": {
+        "cost": 35,
+        "lightChoices": {},
+        "image": "images/B7A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 120
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.45x",
+      "build": {
+        "cost": 24.78,
+        "lightChoices": {},
+        "image": "images/B7A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 121
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.6x",
+      "build": {
+        "cost": 22.21,
+        "lightChoices": {},
+        "image": "images/B7A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 122
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.675x",
+      "build": {
+        "cost": 24,
+        "lightChoices": {},
+        "image": "images/B7A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 123
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.625x",
+      "build": {
+        "cost": 72,
+        "lightChoices": {},
+        "image": "images/B7B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 124
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 55,
+        "lightChoices": {},
+        "image": "images/B7B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 125
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 51,
+        "lightChoices": {},
+        "image": "images/B7B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 126
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.95x",
+      "build": {
+        "cost": 50,
+        "lightChoices": {},
+        "image": "images/B7B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 127
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.35x",
+      "build": {
+        "cost": 27.4,
+        "lightChoices": {},
+        "image": "images/B7B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 128
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 27,
+        "lightChoices": {},
+        "image": "images/B7B_3.png",
+        "comments": "",
+        "costFractionalPart": null,
+        "costFractionalPartStatus": "unspecified"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 129
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.45x",
+      "build": {
+        "cost": 22.37,
+        "lightChoices": {},
+        "image": "images/B7B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 130
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 21.52,
+        "lightChoices": {},
+        "image": "images/B7B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 131
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.9x",
+      "build": {
+        "cost": 19.72,
+        "lightChoices": {},
+        "image": "images/B7B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 132
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 19.62,
+        "lightChoices": {},
+        "image": "images/B7B_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 133
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 71,
+        "lightChoices": {},
+        "image": "images/B8_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 134
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 29,
+        "lightChoices": {},
+        "image": "images/B8_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 135
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.825x",
+      "build": {
+        "cost": 30,
+        "lightChoices": {},
+        "image": "images/B8_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 136
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.975x",
+      "build": {
+        "cost": 29.28,
+        "lightChoices": {},
+        "image": "images/B8_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 137
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B8_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 138
+    },
+    {
+      "stage": "B8",
+      "multiplier": "3.3x",
+      "build": {
+        "cost": 25.48,
+        "lightChoices": {},
+        "image": "images/B8_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 139
+    },
+    {
+      "stage": "B8",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 26,
+        "lightChoices": {},
+        "image": "images/B8_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 140
+    },
+    {
+      "stage": "B8",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 28.75,
+        "lightChoices": {},
+        "image": "images/B8_6.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 141
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 49,
+        "lightChoices": {},
+        "image": "images/B9_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 142
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.625x",
+      "build": {
+        "cost": 37,
+        "lightChoices": {},
+        "image": "images/B9_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 143
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 32.5,
+        "lightChoices": {},
+        "image": "images/B9_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 144
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.9x",
+      "build": {
+        "cost": 30,
+        "lightChoices": {},
+        "image": "images/B9_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 145
+    },
+    {
+      "stage": "B9",
+      "multiplier": "3.3x",
+      "build": {
+        "cost": 26.98,
+        "lightChoices": {},
+        "image": "images/B9_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 146
+    },
+    {
+      "stage": "B9",
+      "multiplier": "3.85x",
+      "build": {
+        "cost": 28.75,
+        "lightChoices": {},
+        "image": "images/B9_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 147
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 110,
+        "lightChoices": {},
+        "image": "images/BB1_1.png",
+        "comments": "",
+        "base": true,
+        "baseKill": false,
+        "baseDamage": 375.44
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 148
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.3x",
+      "build": {
+        "cost": 107,
+        "lightChoices": {},
+        "image": "images/BB1_2.png",
+        "comments": "",
+        "base": true,
+        "baseKill": true,
+        "baseShots": 1
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 149
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 58,
+        "lightChoices": {},
+        "image": "images/BB1_3.png",
+        "comments": "",
+        "base": true,
+        "baseKill": true,
+        "baseShots": 1
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 150
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.15x",
+      "build": {
+        "cost": 47,
+        "lightChoices": {},
+        "image": "images/BB1_4.png",
+        "comments": "",
+        "baseKill": false,
+        "base": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 151
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.775x",
+      "build": {
+        "cost": 24,
+        "lightChoices": {},
+        "image": "images/BB1_4.png",
+        "comments": "",
+        "baseKill": false,
+        "base": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 152
+    },
+    {
+      "stage": "B10",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 120,
+        "lightChoices": {},
+        "image": "images/B10_1.png",
+        "comments": "",
+        "base": true,
+        "baseKill": true,
+        "baseShots": 2,
+        "sameBuildForAllShots": true,
+        "costBasis": "per attempt",
+        "baseDamageBasis": "per attempt",
+        "baseDamage": 1043.1
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 153
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.725x",
+      "build": {
+        "cost": 110,
+        "lightChoices": {},
+        "image": "images/B10_2.png",
+        "comments": "Up to 110 to deploy if no ships have been bought at L.",
+        "base": true,
+        "baseKill": false,
+        "baseDamage": 1139.85
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 154
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.725x",
+      "build": {
+        "cost": 62,
+        "lightChoices": {},
+        "image": "images/B10_3.png",
+        "comments": "",
+        "base": false,
+        "baseKill": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 155
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.05x",
+      "build": {
+        "cost": 170,
+        "lightChoices": {},
+        "image": "images/B10_4.png",
+        "comments": "",
+        "base": true,
+        "baseKill": false,
+        "baseDamage": 1300
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 156
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.05x",
+      "build": {
+        "cost": 82,
+        "lightChoices": {},
+        "image": "images/B10_5.png",
+        "comments": "",
+        "base": false,
+        "baseKill": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 157
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.15x",
+      "build": {
+        "cost": 69.23,
+        "lightChoices": {},
+        "image": "images/B10_6.png",
+        "comments": "",
+        "baseKill": false,
+        "base": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 158
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 46,
+        "lightChoices": {},
+        "image": "images/B10_7.png",
+        "comments": "",
+        "base": false,
+        "baseKill": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 159
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "",
+        "comments": "Corvette w/CL + shield. Corvettes on B2 and B4."
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G16"
+      },
+      "requirementComment": "Corvette w/CL + shield. Corvettes on B2 and B4.",
+      "sourceIndex": 160
+    }
+  ],
+  "deduplicatedCandidates": [
+    {
+      "stage": "B1",
+      "multiplier": "1.0x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B1_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 0
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B1_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 1
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 7,
+        "lightChoices": {},
+        "image": "images/B1_3.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "ship": "Corvette",
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 2
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B1_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 3
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B1_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 4
+    },
+    {
+      "stage": "B1",
+      "multiplier": "1.825x",
+      "build": {
+        "cost": 5,
+        "lightChoices": {},
+        "image": "images/B1_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "A10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 5
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.0x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 6
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 7
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2A_2.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 8
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 14.98,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 9
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 14,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 10
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 16.34,
+        "lightChoices": {},
+        "image": "images/B2A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 11
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B2A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 12
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B2A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 13
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B2A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 14
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 15
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 16
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 17
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B2A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 18
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.425x",
+      "build": {
+        "cost": 8,
+        "lightChoices": {},
+        "image": "images/B2A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 19
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.5x",
+      "build": {
+        "cost": 8.24,
+        "lightChoices": {},
+        "image": "images/B2A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 20
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 8.04,
+        "lightChoices": {},
+        "image": "images/B2A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 21
+    },
+    {
+      "stage": "B2A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 7.32,
+        "lightChoices": {},
+        "image": "images/B2A_10.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "B22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 22
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.0x",
+      "build": {
+        "cost": 23,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 23
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B2B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 24
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 19.32,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 25
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 22.56,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B2B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 26
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 16.46,
+        "lightChoices": {},
+        "image": "images/B2B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 27
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B2B_5.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "armour": true,
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 28
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B2B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 29
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "2.025x",
+      "build": {
+        "cost": 8,
+        "lightChoices": {},
+        "image": "images/B2B_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 30
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "2.1x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B2B_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 31
+    },
+    {
+      "stage": "B2B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 8.71,
+        "lightChoices": {},
+        "image": "images/B2B_8.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "C22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 32
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B3A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 33
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 34
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 14,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B3A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 35
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 17.63,
+        "lightChoices": {},
+        "image": "images/B3A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 36
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 14,
+        "lightChoices": {},
+        "image": "images/B3A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 37
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B3A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 38
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B3A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 39
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "1.75x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B3A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 41
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B3A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 42
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.3x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B3A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 43
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.25x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B3A_8.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 44
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 5.81,
+        "lightChoices": {},
+        "image": "images/B3A_9.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 45
+    },
+    {
+      "stage": "B3A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 5.66,
+        "lightChoices": {},
+        "image": "images/B3A_9.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "D22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 46
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 47
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 25,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B3B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 48
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 17.5,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 49
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 11.25,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 50
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B3B_4.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "ship": "Corvette",
+          "CL": true,
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 51
+    },
+    {
+      "stage": "B3B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B3B_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "E22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 52
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B4A_1.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "ship": "Frigate",
+          "armour": true,
+          "shield": true
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 53
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 13,
+        "lightChoices": {},
+        "image": "images/B4A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 54
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "1.75x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B4A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 55
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 12,
+        "lightChoices": {},
+        "image": "images/B4A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 56
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "2.4x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B4A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 57
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "2.2x",
+      "build": {
+        "cost": 11,
+        "lightChoices": {},
+        "image": "images/B4A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 58
+    },
+    {
+      "stage": "B4A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 7.38,
+        "lightChoices": {},
+        "image": "images/B4A_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "F18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 59
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.1x",
+      "build": {
+        "cost": 32,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_1.png",
+        "comments": "Advisor has 27 but I couldn't match it."
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 60
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.2x",
+      "build": {
+        "cost": 25.55,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_2.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "shield": true,
+          "armour": false
+        }
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 61
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {
+          "L1": "Frigate"
+        },
+        "image": "images/B4B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 62
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 63
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 64
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B4B_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 65
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.625x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {},
+        "image": "images/B4B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 66
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "3.0x",
+      "build": {
+        "cost": 6,
+        "lightChoices": {},
+        "image": "images/B4B_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 67
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "images/B4B_8.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 68
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B5A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 69
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B5A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 70
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 34,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Frigate"
+        },
+        "image": "images/B5A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 71
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 18,
+        "lightChoices": {},
+        "image": "images/B5A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 72
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.2x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 73
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.75x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {},
+        "image": "images/B5A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 75
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 18,
+        "lightChoices": {},
+        "image": "images/B5A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 76
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.275x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 77
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.75x",
+      "build": {
+        "cost": 16,
+        "lightChoices": {},
+        "image": "images/B5A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 78
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 15.03,
+        "lightChoices": {},
+        "image": "images/B5A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 79
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 17.5,
+        "lightChoices": {},
+        "image": "images/B5A_6.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "A22"
+      },
+      "requirementComment": "",
+      "sourceIndex": 80
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.3x",
+      "build": {
+        "cost": 37,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Corvette"
+        },
+        "image": "images/B5B_1.png",
+        "comments": "SH, AR"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B2"
+      },
+      "requirementComment": "SH, AR",
+      "sourceIndex": 81
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.4x",
+      "build": {
+        "cost": 43.75,
+        "lightChoices": {
+          "L1": "Corvette"
+        },
+        "image": "images/B5B_2.png",
+        "comments": "",
+        "equipmentRequirements": {
+          "shield": true,
+          "armour": false
+        }
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 82
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 30,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Frigate"
+        },
+        "image": "images/B5B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 83
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {},
+        "image": "images/B5B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 84
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 20,
+        "lightChoices": {},
+        "image": "images/B5B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 85
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B5B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 86
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5B_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 87
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 88
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 16,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 89
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.3x",
+      "build": {
+        "cost": 15,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 90
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "2.725x",
+      "build": {
+        "cost": 13.88,
+        "lightChoices": {},
+        "image": "images/B5B_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 91
+    },
+    {
+      "stage": "B5B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 12.31,
+        "lightChoices": {},
+        "image": "images/B5B_7.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "B20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 92
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.5x",
+      "build": {
+        "cost": 46,
+        "lightChoices": {
+          "L1": "Corvette",
+          "L2": "Frigate"
+        },
+        "image": "images/B6A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 93
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 36,
+        "lightChoices": {},
+        "image": "images/B6A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 94
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B6A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 96
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 97
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.825x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 98
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.9x",
+      "build": {
+        "cost": 27,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 99
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 26,
+        "lightChoices": {},
+        "image": "images/B6A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 100
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {},
+        "image": "images/B6A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 101
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.225x",
+      "build": {
+        "cost": 21,
+        "lightChoices": {},
+        "image": "images/B6A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 102
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.6x",
+      "build": {
+        "cost": 19.65,
+        "lightChoices": {},
+        "image": "images/B6A_6.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 103
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 18,
+        "lightChoices": {},
+        "image": "images/B6A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 104
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "2.75x",
+      "build": {
+        "cost": 17,
+        "lightChoices": {},
+        "image": "images/B6A_7.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C16"
+      },
+      "requirementComment": "",
+      "sourceIndex": 105
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 18.64,
+        "lightChoices": {},
+        "image": "images/B6A_8.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "C24"
+      },
+      "requirementComment": "",
+      "sourceIndex": 106
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.625x",
+      "build": {
+        "cost": 45,
+        "lightChoices": {},
+        "image": "images/B6B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 107
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 51,
+        "lightChoices": {},
+        "image": "images/B6B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 108
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.7x",
+      "build": {
+        "cost": 31,
+        "image": "images/B6B_2.png",
+        "comments": "",
+        "lightChoiceAlternatives": [
+          {
+            "L1": "Frigate",
+            "L2": "Corvette"
+          },
+          {
+            "L1": "Corvette",
+            "L2": "Frigate"
+          }
+        ]
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 109
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 51,
+        "lightChoices": {},
+        "image": "images/B6B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 110
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 31,
+        "image": "images/B6B_2.png",
+        "comments": "",
+        "lightChoiceAlternatives": [
+          {
+            "L1": "Frigate",
+            "L2": "Corvette"
+          },
+          {
+            "L1": "Corvette",
+            "L2": "Frigate"
+          }
+        ]
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 111
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.025x",
+      "build": {
+        "cost": 22,
+        "lightChoices": {},
+        "image": "images/B6B_3.png",
+        "comments": "Neither Shield nor Armour."
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D8"
+      },
+      "requirementComment": "Neither Shield nor Armour.",
+      "sourceIndex": 112
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.15x",
+      "build": {
+        "cost": 22.33,
+        "lightChoices": {},
+        "image": "images/B6B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 113
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 21,
+        "lightChoices": {},
+        "image": "images/B6B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 114
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "2.45x",
+      "build": {
+        "cost": 19,
+        "lightChoices": {},
+        "image": "images/B6B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 115
+    },
+    {
+      "stage": "B6B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 19.06,
+        "lightChoices": {},
+        "image": "images/B6B_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "D18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 116
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 52,
+        "lightChoices": {},
+        "image": "images/B7A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 117
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "1.95x",
+      "build": {
+        "cost": 47,
+        "lightChoices": {},
+        "image": "images/B7A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 118
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.0x",
+      "build": {
+        "cost": 47,
+        "lightChoices": {},
+        "image": "images/B7A_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 119
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.25x",
+      "build": {
+        "cost": 35,
+        "lightChoices": {},
+        "image": "images/B7A_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 120
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.45x",
+      "build": {
+        "cost": 24.78,
+        "lightChoices": {},
+        "image": "images/B7A_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 121
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.6x",
+      "build": {
+        "cost": 22.21,
+        "lightChoices": {},
+        "image": "images/B7A_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 122
+    },
+    {
+      "stage": "B7A",
+      "multiplier": "2.675x",
+      "build": {
+        "cost": 24,
+        "lightChoices": {},
+        "image": "images/B7A_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "E12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 123
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.625x",
+      "build": {
+        "cost": 72,
+        "lightChoices": {},
+        "image": "images/B7B_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 124
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.8x",
+      "build": {
+        "cost": 55,
+        "lightChoices": {},
+        "image": "images/B7B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 125
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.925x",
+      "build": {
+        "cost": 51,
+        "lightChoices": {},
+        "image": "images/B7B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 126
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "1.95x",
+      "build": {
+        "cost": 50,
+        "lightChoices": {},
+        "image": "images/B7B_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 127
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.35x",
+      "build": {
+        "cost": 27.4,
+        "lightChoices": {},
+        "image": "images/B7B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 128
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 27,
+        "lightChoices": {},
+        "image": "images/B7B_3.png",
+        "comments": "",
+        "costFractionalPart": null,
+        "costFractionalPartStatus": "unspecified"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 129
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.45x",
+      "build": {
+        "cost": 22.37,
+        "lightChoices": {},
+        "image": "images/B7B_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 130
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 21.52,
+        "lightChoices": {},
+        "image": "images/B7B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 131
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "2.9x",
+      "build": {
+        "cost": 19.72,
+        "lightChoices": {},
+        "image": "images/B7B_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 132
+    },
+    {
+      "stage": "B7B",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 19.62,
+        "lightChoices": {},
+        "image": "images/B7B_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "F20"
+      },
+      "requirementComment": "",
+      "sourceIndex": 133
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 71,
+        "lightChoices": {},
+        "image": "images/B8_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 134
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 29,
+        "lightChoices": {},
+        "image": "images/B8_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 135
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.825x",
+      "build": {
+        "cost": 30,
+        "lightChoices": {},
+        "image": "images/B8_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 136
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.975x",
+      "build": {
+        "cost": 29.28,
+        "lightChoices": {},
+        "image": "images/B8_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 137
+    },
+    {
+      "stage": "B8",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 28,
+        "lightChoices": {},
+        "image": "images/B8_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 138
+    },
+    {
+      "stage": "B8",
+      "multiplier": "3.3x",
+      "build": {
+        "cost": 25.48,
+        "lightChoices": {},
+        "image": "images/B8_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 139
+    },
+    {
+      "stage": "B8",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 26,
+        "lightChoices": {},
+        "image": "images/B8_5.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "G10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 140
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.125x",
+      "build": {
+        "cost": 49,
+        "lightChoices": {},
+        "image": "images/B9_1.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 142
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.625x",
+      "build": {
+        "cost": 37,
+        "lightChoices": {},
+        "image": "images/B9_2.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 143
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.65x",
+      "build": {
+        "cost": 32.5,
+        "lightChoices": {},
+        "image": "images/B9_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 144
+    },
+    {
+      "stage": "B9",
+      "multiplier": "2.9x",
+      "build": {
+        "cost": 30,
+        "lightChoices": {},
+        "image": "images/B9_3.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 145
+    },
+    {
+      "stage": "B9",
+      "multiplier": "3.3x",
+      "build": {
+        "cost": 26.98,
+        "lightChoices": {},
+        "image": "images/B9_4.png",
+        "comments": ""
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 146
+    },
+    {
+      "stage": "B9",
+      "multiplier": "3.85x",
+      "build": {
+        "cost": 28.75,
+        "lightChoices": {},
+        "image": "images/B9_5.png",
+        "comments": "by Nepriceputu"
+      },
+      "source": {
+        "sheet": "B5A-B9",
+        "cell": "H18"
+      },
+      "requirementComment": "",
+      "sourceIndex": 147
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "1.6x",
+      "build": {
+        "cost": 110,
+        "lightChoices": {},
+        "image": "images/BB1_1.png",
+        "comments": "",
+        "base": true,
+        "baseKill": false,
+        "baseDamage": 375.44
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 148
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.3x",
+      "build": {
+        "cost": 107,
+        "lightChoices": {},
+        "image": "images/BB1_2.png",
+        "comments": "",
+        "base": true,
+        "baseKill": true,
+        "baseShots": 1
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 149
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 58,
+        "lightChoices": {},
+        "image": "images/BB1_3.png",
+        "comments": "",
+        "base": true,
+        "baseKill": true,
+        "baseShots": 1
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 150
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.15x",
+      "build": {
+        "cost": 47,
+        "lightChoices": {},
+        "image": "images/BB1_4.png",
+        "comments": "",
+        "baseKill": false,
+        "base": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 151
+    },
+    {
+      "stage": "BB1",
+      "multiplier": "2.775x",
+      "build": {
+        "cost": 24,
+        "lightChoices": {},
+        "image": "images/BB1_4.png",
+        "comments": "",
+        "baseKill": false,
+        "base": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "A8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 152
+    },
+    {
+      "stage": "B10",
+      "multiplier": "2.85x",
+      "build": {
+        "cost": 120,
+        "lightChoices": {},
+        "image": "images/B10_1.png",
+        "comments": "",
+        "base": true,
+        "baseKill": true,
+        "baseShots": 2,
+        "sameBuildForAllShots": true,
+        "costBasis": "per attempt",
+        "baseDamageBasis": "per attempt",
+        "baseDamage": 1043.1
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B2"
+      },
+      "requirementComment": "",
+      "sourceIndex": 153
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.725x",
+      "build": {
+        "cost": 110,
+        "lightChoices": {},
+        "image": "images/B10_2.png",
+        "comments": "Up to 110 to deploy if no ships have been bought at L.",
+        "base": true,
+        "baseKill": false,
+        "baseDamage": 1139.85
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B4"
+      },
+      "requirementComment": "",
+      "sourceIndex": 154
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.725x",
+      "build": {
+        "cost": 62,
+        "lightChoices": {},
+        "image": "images/B10_3.png",
+        "comments": "",
+        "base": false,
+        "baseKill": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B6"
+      },
+      "requirementComment": "",
+      "sourceIndex": 155
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.05x",
+      "build": {
+        "cost": 170,
+        "lightChoices": {},
+        "image": "images/B10_4.png",
+        "comments": "",
+        "base": true,
+        "baseKill": false,
+        "baseDamage": 1300
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B8"
+      },
+      "requirementComment": "",
+      "sourceIndex": 156
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.05x",
+      "build": {
+        "cost": 82,
+        "lightChoices": {},
+        "image": "images/B10_5.png",
+        "comments": "",
+        "base": false,
+        "baseKill": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B10"
+      },
+      "requirementComment": "",
+      "sourceIndex": 157
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.15x",
+      "build": {
+        "cost": 69.23,
+        "lightChoices": {},
+        "image": "images/B10_6.png",
+        "comments": "",
+        "baseKill": false,
+        "base": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B12"
+      },
+      "requirementComment": "",
+      "sourceIndex": 158
+    },
+    {
+      "stage": "B10",
+      "multiplier": "3.25x",
+      "build": {
+        "cost": 46,
+        "lightChoices": {},
+        "image": "images/B10_7.png",
+        "comments": "",
+        "base": false,
+        "baseKill": false
+      },
+      "source": {
+        "sheet": "BB1 & B10",
+        "cell": "B14"
+      },
+      "requirementComment": "",
+      "sourceIndex": 159
+    },
+    {
+      "stage": "B4B",
+      "multiplier": "2.375x",
+      "build": {
+        "cost": 10,
+        "lightChoices": {},
+        "image": "",
+        "comments": "Corvette w/CL + shield. Corvettes on B2 and B4."
+      },
+      "source": {
+        "sheet": "B1 - B4B",
+        "cell": "G16"
+      },
+      "requirementComment": "Corvette w/CL + shield. Corvettes on B2 and B4.",
+      "sourceIndex": 160
+    }
+  ],
+  "duplicateSelections": [
+    {
+      "stage": "B3A",
+      "multiplier": "1.5x",
+      "keptSource": {
+        "sheet": "B1 - B4B",
+        "cell": "D12"
+      },
+      "keptCost": 12,
+      "omittedSource": {
+        "sheet": "B1 - B4B",
+        "cell": "D16"
+      },
+      "omittedCost": 12
+    },
+    {
+      "stage": "B5A",
+      "multiplier": "1.6x",
+      "keptSource": {
+        "sheet": "B5A-B9",
+        "cell": "A6"
+      },
+      "keptCost": 19,
+      "omittedSource": {
+        "sheet": "B5A-B9",
+        "cell": "A12"
+      },
+      "omittedCost": 21
+    },
+    {
+      "stage": "B6A",
+      "multiplier": "1.8x",
+      "keptSource": {
+        "sheet": "B5A-B9",
+        "cell": "C8"
+      },
+      "keptCost": 28,
+      "omittedSource": {
+        "sheet": "B5A-B9",
+        "cell": "C4"
+      },
+      "omittedCost": 31
+    },
+    {
+      "stage": "B8",
+      "multiplier": "3.25x",
+      "keptSource": {
+        "sheet": "B5A-B9",
+        "cell": "G10"
+      },
+      "keptCost": 26,
+      "omittedSource": {
+        "sheet": "B5A-B9",
+        "cell": "G20"
+      },
+      "omittedCost": 28.75
+    }
+  ],
+  "unresolved": []
+}

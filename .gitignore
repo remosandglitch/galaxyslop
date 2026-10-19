@@ -1,0 +1,22 @@
+# Generated download packages and temporary transfer helpers
+/transfer/
+*.zip
+*.zip.part*
+*.zip.sha256
+
+# Machine-specific runtime files; state JSON snapshots are intentionally included
+/local-data/*.log
+/local-data/*.pid
+/local-data/*.tmp
+
+# Local tools, credentials and caches
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+.codex/
+.agents/
+.aws/
+.DS_Store
+Thumbs.db

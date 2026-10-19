@@ -1,0 +1,108 @@
+	A	B	C	D	E	F	G	H
+
+1
+				
+Color scheme used in the text cells:
+				
+								
+
+2
+	S/NS - Support/No support			OBSOLETE				
+
+3
+	H/NH - Hazard/No hazard			S				
+
+4
+	SHC - Starting Heavy Cruiser (aka HP node)			H				
+
+5
+	bolded numbers - best loadout for specific 'fleet damage and health' stat			S/H				
+
+6
+	italic numbers - best loadout for specific stat, yet the result is worse than with lower or highter stat
+(bold because it's still the best you can achieve at this stat)			NS/NH	(no color)			
+
+7
+	struck out numbers - another loadout has a better result			NS/H	not possible			
+
+8
+	red background - all attempts failed, looking for higher stats for this loadout to workout, if found, remove red background			S/NH	is the same as S			
+
+9
+	yellow background = Non-standard (IE 2 fighter's) build			
+non-standard mark:🟨
+(assuming we dont use yellow background and ignore other colors)
+				
+
+10
+	green background = ?							
+
+11
+	blue background = ?							
+
+12
+								
+
+13
+	TIP: for advisor to show up: start with any fleet -> click 'reset' button							
+
+14
+								
+
+15
+	To add an image into a cell: (PLEASE ALWAYS DO THIS!!)	
+!!!Please write integer stats as 2.0x/3.0x and so on!!!
+It is impossible to search for 2x/3x because of 1.2x/1.3x/2.2x/2.3x etc
+						
+
+16
+	1. copy and paste image into the sheet							
+
+17
+	2. select destination cell							
+
+18
+	3. click on image	If you want quick stats to paste: 1.0x / 1.25x / 1.5x / 1.75x / 2.0x / 2.25x / 2.5x / 2.75x / 3.0x / 3.25x / 3.5x / 3.75x / 4.0x / 4.25x		
+
+19
+	4. click on ⋮ three dots in upper right corner of image		
+
+20
+	5. click "put image in selected cell"							
+
+21
+	6. Video explanation: https://gyazo.com/4fc5e44d9fc206f245a64825773589b4							
+
+22
+								
+
+23
+								
+
+24
+								
+
+25
+								
+
+26
+								
+
+27
+								
+
+28
+								
+
+29
+								
+
+30
+								
+
+31
+								
+
+32
+	
+							

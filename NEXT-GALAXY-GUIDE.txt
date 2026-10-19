@@ -1,0 +1,148 @@
+NEXT GALAXY — AGENT HANDOFF
+Verified against local files on 19 October 2026
+
+BOUNDARIES AND CONFIRMED BEHAVIOR
+- If a request or source interpretation is ambiguous, ask the user before
+  proceeding with that decision. Do not invent values or silently broaden
+  parsing rules. Existing uncertain observations stay visible for review.
+- Keep this project local. Do not change source Google Sheets, publish,
+  commit or push without the user's authorization for that action.
+- Preserve current progress, edits and original source evidence. Use isolated
+  storage for tests. Source layout IDs are referenced by saved corrections:
+  changing IDs or offsets can detach the user's edits.
+- The user chooses support and hazard; no automatic route/prerequisite model.
+- Choose nearest-lower observations separately per layout and conditions,
+  then compare integer FR. Never choose the historical minimum and call it
+  the current measurement. Failed/review observations block older successes.
+- Nonexact results are UNVERIFIED ESTIMATES. Truncate, never round costs.
+  For confirmed multi-shot full clears, truncate each shot before summing.
+  Damage and single-attempt cost must not be presented as full-clear cost.
+- Completed battles return only for a strictly LOWER integer FR cost.
+- Editable flight cost sits beside Mark done; that saves completion directly.
+  The card-level Correct button was removed. Source corrections and completed
+  cost corrections remain available in details/history.
+- Desktop: two columns filling 90% of available screen width. Mobile: one.
+
+CURRENT ARCHITECTURE (BUILDLESS, NO NPM DEPENDENCIES)
+dist/index.html, app.mjs, style.css: interface and event handlers.
+dist/engine.mjs: state validation, ranking, edits and completion behavior.
+dist/galaxies.mjs: G6/G7 registry and backup galaxy validation.
+server.mjs: loopback HTTP server, static assets and atomic state saves.
+scripts/import.mjs: conservative text/format parser and dataset builder.
+tests/: parser, ranking, backup and server persistence tests (npm test).
+launch.ps1 / stop.ps1: Windows hidden background process lifecycle; paths
+  derive from the extracted folder, not the original machine's directory.
+
+CURRENT GALAXIES
+G6 source ID: 12DA4amUPZKamX4hgUgKjbikZ_XEhZhi-Eopy2M64dpI
+Source: source/workbook.json; images: source/images/<sheetId>/;
+maps: source/images-<sheetId>.json; data: dist/data.json;
+save: local-data/state.json (legacy backups without galaxy mean G6).
+49 battles, 563 cells, 1200 records: 835 usable, 144 review, 219 obsolete,
+2 failed. 556 image assets; 9 text cells without adjacent images and 8
+image references without a direct text match.
+G6 battle sheet IDs: 0, 697994241, 49029630, 1589854559, 872145342.
+
+G7 source ID: 1Cj4kstAZkQhTvUfIj6EkFuQ4uwkLiIAmt9m8ZgLL-jc
+Source: source/g7/workbook.json; images: source/images/g7/<sheetId>/;
+maps: source/g7/images-<sheetId>.json; data: dist/data-g7.json;
+save: local-data/state-g7.json.
+15 battles, 73 cells, 143 records: 70 usable, 12 review, 56 obsolete,
+5 failed. 72 images; 2 cells without images; 1 unmatched image reference.
+Sheets: B1-B3 (0), B4-B6 (697994241), BB1 & B7 (872145342).
+Preserve exact battle labels: B1, B2A, B2B, B2C, B3A, B3C, B3D,
+B4A, B4B, B4C, B5, B5D, B6, BB1, B7.
+G7 B4-B6 A5 is a floating image mapped using verified bounds. B13 has an
+image without B12 text; D14 has text without D15 image. B7 B17 references
+earlier fleets and includes a patch-failure warning: it remains in review.
+G6 support skip guidance is specific to G6. G7 thresholds are unverified.
+
+ADDING ANOTHER GALAXY REQUIRES CODE CHANGES
+The importer is NOT yet generic. Do not merely copy a workbook and run import.
+1. Confirm which galaxy and workbook the user wants. Read workbook metadata,
+   legend and a few sentinel rows before choosing extraction bounds/schema.
+2. Preserve raw source and image evidence under source/<new-id>/ and
+   source/images/<new-id>/. Do not overwrite G6/G7 paths.
+3. Extend dist/galaxies.mjs with the new id, label, title and dataset URL.
+4. Extend scripts/import.mjs: allowed galaxy IDs, source directory, output
+   filename and default CLI galaxy list are currently hardcoded to G6/G7.
+   Its first-row battle headers, single data block, direct next-row image
+   pairing and A-Z column address calculation must be checked against the
+   new sheet. Handle alternate headers, range offsets or columns beyond Z
+   explicitly if present. Do not force a new source into incorrect positions.
+5. Extend engine.mjs state galaxy allowlist and choose an appropriate initial
+   multiplier. Current allowed battle IDs are B/BB plus digits and optional
+   single capital suffix. Expand only if verified source IDs require it.
+6. Review app.mjs branches: G7-specific search placeholder and guide; all
+   other galaxies currently fall through to the G6 guide. A new galaxy must
+   not inherit G6 support thresholds or a link to the wrong calculator.
+   Counts and group options already come from the selected dataset.
+7. server.mjs reads the registry; G6 retains state.json and other accepted IDs
+   use state-<id>.json. Keep endpoint, dataset and backup identity aligned.
+   Wrong-galaxy imports must be rejected. Never relabel an old save as new.
+8. Add tests for the new source, battle IDs, image existence, parser edge
+   cases, separate saves, backup provenance and preserving G6/G7 records.
+
+SOURCE ACQUISITION THAT WORKED ON THE ORIGINAL CLIENT
+- Read metadata and bounded cells via Google Drive/Sheets connector, retaining
+  formattedValue, userEnteredValue, effectiveFormat(textFormat,backgroundColor),
+  textFormatRuns and note. Preserve spreadsheetId, downloadedAt, sheet
+  properties and native data[].rowData[].values[] structure in workbook.json.
+- Existing importer expects ranges starting at A1. Keep blank positions so
+  headers, cell coordinates and rich-text offsets stay accurate.
+- Save the target workbook's own legend. Do not assume colors mean the same
+  thing in every galaxy. Rich-text strikethrough must be evaluated per fragment.
+- Full G6 workbook download exceeded a connector size limit; XLSX browser
+  export timed out. Bounded cell reads plus image extraction worked.
+- Anonymous Google access required login. Signed-in Chrome could open the
+  workbook's HTML view. Inspect its actual sheet iframe link; then open the
+  direct sheet view (previous form: /spreadsheets/u/0/d/<id>/htmlview/sheet
+  ?headers=true&gid=<verified-id>). Verify that the table is loaded first.
+- Browser pageAssets inventory/bundle found images on the direct sheet page,
+  but not through the outer iframe. Use available documented browser tools
+  on the new client; previous tab IDs and authentication are not portable.
+- Map image URL to 1-based row and column from its actual table cell. Bundle
+  full images, match by URL, store project-relative paths. A mapping needs
+  cells:[{row,col,url}] and bundle:{assets:[{url,path}]}. Existing importer
+  pairs a text cell with an image one row below in the same column.
+- Floating images require verified placement evidence; blank overlays are
+  not image assets. Preserve unresolved pairings rather than guessing.
+- Verify every referenced file exists, is nonempty, decodes, and matches the
+  intended setup. Retain missing-image and orphan-image reports.
+- Signed image URLs and old originalPath fields are provenance only. Runtime
+  images must use bundled relative paths; do not rely on cached remote URLs.
+
+PARSER TRAPS
+S=support, H=hazard, SH/HS=both; NS/NH=neither. SHC is Starting Heavy Cruiser,
+not support plus hazard. Conditions can change inside a cell. Gray/struck
+results are obsolete. Unknown colors, disputes, ambiguous ranges, duplicate
+same-multiplier variants, unclear numbers, multi-shot and damage entries
+require review. Notes can contradict numeric captions or fleet images.
+Preserve equipment and placement requirements. Bold text alone is not proof
+of the cheapest usable fleet. Ask about unresolved semantics.
+
+SEPARATE GALAXY 3 DATA — ALREADY PRESENT, NOT IN THE WEBSITE
+Read data-merge/Galaxy 3/README.txt, galaxy3.json and _source/import-decisions.json.
+_source/ contains the original XLSX, extracted media, conversion scripts,
+before-refinement snapshot and validation/refinement reports. These preserve
+additional user-confirmed decisions, not a ready-made G6/G7 runtime dataset.
+The schema includes Light purchase alternatives, base presence, damage and
+attempt counts. Hazards/Supports are omitted for G3. Missing equipment fields
+mean unspecified. Some costs are explicitly PER ATTEMPT; do not total or rank
+them as full clears without correct handling. Consecutive equal-cost entries
+were consolidated for matching builds; do not call unlisted multipliers exact.
+The existing engine does not model all those dimensions. Confirm intended UI
+and ranking behavior before adapting this data. Do not run the refinement
+scripts on another galaxy without reviewing paths and source-specific rules.
+
+VALIDATION AND DELIVERY
+Run npm test from the extracted project (18 baseline tests). Loopback tests
+may need the client's normal local-network permission; report failures honestly.
+Use FLEET_PORT=4174 and a fresh temporary FLEET_DATA_DIR for browser testing.
+Verify switching galaxies, changed inline cost + Mark done, history on reload,
+local corrections, isolated saves, wrong-galaxy backup rejection, suffix search,
+group filters, audit/source links, image loading and desktop/mobile layout.
+Do not use actual user saves for test mutations. Preserve existing file hashes.
+Update README/HANDOVER/VERIFICATION with new source coverage and real checks.
+Restart the normal launcher only if server changes require it; do not leave
+test servers running. Deliver the local app, not a hosted deployment.

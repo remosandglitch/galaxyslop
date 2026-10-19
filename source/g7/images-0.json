@@ -1,0 +1,297 @@
+{
+  "cells": [
+    {
+      "col": 1,
+      "row": 3,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYFPG4vgE0fe5PMUT841Ei0hZTjhwKeiMIpL_yH8dBQhRBES3Jjt11lkP5YJch3KCWq9v8E4dgH4PAlxygV4gMm3mjjOuJNuEXTjfgpqEk0EkZe-9u6wM1zvusxYzW0fcwHZuGMR--T7dZHGg=w520-h286"
+    },
+    {
+      "col": 2,
+      "row": 3,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYRzAJ5jQv43cil2FpQJbY2efgdti67lKLABjlSnlIrZx_GPTiGAyB60_-B2rdp0GQP6qfSR_xQki2_DReSre0nx9JkQuZlFmlIv7n6vxOjX-pNsjbB80XgP3bLomKw6AdptmToe0DLaqU=w520-h286"
+    },
+    {
+      "col": 3,
+      "row": 3,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLacXQK_1loixTWW1TX1opUXnzeZdRkXc-mJBMcV3XAona9TbZDXCoMKb2dykaNJEKTGflQFB1ZT5F1qdnlc9yM81Kr945RbwrQM8epUzuGXJx4j40ZCH8h_V_Nx1NZ1f17oaVJ8rwoEtrXDtg=w520-h286"
+    },
+    {
+      "col": 4,
+      "row": 3,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZTAxsSaVj-4GhgSR7j0qlRKyd0zAIcPTSUUGAwiBeAAVLFhHQIkX8436XBclVTjy_jDGE7ag_0Bm3Guhn0SRn6hfemdp2zqaOk3pvDGM89V4BZD1XDrWmr8UUXHDvNejBdITuQp-eYUKKYXg=w520-h286"
+    },
+    {
+      "col": 5,
+      "row": 3,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZQ1j7RzFMvDYaUsV1IO0_sOtm9tA1Uj0Ih4z-jv8zKhNlgp62xdECEKKGFxIKK1_5rNAsFlB95AhupmpAX9-o_Hw57KEoAKrzv79o-Rk81J6usii_VkP12BqkDNlvgqFpkq4a2EvQECt1PmQ=w520-h286"
+    },
+    {
+      "col": 6,
+      "row": 3,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLaw77OuogRXGDp0w091IMGQ6Ys_bj1uVZwbZEtzTMnWyLm8Q-ywqDTh-iZ1eDmyURvDRvasEg2gjt82ENDkMIFbaHwch9--RjOInkrWGnQqlkwtCahLt2HpjfS-MnMpJUYEoTpCiC1xtfakcg=w520-h286"
+    },
+    {
+      "col": 7,
+      "row": 3,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZfb9avRoHnqR83E_pCg6kKsJaekylvsGwDQFWIDn6PtOpErxGRP4F7m4wmafxHrVsCKqOaUwtrd1xmRZi_yn0tr-fA-KOI0xE4L0IcVt8gtRUhWGc7jjr1EbMniVkM-W5NrRCocalnYns7ow=w520-h286"
+    },
+    {
+      "col": 1,
+      "row": 5,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLbxohawkxnoJXJIRPXG27RYoiP_Vz0FEWwQk_CDJMch0SPuxA3wjaLMm4kcYw2B8ttDG8PzwJfXvmAbaBkMxB0c1MonlNDatkb_h5TH6gwy74Q5GPiV_rE6xsahQ4eWR81v-iIIFE-J1ed_kw=w520-h286"
+    },
+    {
+      "col": 2,
+      "row": 5,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYpa__8ZMEet8uCQ1j-1bhmkCfnqLT9LfZUVoVnnQA96qJNfgi8JMvjVRVdyGBnHce8DAiiee2G2XOEnJOAt7eEclDVsDKxGJKI4iIc7_MTewpue7ZDkW18xPapRJXIhWCflfg_mF0MhNElkQ=w520-h286"
+    },
+    {
+      "col": 3,
+      "row": 5,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYPWUynNnlyc7iZwFVaX1ksDpfG0H9QgDl7SDIzVngB3rJiZd4JySb0g6qiXQxJTXKiBZncv3uvwsVGNINHdpB8hTyZfUPHxYLg4VaR2H76MHvNVqYgzz4bbO3wUDBvCetz_jzXLcAe3iVLyQ=w520-h286"
+    },
+    {
+      "col": 4,
+      "row": 5,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLaRTusBKHd8r8ctsHd-Qjv9mVgmoM1cXrkmvRDSqim6TfhwlFYoqzBydnyH5BkaU0ZrRpUkaiJdoQ-QIXxXk2Oqw-CHkVD43ZeQ714bjmoBi9bQYuuZZJL3oWW1JCRcNjQUA3U8srtOderK5g=w520-h286"
+    },
+    {
+      "col": 5,
+      "row": 5,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLb06LoBBlR-4dsjnO0V2rSMgk4tQXy_dJ0X39D4jxevs521J2lUEqX0hBpb3rTwbykX4tB5DF2sDlyFq9p_6ivFJBBFvuw6XA6j7wz2XTf_F79U0bmcb4Fo177sSQbQXprGY-CCYcR9rr8=w520-h286"
+    },
+    {
+      "col": 6,
+      "row": 5,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLayVl7jYIX_Z5OZpUQCXZ2SZ-2AfErSUc5aUf4Cqex5wRhP0jYtISCxjxogNEDdxYb5kIEzqExBxGvsUS1txoBfc-i06cOzrVoGEqI_ansswXduwYBknRxpOBHtsw5gJWWvCyghxFo16ew=w520-h286"
+    },
+    {
+      "col": 2,
+      "row": 7,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZLBPNTQxw-yU-kaRZeuAQNkho0S77g6jVowHtuRCGYxtJ-PAn3i4Q1u6EkTIXhp-5NFDBJqmxbSdZY2W5S3GPEmgiC07ZSw3mqvlDO9I0-WBADldyCwFpMLx6KdiTT3UzvZ61aT_lmuP8=w520-h286"
+    },
+    {
+      "col": 3,
+      "row": 7,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLblHu3RK0hnTnY7rSeYDlPJwOJc8ioLelwKzyBJA7bhShhw0Y3Uimr_fDNq2QlCWwMNCBLw8xTS52yMOYOrTL-JejJ_JAfCsRzLymTEWC0OMxUxdQMA-T0QfAsHZP7HMvyuF9vYV2I4oR02-A=w520-h286"
+    },
+    {
+      "col": 4,
+      "row": 7,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYXtjLyLap4h3qTSMw08WgujOxAzEL0-N4O9Mp3EvhlWmma4t2wUcaEtl8Sd5wy5V6JD6kZVbX_fgOh8h40KVQYY_K6cuaHCzmTwmgZaCgOTrdNTR_Dhl9zr1Ky9SfnvBRMSdjwiYQZGQE=w520-h286"
+    },
+    {
+      "col": 5,
+      "row": 7,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLbvkdZ3WQypKYU04RiJXF0qRPgeKjpCoTArlq9UVeAAcqOWAQKTjVSmE3epa92_v_8LepBQRiM2dxR6Qp10x5PZ8XYsPrMr4bhfw-jY_Zwz0ax5_BCy1katboZKf3McxCQCaRAL6BPbZ5uhtQ=w520-h286"
+    },
+    {
+      "col": 6,
+      "row": 7,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLa5vJbB1gLAwBZgwLurfYRINlArD7-rzyu7o2wP9QLbl2VnQeLOwKhY5xDONK8BhGabnU1BYRfIMqJl-oSvTX2ddoZYD6N4nM_PS6l6tvd2n1638IBnfTS88-x7mTjs_RaCbiOM1XQv_t0f-w=w520-h286"
+    },
+    {
+      "col": 3,
+      "row": 9,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLb8SM2Ryo0ijD8lrjelKNbqCCZ1xgfbTXcdfUsH_5e4_hLIyh_j-1Ocno32X3K6tyOzPiJjnvSd69qAkJm4vhzRdxx0ahyeJ2OWgfif6KReioeBvwGpehXo2kqk-IazZUR5Zj5TQcZzsR4=w520-h286"
+    },
+    {
+      "col": 3,
+      "row": 11,
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLa0Zu3jI24h76VTnCY4q3AYaLjqXcYZpqnp7KCwbJ55p0ENvJhRGPxmjfnk9Yu53n1mBqrsxJPHibkEa1wZGd_vToAAbsgjDDlB2mI1ZqQ66mWVDFrvYQwkq9Je19-E_7k5XdMz-_H6aVCXBQ=w520-h286"
+    }
+  ],
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/png",
+        "id": "6381afc70cb4478f",
+        "kind": "image",
+        "name": "AO43MLYFPG4vgE0fe5PMUT841Ei0hZTjhwKeiMIpL_yH8dBQhRBES3Jjt11lkP5YJch3KCWq9v8E4dgH4PAlxygV4gMm3mjjOuJNuEXTjfgpqEk0EkZe-9u6wM1zvusxYzW0fcwHZuGMR--T7dZHGg=w520-h286",
+        "path": "source/images/g7/0/000",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYFPG4vgE0fe5PMUT841Ei0hZTjhwKeiMIpL_yH8dBQhRBES3Jjt11lkP5YJch3KCWq9v8E4dgH4PAlxygV4gMm3mjjOuJNuEXTjfgpqEk0EkZe-9u6wM1zvusxYzW0fcwHZuGMR--T7dZHGg=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/6381afc70cb4478f"
+      },
+      {
+        "contentType": "image/png",
+        "id": "294ad80543687224",
+        "kind": "image",
+        "name": "AO43MLYRzAJ5jQv43cil2FpQJbY2efgdti67lKLABjlSnlIrZx_GPTiGAyB60_-B2rdp0GQP6qfSR_xQki2_DReSre0nx9JkQuZlFmlIv7n6vxOjX-pNsjbB80XgP3bLomKw6AdptmToe0DLaqU=w520-h286",
+        "path": "source/images/g7/0/001",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYRzAJ5jQv43cil2FpQJbY2efgdti67lKLABjlSnlIrZx_GPTiGAyB60_-B2rdp0GQP6qfSR_xQki2_DReSre0nx9JkQuZlFmlIv7n6vxOjX-pNsjbB80XgP3bLomKw6AdptmToe0DLaqU=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/294ad80543687224"
+      },
+      {
+        "contentType": "image/png",
+        "id": "36fda389eb140dd5",
+        "kind": "image",
+        "name": "AO43MLacXQK_1loixTWW1TX1opUXnzeZdRkXc-mJBMcV3XAona9TbZDXCoMKb2dykaNJEKTGflQFB1ZT5F1qdnlc9yM81Kr945RbwrQM8epUzuGXJx4j40ZCH8h_V_Nx1NZ1f17oaVJ8rwoEtrXDtg=w520-h286",
+        "path": "source/images/g7/0/002",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLacXQK_1loixTWW1TX1opUXnzeZdRkXc-mJBMcV3XAona9TbZDXCoMKb2dykaNJEKTGflQFB1ZT5F1qdnlc9yM81Kr945RbwrQM8epUzuGXJx4j40ZCH8h_V_Nx1NZ1f17oaVJ8rwoEtrXDtg=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/36fda389eb140dd5"
+      },
+      {
+        "contentType": "image/png",
+        "id": "8c0697102a769f7a",
+        "kind": "image",
+        "name": "AO43MLZTAxsSaVj-4GhgSR7j0qlRKyd0zAIcPTSUUGAwiBeAAVLFhHQIkX8436XBclVTjy_jDGE7ag_0Bm3Guhn0SRn6hfemdp2zqaOk3pvDGM89V4BZD1XDrWmr8UUXHDvNejBdITuQp-eYUKKYXg=w520-h286",
+        "path": "source/images/g7/0/003",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZTAxsSaVj-4GhgSR7j0qlRKyd0zAIcPTSUUGAwiBeAAVLFhHQIkX8436XBclVTjy_jDGE7ag_0Bm3Guhn0SRn6hfemdp2zqaOk3pvDGM89V4BZD1XDrWmr8UUXHDvNejBdITuQp-eYUKKYXg=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/8c0697102a769f7a"
+      },
+      {
+        "contentType": "image/png",
+        "id": "1548e2f9dbcee608",
+        "kind": "image",
+        "name": "AO43MLZQ1j7RzFMvDYaUsV1IO0_sOtm9tA1Uj0Ih4z-jv8zKhNlgp62xdECEKKGFxIKK1_5rNAsFlB95AhupmpAX9-o_Hw57KEoAKrzv79o-Rk81J6usii_VkP12BqkDNlvgqFpkq4a2EvQECt1PmQ=w520-h286",
+        "path": "source/images/g7/0/004",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZQ1j7RzFMvDYaUsV1IO0_sOtm9tA1Uj0Ih4z-jv8zKhNlgp62xdECEKKGFxIKK1_5rNAsFlB95AhupmpAX9-o_Hw57KEoAKrzv79o-Rk81J6usii_VkP12BqkDNlvgqFpkq4a2EvQECt1PmQ=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/1548e2f9dbcee608"
+      },
+      {
+        "contentType": "image/png",
+        "id": "6df029408eafc192",
+        "kind": "image",
+        "name": "AO43MLaw77OuogRXGDp0w091IMGQ6Ys_bj1uVZwbZEtzTMnWyLm8Q-ywqDTh-iZ1eDmyURvDRvasEg2gjt82ENDkMIFbaHwch9--RjOInkrWGnQqlkwtCahLt2HpjfS-MnMpJUYEoTpCiC1xtfakcg=w520-h286",
+        "path": "source/images/g7/0/005",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLaw77OuogRXGDp0w091IMGQ6Ys_bj1uVZwbZEtzTMnWyLm8Q-ywqDTh-iZ1eDmyURvDRvasEg2gjt82ENDkMIFbaHwch9--RjOInkrWGnQqlkwtCahLt2HpjfS-MnMpJUYEoTpCiC1xtfakcg=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/6df029408eafc192"
+      },
+      {
+        "contentType": "image/png",
+        "id": "3fc159f051e52beb",
+        "kind": "image",
+        "name": "AO43MLZfb9avRoHnqR83E_pCg6kKsJaekylvsGwDQFWIDn6PtOpErxGRP4F7m4wmafxHrVsCKqOaUwtrd1xmRZi_yn0tr-fA-KOI0xE4L0IcVt8gtRUhWGc7jjr1EbMniVkM-W5NrRCocalnYns7ow=w520-h286",
+        "path": "source/images/g7/0/006",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZfb9avRoHnqR83E_pCg6kKsJaekylvsGwDQFWIDn6PtOpErxGRP4F7m4wmafxHrVsCKqOaUwtrd1xmRZi_yn0tr-fA-KOI0xE4L0IcVt8gtRUhWGc7jjr1EbMniVkM-W5NrRCocalnYns7ow=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/3fc159f051e52beb"
+      },
+      {
+        "contentType": "image/png",
+        "id": "9dce80a6f36cf53c",
+        "kind": "image",
+        "name": "AO43MLbxohawkxnoJXJIRPXG27RYoiP_Vz0FEWwQk_CDJMch0SPuxA3wjaLMm4kcYw2B8ttDG8PzwJfXvmAbaBkMxB0c1MonlNDatkb_h5TH6gwy74Q5GPiV_rE6xsahQ4eWR81v-iIIFE-J1ed_kw=w520-h286",
+        "path": "source/images/g7/0/007",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLbxohawkxnoJXJIRPXG27RYoiP_Vz0FEWwQk_CDJMch0SPuxA3wjaLMm4kcYw2B8ttDG8PzwJfXvmAbaBkMxB0c1MonlNDatkb_h5TH6gwy74Q5GPiV_rE6xsahQ4eWR81v-iIIFE-J1ed_kw=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/9dce80a6f36cf53c"
+      },
+      {
+        "contentType": "image/png",
+        "id": "d989b9731887c928",
+        "kind": "image",
+        "name": "AO43MLYpa__8ZMEet8uCQ1j-1bhmkCfnqLT9LfZUVoVnnQA96qJNfgi8JMvjVRVdyGBnHce8DAiiee2G2XOEnJOAt7eEclDVsDKxGJKI4iIc7_MTewpue7ZDkW18xPapRJXIhWCflfg_mF0MhNElkQ=w520-h286",
+        "path": "source/images/g7/0/008",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYpa__8ZMEet8uCQ1j-1bhmkCfnqLT9LfZUVoVnnQA96qJNfgi8JMvjVRVdyGBnHce8DAiiee2G2XOEnJOAt7eEclDVsDKxGJKI4iIc7_MTewpue7ZDkW18xPapRJXIhWCflfg_mF0MhNElkQ=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/d989b9731887c928"
+      },
+      {
+        "contentType": "image/png",
+        "id": "f753f3001d02ad18",
+        "kind": "image",
+        "name": "AO43MLYPWUynNnlyc7iZwFVaX1ksDpfG0H9QgDl7SDIzVngB3rJiZd4JySb0g6qiXQxJTXKiBZncv3uvwsVGNINHdpB8hTyZfUPHxYLg4VaR2H76MHvNVqYgzz4bbO3wUDBvCetz_jzXLcAe3iVLyQ=w520-h286",
+        "path": "source/images/g7/0/009",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYPWUynNnlyc7iZwFVaX1ksDpfG0H9QgDl7SDIzVngB3rJiZd4JySb0g6qiXQxJTXKiBZncv3uvwsVGNINHdpB8hTyZfUPHxYLg4VaR2H76MHvNVqYgzz4bbO3wUDBvCetz_jzXLcAe3iVLyQ=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/f753f3001d02ad18"
+      },
+      {
+        "contentType": "image/png",
+        "id": "a748ee7aab49cb9e",
+        "kind": "image",
+        "name": "AO43MLaRTusBKHd8r8ctsHd-Qjv9mVgmoM1cXrkmvRDSqim6TfhwlFYoqzBydnyH5BkaU0ZrRpUkaiJdoQ-QIXxXk2Oqw-CHkVD43ZeQ714bjmoBi9bQYuuZZJL3oWW1JCRcNjQUA3U8srtOderK5g=w520-h286",
+        "path": "source/images/g7/0/010",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLaRTusBKHd8r8ctsHd-Qjv9mVgmoM1cXrkmvRDSqim6TfhwlFYoqzBydnyH5BkaU0ZrRpUkaiJdoQ-QIXxXk2Oqw-CHkVD43ZeQ714bjmoBi9bQYuuZZJL3oWW1JCRcNjQUA3U8srtOderK5g=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/a748ee7aab49cb9e"
+      },
+      {
+        "contentType": "image/png",
+        "id": "1d2ca63b691bfacd",
+        "kind": "image",
+        "name": "AO43MLb06LoBBlR-4dsjnO0V2rSMgk4tQXy_dJ0X39D4jxevs521J2lUEqX0hBpb3rTwbykX4tB5DF2sDlyFq9p_6ivFJBBFvuw6XA6j7wz2XTf_F79U0bmcb4Fo177sSQbQXprGY-CCYcR9rr8=w520-h286",
+        "path": "source/images/g7/0/011",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLb06LoBBlR-4dsjnO0V2rSMgk4tQXy_dJ0X39D4jxevs521J2lUEqX0hBpb3rTwbykX4tB5DF2sDlyFq9p_6ivFJBBFvuw6XA6j7wz2XTf_F79U0bmcb4Fo177sSQbQXprGY-CCYcR9rr8=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/1d2ca63b691bfacd"
+      },
+      {
+        "contentType": "image/png",
+        "id": "47a97a2566ec63f4",
+        "kind": "image",
+        "name": "AO43MLayVl7jYIX_Z5OZpUQCXZ2SZ-2AfErSUc5aUf4Cqex5wRhP0jYtISCxjxogNEDdxYb5kIEzqExBxGvsUS1txoBfc-i06cOzrVoGEqI_ansswXduwYBknRxpOBHtsw5gJWWvCyghxFo16ew=w520-h286",
+        "path": "source/images/g7/0/012",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLayVl7jYIX_Z5OZpUQCXZ2SZ-2AfErSUc5aUf4Cqex5wRhP0jYtISCxjxogNEDdxYb5kIEzqExBxGvsUS1txoBfc-i06cOzrVoGEqI_ansswXduwYBknRxpOBHtsw5gJWWvCyghxFo16ew=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/47a97a2566ec63f4"
+      },
+      {
+        "contentType": "image/png",
+        "id": "6310bbb5a52f2598",
+        "kind": "image",
+        "name": "AO43MLZLBPNTQxw-yU-kaRZeuAQNkho0S77g6jVowHtuRCGYxtJ-PAn3i4Q1u6EkTIXhp-5NFDBJqmxbSdZY2W5S3GPEmgiC07ZSw3mqvlDO9I0-WBADldyCwFpMLx6KdiTT3UzvZ61aT_lmuP8=w520-h286",
+        "path": "source/images/g7/0/013",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZLBPNTQxw-yU-kaRZeuAQNkho0S77g6jVowHtuRCGYxtJ-PAn3i4Q1u6EkTIXhp-5NFDBJqmxbSdZY2W5S3GPEmgiC07ZSw3mqvlDO9I0-WBADldyCwFpMLx6KdiTT3UzvZ61aT_lmuP8=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/6310bbb5a52f2598"
+      },
+      {
+        "contentType": "image/png",
+        "id": "798fa86d890afdcc",
+        "kind": "image",
+        "name": "AO43MLblHu3RK0hnTnY7rSeYDlPJwOJc8ioLelwKzyBJA7bhShhw0Y3Uimr_fDNq2QlCWwMNCBLw8xTS52yMOYOrTL-JejJ_JAfCsRzLymTEWC0OMxUxdQMA-T0QfAsHZP7HMvyuF9vYV2I4oR02-A=w520-h286",
+        "path": "source/images/g7/0/014",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLblHu3RK0hnTnY7rSeYDlPJwOJc8ioLelwKzyBJA7bhShhw0Y3Uimr_fDNq2QlCWwMNCBLw8xTS52yMOYOrTL-JejJ_JAfCsRzLymTEWC0OMxUxdQMA-T0QfAsHZP7HMvyuF9vYV2I4oR02-A=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/798fa86d890afdcc"
+      },
+      {
+        "contentType": "image/png",
+        "id": "0b85733fde9397fc",
+        "kind": "image",
+        "name": "AO43MLYXtjLyLap4h3qTSMw08WgujOxAzEL0-N4O9Mp3EvhlWmma4t2wUcaEtl8Sd5wy5V6JD6kZVbX_fgOh8h40KVQYY_K6cuaHCzmTwmgZaCgOTrdNTR_Dhl9zr1Ky9SfnvBRMSdjwiYQZGQE=w520-h286",
+        "path": "source/images/g7/0/015",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLYXtjLyLap4h3qTSMw08WgujOxAzEL0-N4O9Mp3EvhlWmma4t2wUcaEtl8Sd5wy5V6JD6kZVbX_fgOh8h40KVQYY_K6cuaHCzmTwmgZaCgOTrdNTR_Dhl9zr1Ky9SfnvBRMSdjwiYQZGQE=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/0b85733fde9397fc"
+      },
+      {
+        "contentType": "image/png",
+        "id": "a6b955659c944b3e",
+        "kind": "image",
+        "name": "AO43MLbvkdZ3WQypKYU04RiJXF0qRPgeKjpCoTArlq9UVeAAcqOWAQKTjVSmE3epa92_v_8LepBQRiM2dxR6Qp10x5PZ8XYsPrMr4bhfw-jY_Zwz0ax5_BCy1katboZKf3McxCQCaRAL6BPbZ5uhtQ=w520-h286",
+        "path": "source/images/g7/0/016",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLbvkdZ3WQypKYU04RiJXF0qRPgeKjpCoTArlq9UVeAAcqOWAQKTjVSmE3epa92_v_8LepBQRiM2dxR6Qp10x5PZ8XYsPrMr4bhfw-jY_Zwz0ax5_BCy1katboZKf3McxCQCaRAL6BPbZ5uhtQ=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/a6b955659c944b3e"
+      },
+      {
+        "contentType": "image/png",
+        "id": "b8c9a6cffa462ad2",
+        "kind": "image",
+        "name": "AO43MLa5vJbB1gLAwBZgwLurfYRINlArD7-rzyu7o2wP9QLbl2VnQeLOwKhY5xDONK8BhGabnU1BYRfIMqJl-oSvTX2ddoZYD6N4nM_PS6l6tvd2n1638IBnfTS88-x7mTjs_RaCbiOM1XQv_t0f-w=w520-h286",
+        "path": "source/images/g7/0/017",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLa5vJbB1gLAwBZgwLurfYRINlArD7-rzyu7o2wP9QLbl2VnQeLOwKhY5xDONK8BhGabnU1BYRfIMqJl-oSvTX2ddoZYD6N4nM_PS6l6tvd2n1638IBnfTS88-x7mTjs_RaCbiOM1XQv_t0f-w=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/b8c9a6cffa462ad2"
+      },
+      {
+        "contentType": "image/png",
+        "id": "63b7d082ba9be15f",
+        "kind": "image",
+        "name": "AO43MLb8SM2Ryo0ijD8lrjelKNbqCCZ1xgfbTXcdfUsH_5e4_hLIyh_j-1Ocno32X3K6tyOzPiJjnvSd69qAkJm4vhzRdxx0ahyeJ2OWgfif6KReioeBvwGpehXo2kqk-IazZUR5Zj5TQcZzsR4=w520-h286",
+        "path": "source/images/g7/0/018",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLb8SM2Ryo0ijD8lrjelKNbqCCZ1xgfbTXcdfUsH_5e4_hLIyh_j-1Ocno32X3K6tyOzPiJjnvSd69qAkJm4vhzRdxx0ahyeJ2OWgfif6KReioeBvwGpehXo2kqk-IazZUR5Zj5TQcZzsR4=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/63b7d082ba9be15f"
+      },
+      {
+        "contentType": "image/png",
+        "id": "ef271277a2cb13c0",
+        "kind": "image",
+        "name": "AO43MLa0Zu3jI24h76VTnCY4q3AYaLjqXcYZpqnp7KCwbJ55p0ENvJhRGPxmjfnk9Yu53n1mBqrsxJPHibkEa1wZGd_vToAAbsgjDDlB2mI1ZqQ66mWVDFrvYQwkq9Je19-E_7k5XdMz-_H6aVCXBQ=w520-h286",
+        "path": "source/images/g7/0/019",
+        "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLa0Zu3jI24h76VTnCY4q3AYaLjqXcYZpqnp7KCwbJ55p0ENvJhRGPxmjfnk9Yu53n1mBqrsxJPHibkEa1wZGd_vToAAbsgjDDlB2mI1ZqQ66mWVDFrvYQwkq9Je19-E_7k5XdMz-_H6aVCXBQ=w520-h286",
+        "originalPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/ef271277a2cb13c0"
+      }
+    ],
+    "directoryPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60",
+    "failures": [],
+    "manifestPath": "C:\\Users\\denni\\AppData\\Local\\Packages\\sandbox.{47a3fa97-24b2-4576-a033-0975e4013d9e}\\AC\\Temp/browser-use/assets/ebd5edd6-4870-4ed4-a85b-4cc7b0c5bf60/manifest.json",
+    "summary": {
+      "downloadedCount": 20,
+      "elapsedMs": 140.94419999793172,
+      "failedCount": 0,
+      "requestedCount": 20
+    }
+  }
+}

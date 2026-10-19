@@ -1,0 +1,476 @@
+{
+  "spreadsheetId": "1cIQKMM716T8OsKStCdYVO3_NOPGAPqWp7SuVJtMZvWg",
+  "outputFormat": "json",
+  "confirmedRules": {
+    "duplicateBuilds": "Preserve multiple builds when their requirements differ. For matching requirements at the same stage and multiplier, retain only the cheapest build. Do not assume unstated requirements match.",
+    "lightChoices": "L means Light. Each L permits buying one additional ship, choosing its type, or buying none.",
+    "omittedLightRequirements": "If L requirements are not mentioned, no Light purchases are required. Do not mark them unknown solely because they are omitted.",
+    "sharedTrailingLightRequirement": "A trailing L requirement applies to all multipliers in the caption only when the flow is uninterrupted: there are no additional parenthesis groups, no changes between bold and non-bold text, and the L note is the very last text. Otherwise keep the L note local to its variant. Confirmed specifically for B3B E6: both 1.2x cost 17.5 and 1.4x cost 11.25 require L1 Corvette. Check the original rich text formatting before applying this rule.",
+    "structuredRequirementFields": [
+      "ship type",
+      "armour",
+      "shield",
+      "CL",
+      "ship/grid placement"
+    ],
+    "parenthesizedDecimals": "Parenthesized decimal digits record the fractional cost that the game truncates for its integer display.",
+    "optionalFields": [
+      "Hazards",
+      "Supports",
+      "Base"
+    ],
+    "baseMeaning": "A base is a boss present in some stages.",
+    "baseKillMeaning": "This build is intended to kill the base. Some bases take multiple shots (tries), and the kill shot may use a different build.",
+    "unstatedBaseFields": "When a caption does not specify Base shots, leave the field unspecified. When it does not specify Base kill, use false. Explicit one-shot kills and previously confirmed kill builds retain their stated shot count and true kill status. Confirmed using BB1 A2 (1.6x, cost 110, damage 375.44) as the example.",
+    "noBaseMeaning": "No base means a new run of the stage after the base has already been killed, not clearing remaining ships from the same battle. Encode base false and baseKill false.",
+    "slashSeparatedMultipliers": "Separate exact multiplier values, not continuous ranges.",
+    "struckText": "Exclude struck-through text.",
+    "missingCost": "Omit all entries that have no listed cost at all. Preserve grouped exact multipliers that share an explicitly listed cost. Previously confirmed cost overrides remain valid.",
+    "clarifications": "Review unresolved entries one at a time with the user. Do not hide ambiguous data in Comments."
+  },
+  "excludedEntries": [
+    {
+      "sheet": "B1 - B4B",
+      "cell": "D6",
+      "stage": "B3A",
+      "multiplier": "1.1x",
+      "cost": "25",
+      "sourceText": "1.1x - 25",
+      "decision": "Exclude the entire entry from the dataset.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E8",
+      "stage": "B3B",
+      "sourceText": "1.3x - 23 (L1 - Frigate) / 1.5x - 10",
+      "excludedVariants": [
+        {
+          "multiplier": "1.3x",
+          "cost": "23",
+          "L1": "Frigate"
+        },
+        {
+          "multiplier": "1.5x",
+          "cost": "10"
+        }
+      ],
+      "decision": "Exclude the entire broken entry and both caption variants from the dataset. Remove its separately downloaded image copy; preserve the original image associated with E10/E11.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F10",
+      "stage": "B4A",
+      "multiplier": "1.5x",
+      "cost": "13",
+      "sourceText": "1.5x - 13",
+      "decision": "Omit F10 as a duplicate. Keep the F4 entry and its image at F5.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "A13",
+      "stage": "B1",
+      "sourceText": null,
+      "image": "_source/embedded-images/image11.png",
+      "decision": "Omit the uncaptioned B1 entry and its image from the final dataset. Preserve the extracted source image in the source archive.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "H11",
+      "stage": "B9",
+      "sourceText": null,
+      "image": "_source/embedded-images/image87.png",
+      "observedMultiplier": "3.325x",
+      "decision": "Omit the uncaptioned B9 entry and its image from the final dataset. Preserve the extracted source image in the source archive.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E15",
+      "columnStage": "B7A",
+      "observedStage": "B7B",
+      "observedMultiplier": "2.575x",
+      "sourceText": null,
+      "image": "_source/embedded-images/image118.png",
+      "decision": "Omit the uncaptioned misplaced B7B entry and its image from the final dataset. Preserve the extracted source image in the source archive.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "E25",
+      "columnStage": "B7A",
+      "observedStage": "B13",
+      "observedGalaxy": "8",
+      "observedMultiplier": "1.5x",
+      "sourceText": null,
+      "image": "_source/embedded-images/image19.png",
+      "decision": "Omit the misplaced Galaxy 8 image from the final Galaxy 3 dataset. Preserve the extracted source image in the source archive.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "F6",
+      "stage": "B4A",
+      "multiplier": "1.325x",
+      "sourceText": "1.325x L1 Corvette w/ Armor and Shield",
+      "image": "_source/embedded-images/image30.png",
+      "decision": "Omit the B4A 1.325x entry with no specified cost and its image from the final dataset. Preserve the extracted source image in the source archive.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C12",
+      "stage": "B2B",
+      "multiplier": "1.4x",
+      "sourceText": "1.4x",
+      "image": "_source/embedded-images/image26.png",
+      "decision": "Omit only C12 and its image from the final dataset. Keep the separate C14 entry at 1.4x, cost 10, L1 Corvette, and its image at C15. Preserve the extracted source image in the source archive.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "B14",
+      "stage": "B2A",
+      "multiplier": "1.4x",
+      "sourceText": "1.4x",
+      "image": "_source/embedded-images/image35.png",
+      "decision": "Omit B14 because no cost is listed. Preserve the separate B12 entry and the extracted source image in the source archive.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "A4",
+      "stage": "B5A",
+      "multiplier": "1.4x",
+      "sourceText": "1.4x",
+      "decision": "Omit A4 and its image at A5 because no cost is listed. Preserve the extracted source image in the source archive.",
+      "authority": "User's explicit rule to omit all entries with no cost listed at all."
+    }
+  ],
+  "excludedVariants": [
+    {
+      "sheet": "B5A-B9",
+      "cell": "E6",
+      "stage": "B7A",
+      "multiplier": "2.275x",
+      "sourceCost": "??",
+      "sourceText": "2.25x - 35 / 2.275x - ??",
+      "decision": "Omit only the 2.275x variant. Retain the 2.25x variant with cost 35 and the shared image at E7.",
+      "authority": "Explicit user instruction in this chat."
+    }
+  ],
+  "suppliedImages": [
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E8",
+      "stage": "B3B",
+      "url": "https://docs.google.com/u/0/sheets-images-rt/AO43MLZdl_ThrDY5gOVSPo9qK676dCieSJgbM2TyOjNKUnRwEv2JJIjF73gUpBoP2xladJFkOGqYMQMuM1g0-7Ul2z1VBa6o4mvf4GV-xtE3RDkMXKNy5hH38Q6M3p4lJb_S0rRzfurqKEl8b7JTQw=s2048",
+      "localFile": null,
+      "removedLocalFile": "_source/B3B_E8.png",
+      "format": "PNG",
+      "width": 1594,
+      "height": 903,
+      "sha256": "5139091874fd9f3f29fe7b1b23bec43e9bc61013861048ddeaeb8b9c667c75e3",
+      "identicalExistingImage": {
+        "sheet": "B1 - B4B",
+        "imageCell": "E11",
+        "captionCell": "E10",
+        "caption": "2.375x - 10 (L1 - Corvette w/CL and shield)",
+        "mediaPath": "xl/media/image42.png"
+      },
+      "visualObservations": {
+        "stage": "B3B",
+        "multiplier": "1.625x"
+      },
+      "status": "Rejected with the broken E8 entry at the user's request. Extra downloaded copy deleted after confirming it matched the preserved original image42.png."
+    }
+  ],
+  "acceptedEntryOverrides": [
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E10",
+      "stage": "B3B",
+      "multiplier": "2.375x",
+      "cost": "10",
+      "lightChoices": {
+        "L1": "Corvette"
+      },
+      "sourceText": "2.375x - 10 (L1 - Corvette w/CL and shield)",
+      "image": "images/B3B_4.png",
+      "decision": "Keep multiplier 2.375x and cost 10 from the caption despite the different values shown in the image.",
+      "authority": "Explicit user instruction: Yes, keep 2.375x and cost 10 from the caption."
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B6",
+      "stage": "B10",
+      "multiplier": "3.725x",
+      "cost": "62",
+      "base": false,
+      "baseKill": false,
+      "sourceText": "3.725x - 62 (with no ships chosen)",
+      "image": "images/B10_3.png",
+      "decision": "Keep the caption's multiplier 3.725x and cost 62 despite the different values visible in the screenshot. Set Base to false.",
+      "authority": "Explicit user instruction: Yes, keep 3.725x and cost 62 from the caption, and set Base to false."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B2",
+      "stage": "B5B",
+      "multiplier": "1.3x",
+      "cost": "37",
+      "lightChoices": {
+        "L1": "Corvette",
+        "L2": "Corvette"
+      },
+      "comments": "SH, AR",
+      "equipmentInComments": true,
+      "sourceText": "1.3x - 37 (L1/L2 corv, SH, AR)",
+      "decision": "Buy a Corvette at both L1 and L2. Put SH, AR in Comments for this entry rather than separate equipment fields.",
+      "authority": "Explicit user confirmation and instruction: Yes. SH, AR goes into the comment."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "G16",
+      "additionalCell": "G17",
+      "stage": "B4B",
+      "multiplier": "2.375x",
+      "cost": "10",
+      "sourceText": "2.375x - 10 (Corvette w/CL + shield)",
+      "additionalText": "Corvettes on B2 and B4",
+      "image": "",
+      "comments": "Corvette w/CL + shield. Corvettes on B2 and B4.",
+      "decision": "Keep this entry with an empty image field. Put the equipment and placement information in Comments, as explicitly requested by the user.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B1 - B4B",
+      "cell": "C14",
+      "stage": "B2B",
+      "multiplier": "1.4x",
+      "cost": "10",
+      "lightChoices": {
+        "L1": "Corvette"
+      },
+      "sourceText": "1.4x - 10 (L1 - Corvette)",
+      "imageCell": "C15",
+      "decision": "Keep C14 and its source image, as explicitly confirmed by the user when omitting C12.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B4",
+      "stage": "B10",
+      "multiplier": "3.725x",
+      "sourceText": "3.725x - up to 110 deploy (with no ships) 1139.85 DMG",
+      "cost": "110",
+      "comments": "Up to 110 to deploy if no ships have been bought at L.",
+      "baseDamage": "1139.85",
+      "imageCell": "B5",
+      "costStatus": "confirmed",
+      "decision": "Keep this entry with cost 110, as explicitly confirmed by the user. Retain the conditional deployment information in Comments and base damage 1139.85. No ships means no ships bought at L, not an empty deployed fleet.",
+      "authority": "Explicit user instructions for both the comment and cost 110."
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B10",
+      "stage": "B10",
+      "multiplier": "3.05x",
+      "cost": "82",
+      "sourceText": "3.05x - 82 (no base)",
+      "base": false,
+      "baseKill": false,
+      "decision": "Keep as a new run of the stage after the base has already been killed. Do not describe it as clearing ships left over from the same battle.",
+      "authority": "Explicit user confirmation and subsequent correction of the meaning of no base."
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B14",
+      "stage": "B10",
+      "multiplier": "3.25x",
+      "cost": "46",
+      "sourceText": "3.25x - 46 (no base)",
+      "base": false,
+      "baseKill": false,
+      "decision": "Apply the confirmed meaning of no base: a new stage run after the base has already been killed.",
+      "authority": "User's explicit clarification of no base."
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B2",
+      "stage": "B10",
+      "multiplier": "2.85x",
+      "cost": "120",
+      "costBasis": "per attempt",
+      "base": true,
+      "baseDamage": "1043.1",
+      "baseDamageBasis": "per attempt",
+      "baseShots": 2,
+      "baseKill": true,
+      "sameBuildForAllShots": true,
+      "sourceText": "2.85x - 120 (1043.1 dmg, 2 shot)",
+      "decision": "Use this same build for two attempts to kill the base. Cost 120 and base damage 1043.1 are per attempt. The second attempt kills the base; do not replace the per-attempt cost with a summed cost.",
+      "authority": "Explicit user confirmation in this chat."
+    }
+  ],
+  "acceptedBuildConfigurations": [
+    {
+      "sheet": "B5A-B9",
+      "cell": "D6",
+      "stage": "B6B",
+      "multipliers": [
+        "1.7x",
+        "1.8x"
+      ],
+      "sourceText": "1.7x / 1.8x - 51 with 0 ships, 31 with frigate+corvette",
+      "configurations": [
+        {
+          "cost": "51",
+          "lightChoices": {},
+          "sourceSuffix": "with 0 ships"
+        },
+        {
+          "cost": "31",
+          "lightChoiceAlternatives": [
+            {
+              "L1": "Frigate",
+              "L2": "Corvette"
+            },
+            {
+              "L1": "Corvette",
+              "L2": "Frigate"
+            }
+          ],
+          "sourceSuffix": "with frigate+corvette"
+        }
+      ],
+      "decision": "Keep both cost configurations at each multiplier because their Light requirements differ. Cost 51 requires no Light purchases. Cost 31 requires exactly one Frigate and one Corvette bought at L1 and L2, in either order. Treat the two orders as alternatives for the same build, not as permission to buy two ships at one Light.",
+      "authority": "Explicit user confirmation: Either order is valid, as long as one Frigate and one Corvette are bought at L1 and L2."
+    }
+  ],
+  "acceptedVariantOverrides": [
+    {
+      "sheet": "B5A-B9",
+      "cell": "D8",
+      "stage": "B6B",
+      "multiplier": "2.025x",
+      "cost": "22",
+      "comments": "Neither Shield nor Armour.",
+      "equipmentInComments": true,
+      "sourceText": "2.025x - 22(no SH and AR)",
+      "decision": "The note means neither Shield nor Armour. Put it in Comments for the 2.025x variant only, rather than separate equipment fields.",
+      "authority": "Explicit user instruction: Neither Shield nor Armour. Put that into the comment as well."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "F6",
+      "stage": "B7B",
+      "multiplier": "2.375x",
+      "sourceCost": "27(?)",
+      "cost": "27",
+      "fractionalPart": null,
+      "fractionalPartStatus": "unspecified",
+      "sourceText": "2.35x - 27(.4) / 2.375x - 27(?) / 2.45x -22(.37)",
+      "decision": "Keep the 2.375x variant with integer cost 27. Leave the fractional part unspecified; do not infer a zero fractional part or a more precise exact cost. Preserve the other variants in F6.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B8",
+      "stage": "B5B",
+      "multiplier": "1.7x",
+      "sourceCost": "20?",
+      "cost": "20",
+      "decision": "Keep the 1.7x variant with cost 20 as confirmed by the user.",
+      "authority": "Explicit user instruction in this chat."
+    },
+    {
+      "sheet": "B5A-B9",
+      "cell": "B8",
+      "stage": "B5B",
+      "multiplier": "1.8x",
+      "sourceCost": "19?",
+      "cost": "19",
+      "decision": "Keep the 1.8x variant with cost 19 as confirmed by the user.",
+      "authority": "Explicit user instruction in this chat."
+    }
+  ],
+  "nextEntryToReview": null,
+  "imageDerivedFields": [
+    {
+      "sheet": "BB1 & B10",
+      "cell": "A8",
+      "image": "images/BB1_4.png",
+      "base": false,
+      "evidence": "Visually inspected the original screenshot: the enemy fleet has no base. Both exact multiplier variants share this image."
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B12",
+      "image": "images/B10_6.png",
+      "base": false,
+      "evidence": "Visually inspected the original screenshot: the enemy fleet has no base."
+    }
+  ],
+  "pendingImageDiscrepancies": [],
+  "resolvedImageDiscrepancies": [
+    {
+      "sheet": "B1 - B4B",
+      "cell": "E10",
+      "stage": "B3B",
+      "sourceText": "2.375x - 10 (L1 - Corvette w/CL and shield)",
+      "sourceImage": "_source/embedded-images/image42.png",
+      "observedImageMultiplier": "1.625x",
+      "status": "Resolved by explicit user instruction: keep caption multiplier 2.375x and cost 10. The separate broken E8 entry remains excluded."
+    },
+    {
+      "sheet": "BB1 & B10",
+      "cell": "B6",
+      "stage": "B10",
+      "sourceText": "3.725x - 62 (with no ships chosen)",
+      "image": "images/B10_3.png",
+      "observedImageMultiplier": "3.25x",
+      "observedImageCommittedResources": "80",
+      "observedImageBasePresent": false,
+      "status": "Resolved by explicit user instruction: keep caption multiplier 3.725x and cost 62; set Base false."
+    }
+  ],
+  "imageExport": {
+    "directory": "images",
+    "count": 108,
+    "stages": 17,
+    "manifest": "_source/image-manifest.json",
+    "verification": "Every exported image has the same SHA-256 hash as its original embedded source image."
+  },
+  "normalization": {
+    "file": "_source/normalized-candidates.json",
+    "candidateBuilds": 161,
+    "buildsAfterDuplicateSelection": 157,
+    "duplicateSelections": 4,
+    "unresolvedCaptionAnnotations": 0
+  },
+  "status": "Complete after refinement: 139 builds, 105 referenced images, integer costs and no source metadata.",
+  "output": {
+    "output": "galaxy3.json",
+    "sha256": "3c56c73f87b76cc3c7d950757421ab854023629dbace0b66bdef0f7d807de1fa",
+    "stages": 17,
+    "exactMultiplierGroups": 129,
+    "builds": 139,
+    "imagesReferenced": 105,
+    "buildsWithEmptyImage": 1,
+    "validationReport": "_source/validation-report.json"
+  },
+  "outputRefinement": {
+    "costs": "Truncate all costs to integers and remove fractional-cost metadata.",
+    "sameMultiplier": "Keep the cheapest build for identical hazards, supports, Light choices and Base status; equipment/layout differences do not protect a more expensive build at the same multiplier.",
+    "baseClarification": "User explicitly confirmed keeping base and no-base builds separate.",
+    "consecutiveMultipliers": "Retain the lowest multiplier in an uninterrupted run with the same integer cost and same build/layout. Preserve rises, falls and returns to earlier costs.",
+    "layoutClarification": "User explicitly confirmed that different layouts stay separate across consecutive multipliers.",
+    "sourceInformation": "Removed root/per-build source fields and source-attribution comments from the output JSON.",
+    "imageCleanup": "Delete unreferenced output images locally; preserve filenames of retained images.",
+    "script": "_source/refine_json.py"
+  }
+}
