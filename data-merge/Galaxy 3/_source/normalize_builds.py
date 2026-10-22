@@ -97,7 +97,8 @@ for index, candidate in enumerate(candidates):
                     'build': build, 'source': source, 'requirementComment': requirement_comment,
                     'sourceIndex': index})
 
-# Preserve builds with distinct Light, equipment, base, or placement requirements.
+# Historical duplicate-selection comparison only. The current exporter keeps
+# every entry in normalizedCandidates, per the user's 2026-10-22 instructions.
 groups = defaultdict(list)
 for record in records:
     requirement = {k: v for k, v in record['build'].items()
@@ -116,7 +117,7 @@ for group in groups.values():
                            'omittedSource': other['source'], 'omittedCost': other['build']['cost']})
 kept.sort(key=lambda r: r['sourceIndex'])
 
-result = {'status': 'Internal normalization and duplicate-selection audit. The final dataset is galaxy3.json.',
+result = {'status': 'Internal normalization audit. Current export uses all normalizedCandidates; duplicate-selection fields are historical comparisons only.',
           'normalizedCandidates': records, 'deduplicatedCandidates': kept,
           'duplicateSelections': duplicates, 'unresolved': unresolved}
 (ROOT / 'normalized-candidates.json').write_text(json.dumps(result, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')

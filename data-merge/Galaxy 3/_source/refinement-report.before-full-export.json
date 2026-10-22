@@ -1,0 +1,398 @@
+{
+  "status": "passed",
+  "output": "galaxy3.json",
+  "buildsBefore": 157,
+  "builds": 139,
+  "stages": 17,
+  "exactMultiplierGroups": 129,
+  "costsTruncated": 38,
+  "sameMultiplierBuildsRemoved": [
+    {
+      "kept": {
+        "stage": "B2A",
+        "multiplier": "1.1x",
+        "cost": 20,
+        "image": "images/B2A_2.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{\"L1\":\"Corvette\"}"
+          ],
+          "supports": null
+        }
+      },
+      "removed": {
+        "stage": "B2A",
+        "multiplier": "1.1x",
+        "cost": 22,
+        "image": "images/B2A_2.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{\"L1\":\"Corvette\"}"
+          ],
+          "supports": null
+        }
+      }
+    }
+  ],
+  "consecutiveBuildsRemoved": [
+    {
+      "keptAtMultiplier": "1.4x",
+      "removed": {
+        "stage": "B1",
+        "multiplier": "1.5x",
+        "cost": 6,
+        "image": "images/B1_4.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.3x",
+      "removed": {
+        "stage": "B2A",
+        "multiplier": "1.4x",
+        "cost": 13,
+        "image": "images/B2A_6.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.6x",
+      "removed": {
+        "stage": "B2A",
+        "multiplier": "1.7x",
+        "cost": 11,
+        "image": "images/B2A_8.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.6x",
+      "removed": {
+        "stage": "B2A",
+        "multiplier": "1.8x",
+        "cost": 11,
+        "image": "images/B2A_8.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "2.425x",
+      "removed": {
+        "stage": "B2A",
+        "multiplier": "2.5x",
+        "cost": 8,
+        "image": "images/B2A_9.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "2.425x",
+      "removed": {
+        "stage": "B2A",
+        "multiplier": "2.65x",
+        "cost": 8,
+        "image": "images/B2A_9.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.75x",
+      "removed": {
+        "stage": "B3A",
+        "multiplier": "2.0x",
+        "cost": 11,
+        "image": "images/B3A_7.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "2.65x",
+      "removed": {
+        "stage": "B3A",
+        "multiplier": "3.25x",
+        "cost": 5,
+        "image": "images/B3A_9.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.75x",
+      "removed": {
+        "stage": "B4A",
+        "multiplier": "2.0x",
+        "cost": 12,
+        "image": "images/B4A_3.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.5x",
+      "removed": {
+        "stage": "B4B",
+        "multiplier": "1.6x",
+        "cost": 10,
+        "image": "images/B4B_5.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{\"L1\":\"Corvette\"}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.6x",
+      "removed": {
+        "stage": "B5B",
+        "multiplier": "1.7x",
+        "cost": 20,
+        "image": "images/B5B_4.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.8x",
+      "removed": {
+        "stage": "B6A",
+        "multiplier": "1.825x",
+        "cost": 28,
+        "image": "images/B6A_4.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.7x",
+      "removed": {
+        "stage": "B6B",
+        "multiplier": "1.8x",
+        "cost": 51,
+        "image": "images/B6B_2.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.7x",
+      "removed": {
+        "stage": "B6B",
+        "multiplier": "1.8x",
+        "cost": 31,
+        "image": "images/B6B_2.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{\"L1\":\"Corvette\",\"L2\":\"Frigate\"}",
+            "{\"L1\":\"Frigate\",\"L2\":\"Corvette\"}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "1.95x",
+      "removed": {
+        "stage": "B7A",
+        "multiplier": "2.0x",
+        "cost": 47,
+        "image": "images/B7A_1.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "2.35x",
+      "removed": {
+        "stage": "B7B",
+        "multiplier": "2.375x",
+        "cost": 27,
+        "image": "images/B7B_3.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    },
+    {
+      "keptAtMultiplier": "2.9x",
+      "removed": {
+        "stage": "B7B",
+        "multiplier": "3.25x",
+        "cost": 19,
+        "image": "images/B7B_5.png",
+        "requirements": {
+          "base": null,
+          "hazards": null,
+          "lights": [
+            "{}"
+          ],
+          "supports": null
+        }
+      }
+    }
+  ],
+  "imagesReferenced": 105,
+  "buildsWithEmptyImage": 1,
+  "layoutEvidence": {
+    "equivalent": [
+      {
+        "images": [
+          "images/B7B_4.png",
+          "images/B7B_5.png"
+        ],
+        "placement": {
+          "A1": "Frigate",
+          "A2": "Corvette",
+          "B4": "Corvette"
+        },
+        "equipment": "Corvette Shield; no Frigate equipment"
+      }
+    ],
+    "differentLayoutsVisuallyChecked": [
+      [
+        "B2A_3.png",
+        "B2A_4.png"
+      ],
+      [
+        "B2A_8.png",
+        "B2A_7.png"
+      ],
+      [
+        "B4A_4.png",
+        "B4A_3.png"
+      ],
+      [
+        "B5A_3.png",
+        "B5A_4.png"
+      ],
+      [
+        "B5B_5.png",
+        "B5B_6.png"
+      ],
+      [
+        "B6A_3.png",
+        "B6A_4.png"
+      ],
+      [
+        "B6B_4.png",
+        "B6B_5.png"
+      ]
+    ]
+  },
+  "checks": [
+    "All costs are integers, truncated rather than rounded",
+    "Source metadata and source attribution comments removed",
+    "Same-multiplier minimum uses hazards, supports, Light choices and Base status",
+    "Consecutive equal costs collapse only for the same build/layout",
+    "Both directions of timing-related cost changes preserved",
+    "Base/no-base and different-layout exceptions preserved",
+    "Every referenced image exists and matches the original SHA-256",
+    "Changes are stable when applied again",
+    "images/ contains exactly the images referenced by the final JSON"
+  ],
+  "deletedImages": [
+    "images/B3A_6.png",
+    "images/B7B_5.png",
+    "images/B8_6.png"
+  ],
+  "sha256": "3c56c73f87b76cc3c7d950757421ab854023629dbace0b66bdef0f7d807de1fa"
+}

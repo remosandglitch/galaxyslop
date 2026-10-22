@@ -1,237 +1,276 @@
-"""Apply the user's integer-cost, consecutive-build and image-cleanup rules."""
+"""Export every approved Galaxy 3 build and exact multiplier with recorded decimals.
+
+The 2026-10-22 instructions supersede cost truncation and all cheapest-build/
+consecutive-multiplier selection. The pre-selection candidates are authoritative.
+Run without --apply to validate and preview; --apply updates the local artifacts.
+"""
 import argparse
 import copy
 import hashlib
 import json
+import re
+import shutil
+from collections import Counter
 from decimal import Decimal
 from pathlib import Path
+from PIL import Image
 
 SOURCE = Path(__file__).resolve().parent
 ROOT = SOURCE.parent
 DATA = ROOT / 'galaxy3.json'
 IMAGE_ROOT = (ROOT / 'images').resolve()
 
-# These two screenshots were inspected: Frigate A1; Corvettes A2/B4;
-# Corvette Shield; no Frigate equipment. Only the screenshot/skin differs.
-LAYOUT_EQUIVALENTS = {'images/B7B_5.png': 'images/B7B_4.png'}
 
 def require(condition, message):
     if not condition:
         raise ValueError(message)
 
-def canonical(value):
-    return json.dumps(value, sort_keys=True, separators=(',', ':'))
 
-def requirement_key(build):
-    choices = build.get('lightChoiceAlternatives', [build.get('lightChoices', {})])
-    return canonical({
-        'hazards': build.get('hazards'), 'supports': build.get('supports'),
-        'lights': sorted(canonical(choice) for choice in choices),
-        'base': build.get('base'),
-    })
+def read(name):
+    return json.loads((SOURCE / name).read_text(encoding='utf-8'))
+
+
+def canonical(value):
+    return json.dumps(value, sort_keys=True, separators=(',', ':'), allow_nan=False)
+
 
 def clean(value):
     if isinstance(value, list):
         return [clean(item) for item in value]
     if isinstance(value, dict):
-        out = {k: clean(v) for k, v in value.items()
-               if k not in ('source', 'costFractionalPart', 'costFractionalPartStatus')}
-        if 'cost' in out:
-            out['cost'] = int(Decimal(str(out['cost'])))
+        out = {key: clean(child) for key, child in value.items() if key != 'source'}
         if isinstance(out.get('comments'), str) and out['comments'].strip().lower().startswith('by '):
             out['comments'] = ''
         return out
     return value
 
-def build_key(build):
-    data = {k: v for k, v in build.items() if k != 'cost'}
-    data['image'] = LAYOUT_EQUIVALENTS.get(build['image'], build['image'])
-    return canonical(data)
-
-def short(stage, mult, build):
-    return {'stage': stage, 'multiplier': mult, 'cost': build['cost'],
-            'image': build['image'], 'requirements': json.loads(requirement_key(build))}
-
-def refine(original):
-    data = clean(copy.deepcopy(original))
-    same_multiplier, consecutive = [], []
-    for stage in data['stages']:
-        previous, output_groups = {}, []
-        for group in sorted(stage['multipliers'], key=lambda g: Decimal(g['multiplier'][:-1])):
-            current = {}
-            for build in group['builds']:
-                key = requirement_key(build)
-                if key not in current:
-                    current[key] = build
-                else:
-                    old = current[key]
-                    keep, drop = (build, old) if build['cost'] < old['cost'] else (old, build)
-                    current[key] = keep
-                    same_multiplier.append({'kept': short(stage['stage'], group['multiplier'], keep),
-                                            'removed': short(stage['stage'], group['multiplier'], drop)})
-            kept = []
-            new_previous = {}
-            for key, build in current.items():
-                prior = previous.get(key)
-                if prior and prior['build']['cost'] == build['cost'] and build_key(prior['build']) == build_key(build):
-                    consecutive.append({'keptAtMultiplier': prior['runStart'],
-                                        'removed': short(stage['stage'], group['multiplier'], build)})
-                    run_start = prior['runStart']
-                else:
-                    kept.append(build)
-                    run_start = group['multiplier']
-                new_previous[key] = {'build': build, 'runStart': run_start}
-            # Compare against every preceding listed multiplier, including suppressed
-            # rows. A price change or different layout always starts a new run.
-            previous = new_previous
-            if kept:
-                output_groups.append({'multiplier': group['multiplier'], 'builds': kept})
-        stage['multipliers'] = output_groups
-    return data, same_multiplier, consecutive
 
 def rows(data):
-    return [(s['stage'], m['multiplier'], b) for s in data['stages'] for m in s['multipliers'] for b in m['builds']]
+    return [(s['stage'], m['multiplier'], b)
+            for s in data['stages'] for m in s['multipliers'] for b in m['builds']]
 
-def assert_clean(value):
-    if isinstance(value, dict):
-        require('source' not in value, 'Source metadata remains in final JSON')
-        require('costFractionalPart' not in value and 'costFractionalPartStatus' not in value, 'Fractional-cost metadata remains')
-        if 'cost' in value:
-            require(type(value['cost']) is int, 'A cost is not an integer')
-        for child in value.values():
-            assert_clean(child)
-    elif isinstance(value, list):
-        for child in value:
-            assert_clean(child)
+
+def build_dataset(records):
+    grouped = {}
+    for record in sorted(records, key=lambda r: r['sourceIndex']):
+        grouped.setdefault(record['stage'], {}).setdefault(record['multiplier'], []).append(clean(record['build']))
+    return {
+        'formatVersion': 1, 'galaxy': 3,
+        'stages': [
+            {'stage': stage, 'multipliers': [
+                {'multiplier': mult, 'builds': mults[mult]}
+                for mult in sorted(mults, key=lambda value: Decimal(value[:-1]))
+            ]} for stage, mults in grouped.items()
+        ],
+    }
+
+
+def validate_records(records, numeric, decisions, audit):
+    require(len(records) == len(numeric) == 161, 'Approved source candidate count changed')
+    require(sorted(r['sourceIndex'] for r in records) == list(range(len(numeric))), 'Source candidate missing or repeated')
+    excluded = {(r['sheet'], r['cell']) for r in decisions['excludedEntries']}
+    excluded_variants = {(r['sheet'], r['cell'], r['multiplier']) for r in decisions['excludedVariants']}
+    cells = {(r['sheet'], r['cell']): r for r in audit['cells']}
+    allowed = {'cost', 'lightChoices', 'lightChoiceAlternatives', 'image', 'comments',
+               'base', 'baseKill', 'baseShots', 'baseDamage', 'costBasis', 'baseDamageBasis',
+               'sameBuildForAllShots', 'costFractionalPart', 'costFractionalPartStatus',
+               'equipmentRequirements'}
+    for record in records:
+        build = record['build']
+        candidate = numeric[record['sourceIndex']]
+        key = (record['source']['sheet'], record['source']['cell'])
+        require(key not in excluded and (*key, record['multiplier']) not in excluded_variants,
+                f'Explicit exclusion retained: {key}')
+        require(cells[key]['active'], f'Inactive caption retained: {key}')
+        require((record['stage'], record['multiplier'], *key) ==
+                (candidate['stage'], candidate['multiplier'], candidate['sourceSheet'], candidate['sourceCell']),
+                f'Candidate identity differs: {key}')
+        require(re.fullmatch(r'B(?:B)?\d+[AB]?', record['stage']), 'Invalid stage')
+        require(re.fullmatch(r'\d+\.\d+x', record['multiplier']), 'Multiplier must be one exact value')
+        require(set(build) <= allowed, f'Unexpected build fields: {set(build) - allowed}')
+        require(type(build['cost']) in (int, float) and build['cost'] >= 0, 'Invalid cost')
+        require(Decimal(str(build['cost'])) == Decimal(candidate['cost']), f'Cost precision lost: {key}')
+        require(build['image'] == candidate['image'], f'Image assignment changed: {key}')
+        require(isinstance(build['comments'], str), 'Comments must be a string')
+        require(('lightChoices' in build) != ('lightChoiceAlternatives' in build), 'Invalid Light choice representation')
+        choices = build.get('lightChoiceAlternatives', [build.get('lightChoices', {})])
+        require(choices, 'Empty Light alternative list')
+        for choice in choices:
+            require(isinstance(choice, dict) and all(re.fullmatch(r'L\d+', slot) and ship in ('Frigate', 'Corvette')
+                                                    for slot, ship in choice.items()), 'Invalid Light choices')
+        for field in ('base', 'baseKill', 'sameBuildForAllShots'):
+            if field in build:
+                require(type(build[field]) is bool, f'{field} must be boolean')
+        if 'baseShots' in build:
+            require(type(build['baseShots']) is int and build['baseShots'] > 0, 'Invalid shot count')
+        if 'baseDamage' in build:
+            require(type(build['baseDamage']) in (int, float) and build['baseDamage'] >= 0, 'Invalid base damage')
+            if 'baseDamage' in candidate:
+                require(Decimal(str(build['baseDamage'])) == Decimal(candidate['baseDamage']), 'Base damage precision lost')
+        if build.get('baseKill'):
+            require(build.get('base') is True, 'Base kill requires a base')
+        if build.get('base') is False:
+            require(build.get('baseKill') is False, 'Base-free build cannot kill a base')
+        if not build['image']:
+            require(key == ('B1 - B4B', 'G16'), 'Unexpected missing image')
+
+    def find(stage, mult, sheet, cell):
+        return [r['build'] for r in records if
+                (r['stage'], r['multiplier'], r['source']['sheet'], r['source']['cell']) == (stage, mult, sheet, cell)]
+
+    def one(stage, mult, sheet, cell):
+        matches = find(stage, mult, sheet, cell)
+        require(len(matches) == 1, f'Expected one build: {stage} {mult} {cell}')
+        return matches[0]
+
+    for override in [*decisions['acceptedEntryOverrides'], *decisions['acceptedVariantOverrides']]:
+        build = one(override['stage'], override['multiplier'], override['sheet'], override['cell'])
+        for field in allowed - {'costFractionalPart', 'costFractionalPartStatus'}:
+            if field in override:
+                expected = Decimal(override[field]) if field in ('cost', 'baseDamage') else override[field]
+                actual = Decimal(str(build[field])) if field in ('cost', 'baseDamage') else build[field]
+                require(actual == expected, f'Confirmed override differs: {override["cell"]} {field}')
+        if override.get('equipmentInComments'):
+            require('equipmentRequirements' not in build, 'Comment-only equipment became structured data')
+        if 'fractionalPartStatus' in override:
+            require(build['costFractionalPart'] == override['fractionalPart'] and
+                    build['costFractionalPartStatus'] == override['fractionalPartStatus'], 'Unknown fraction changed')
+    for mult in ('1.7x', '1.8x'):
+        choices = find('B6B', mult, 'B5A-B9', 'D6')
+        require({b['cost'] for b in choices} == {31, 51}, 'B6B configuration lost')
+        require(next(b for b in choices if b['cost'] == 31)['lightChoiceAlternatives'] ==
+                [{'L1': 'Frigate', 'L2': 'Corvette'}, {'L1': 'Corvette', 'L2': 'Frigate'}], 'B6B purchase orders changed')
+        require(next(b for b in choices if b['cost'] == 51)['lightChoices'] == {}, 'B6B no-Light choice changed')
+    for mult in ('1.2x', '1.4x'):
+        require(one('B3B', mult, 'B1 - B4B', 'E6')['lightChoices'] == {'L1': 'Corvette'}, 'Trailing Light note lost')
+    require(one('B2B', '2.375x', 'B1 - B4B', 'C2')['lightChoices'] == {}, 'Non-trailing Light note propagated')
+    for mult in ('2.15x', '2.125x'):
+        require(one('B6B', mult, 'B5A-B9', 'D8')['comments'] == '', 'Local equipment note propagated')
+    require(not find('B2A', '1.8x', 'B1 - B4B', 'B16'), 'Partially struck variant retained')
+    require(not find('B6B', '2.225x', 'B5A-B9', 'D8'), 'Partially struck variant retained')
+
+
+def write_json(path, value):
+    path.write_text(json.dumps(value, indent=2, ensure_ascii=False, allow_nan=False) + '\n', encoding='utf-8')
+
 
 def main():
-    args = argparse.ArgumentParser()
-    args.add_argument('--apply', action='store_true')
-    apply = args.parse_args().apply
-    before_bytes = DATA.read_bytes()
-    original = json.loads(before_bytes)
-    data, duplicate_removals, run_removals = refine(original)
-    assert_clean(data)
-    # An idempotence check detects accidental cascading removal of nonconsecutive rows.
-    second, second_duplicates, second_runs = refine(data)
-    require(second == data and not second_duplicates and not second_runs, 'Refinement is not stable')
-    before_rows, after_rows = rows(original), rows(data)
-    for stage in data['stages']:
-        for group in stage['multipliers']:
-            keys = [requirement_key(b) for b in group['builds']]
-            require(len(keys) == len(set(keys)), 'Duplicate requirements remain at one multiplier')
-    # Every retained build must come from the input with only the requested edits.
-    for stage, mult, build in after_rows:
-        require(any(s == stage and m == mult and clean(b) == build for s, m, b in before_rows), 'Unexpected build mutation')
-    require([s['stage'] for s in data['stages']] == [s['stage'] for s in original['stages']], 'Stage lost during refinement')
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--apply', action='store_true')
+    apply = parser.parse_args().apply
+    decisions, normalized, numeric = read('import-decisions.json'), read('normalized-candidates.json'), read('cost-candidates.json')
+    require(not decisions.get('nextEntryToReview') and not decisions.get('pendingImageDiscrepancies'), 'Clarification pending')
+    require(not normalized['unresolved'] and not numeric['specialCases'], 'Unresolved source data')
+    records = normalized['normalizedCandidates']  # Intentionally bypass every earlier deduplication step.
+    validate_records(records, numeric['candidates'], decisions, read('source-audit.json'))
+    data = build_dataset(records)
+    expected = Counter(canonical((r['stage'], r['multiplier'], clean(r['build']))) for r in records)
+    require(Counter(canonical(row) for row in rows(data)) == expected, 'A build was removed, duplicated or changed')
+    require(clean(data) == data and build_dataset(records) == data, 'Export is not stable')
+    require(len(data['stages']) == 17 and sum(len(s['multipliers']) for s in data['stages']) == 145, 'Multiplier coverage changed')
 
-    manifest = json.loads((SOURCE / 'image-manifest.json').read_text(encoding='utf-8'))
+    manifest = read('image-manifest.json')
     image_info = {entry['output_file']: entry for entry in manifest['images']}
-    used_images = {b['image'] for _, _, b in after_rows if b['image']}
-    existing = {}
+    require(len(image_info) == len(manifest['images']), 'Repeated image filename')
+    used = {b['image'] for _, _, b in rows(data) if b['image']}
+    require(used <= image_info.keys(), 'Image absent from original manifest')
+    for stage, _, build in rows(data):
+        if build['image']:
+            require(image_info[build['image']]['stage'] == stage, 'Image assigned to wrong stage')
+    existing, source_images = {}, {}
     for path in IMAGE_ROOT.iterdir():
-        require(path.is_file() and not path.is_symlink(), f'Unexpected entry in images/: {path.name}')
-        require(path.resolve().parent == IMAGE_ROOT, 'Image path escapes the intended directory')
         name = path.relative_to(ROOT).as_posix()
+        require(path.is_file() and not path.is_symlink() and path.resolve().parent == IMAGE_ROOT, 'Unexpected image path')
         require(name in image_info, f'Unrecognized image: {name}')
-        require(hashlib.sha256(path.read_bytes()).hexdigest() == image_info[name]['sha256'], f'Image content changed: {name}')
+        require(hashlib.sha256(path.read_bytes()).hexdigest() == image_info[name]['sha256'], f'Changed image: {name}')
         existing[name] = path
-    require(used_images <= existing.keys(), 'A referenced image is missing')
-    unused = sorted(set(existing) - used_images)
-
-    # Confirm real timing reversals and the user's clarified exceptions.
-    lookup = {(s, m): [b for ss, mm, b in after_rows if ss == s and mm == m] for s, m, _ in after_rows}
-    def costs(stage, mult):
-        return {b['cost'] for b in lookup.get((stage, mult), [])}
-    require([costs('B8', m) for m in ('2.65x', '2.825x', '2.975x')] == [{29}, {30}, {29}], 'B8 cost increase/return was lost')
-    require([costs('B6B', m) for m in ('2.025x', '2.125x', '2.15x')] == [{22}, {21}, {22}], 'B6B cost reversal was lost')
-    for mult, expected in [('3.05x', {170, 82}), ('3.725x', {110, 62})]:
-        require(costs('B10', mult) == expected, 'Base and no-base builds were merged')
-        require({b['base'] for b in lookup[('B10', mult)]} == {True, False}, 'Base states were not preserved')
-    require(14 in costs('B2A', '1.1x') and 14 in costs('B2A', '1.2x'), 'Different layouts were merged')
-    require(22 not in costs('B2A', '1.1x') and 20 in costs('B2A', '1.1x'), 'Cheapest same-multiplier build was not selected')
-    require(costs('B7B', '2.9x') == {19} and not costs('B7B', '3.25x'), 'Equivalent B7B layout was not consolidated')
-
+    for name in sorted(used):
+        entry = image_info[name]
+        path = (SOURCE / 'embedded-images' / Path(entry['media_path']).name).resolve()
+        require(path.parent == (SOURCE / 'embedded-images').resolve(), 'Archive path escaped its directory')
+        require(hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256'], f'Original image hash differs: {name}')
+        with Image.open(path) as img:
+            require(img.format == entry['format'] == 'PNG' and list(img.size) == entry['dimensions'], f'Image format/dimensions differ: {name}')
+            img.verify()
+        require(re.fullmatch(re.escape(entry['stage']) + r'_\d+\.png', Path(name).name), 'Invalid image filename')
+        source_images[name] = path
+    missing, unused = sorted(used - existing.keys()), sorted(existing.keys() - used)
+    before = json.loads(DATA.read_text(encoding='utf-8'))
+    output_text = json.dumps(data, indent=2, ensure_ascii=False, allow_nan=False) + '\n'
+    require(json.loads(output_text) == data, 'JSON round trip failed')
     report = {
         'status': 'passed' if apply else 'ready', 'output': 'galaxy3.json',
-        'buildsBefore': len(before_rows), 'builds': len(after_rows),
-        'stages': len(data['stages']),
+        'buildsBefore': len(rows(before)), 'builds': len(records), 'stages': len(data['stages']),
         'exactMultiplierGroups': sum(len(s['multipliers']) for s in data['stages']),
-        'costsTruncated': sum(Decimal(str(b['cost'])) != int(Decimal(str(b['cost']))) for _, _, b in before_rows),
-        'sameMultiplierBuildsRemoved': duplicate_removals,
-        'consecutiveBuildsRemoved': run_removals,
-        'imagesReferenced': len(used_images), 'unusedImagesToDelete': unused,
-        'buildsWithEmptyImage': sum(not b['image'] for _, _, b in after_rows),
-        'layoutEvidence': {
-            'equivalent': [{'images': ['images/B7B_4.png', 'images/B7B_5.png'],
-                            'placement': {'A1': 'Frigate', 'A2': 'Corvette', 'B4': 'Corvette'},
-                            'equipment': 'Corvette Shield; no Frigate equipment'}],
-            'differentLayoutsVisuallyChecked': [
-                ['B2A_3.png', 'B2A_4.png'], ['B2A_8.png', 'B2A_7.png'],
-                ['B4A_4.png', 'B4A_3.png'], ['B5A_3.png', 'B5A_4.png'],
-                ['B5B_5.png', 'B5B_6.png'], ['B6A_3.png', 'B6A_4.png'],
-                ['B6B_4.png', 'B6B_5.png'],
-            ],
-        },
-        'checks': ['All costs are integers, truncated rather than rounded',
-                   'Source metadata and source attribution comments removed',
-                   'Same-multiplier minimum uses hazards, supports, Light choices and Base status',
-                   'Consecutive equal costs collapse only for the same build/layout',
-                   'Both directions of timing-related cost changes preserved',
-                   'Base/no-base and different-layout exceptions preserved',
-                   'Every referenced image exists and matches the original SHA-256',
-                   'Changes are stable when applied again'],
+        'buildsWithFractionalCosts': sum(Decimal(str(b['cost'])) % 1 != 0 for _, _, b in rows(data)),
+        'buildsWithUnspecifiedCostFraction': sum('costFractionalPartStatus' in b for _, _, b in rows(data)),
+        'imagesReferenced': len(used), 'imagesToRestore': missing, 'unusedImagesToDelete': unused,
+        'buildsWithEmptyImage': sum(not b['image'] for _, _, b in rows(data)),
+        'outputAlreadyCurrent': before == data,
+        'checks': ['All 161 approved source candidates retained exactly once',
+                   'All 145 exact stage/multiplier groups retained without consolidation',
+                   'Every cost matches its source candidate including all recorded decimal digits',
+                   'Explicit omissions, missing-cost exclusions and struck-through variants remain excluded',
+                   'Confirmed Base, Light, equipment, comments and unspecified-fraction decisions preserved',
+                   'Each multiplier/build has its own entry; shared image references preserved',
+                   'Source metadata and standalone source attribution comments removed',
+                   'All referenced original images pass SHA-256, PNG and dimension checks',
+                   'JSON round trip and deterministic rebuild passed'],
     }
     if apply:
-        backup = SOURCE / 'galaxy3.before-refinement.json'
-        if not backup.exists():
-            backup.write_bytes(before_bytes)
-        output_text = json.dumps(data, indent=2, ensure_ascii=False, allow_nan=False) + '\n'
-        require(json.loads(output_text) == data, 'JSON round trip failed')
+        for name in missing:
+            target = (ROOT / name).resolve()
+            require(target.parent == IMAGE_ROOT and not target.exists(), f'Unsafe restoration target: {name}')
+            shutil.copy2(source_images[name], target)
+            require(hashlib.sha256(target.read_bytes()).hexdigest() == image_info[name]['sha256'], 'Restored image differs')
         temp = ROOT / 'galaxy3.refinement.tmp'
         temp.write_text(output_text, encoding='utf-8')
         temp.replace(DATA)
-        # Only explicit files within the checked images directory are deleted.
-        # Source archives remain available separately under _source/.
         for name in unused:
             path = existing[name]
-            require(path.resolve().parent == IMAGE_ROOT and name not in used_images, 'Unsafe image deletion target')
+            require(path.resolve().parent == IMAGE_ROOT and name not in used, 'Unsafe image deletion')
             path.unlink()
-        remaining = {p.relative_to(ROOT).as_posix() for p in IMAGE_ROOT.iterdir()}
-        require(remaining == used_images, 'Image cleanup does not match final references')
-        require(json.loads(DATA.read_text(encoding='utf-8')) == data, 'Saved JSON differs from validated output')
+        require({p.relative_to(ROOT).as_posix() for p in IMAGE_ROOT.iterdir()} == used, 'Image set differs from references')
+        require(json.loads(DATA.read_text(encoding='utf-8')) == data, 'Saved output differs')
+        report['restoredImages'] = report.pop('imagesToRestore')
         report['deletedImages'] = report.pop('unusedImagesToDelete')
         report['sha256'] = hashlib.sha256(DATA.read_bytes()).hexdigest()
-        report['checks'].append('images/ contains exactly the images referenced by the final JSON')
-        old_report = SOURCE / 'validation-report.json'
-        historical_report = SOURCE / 'initial-validation-report.json'
-        if old_report.exists() and not historical_report.exists():
-            historical_report.write_bytes(old_report.read_bytes())
-        old_report.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
-        (SOURCE / 'refinement-report.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
-        current_manifest = {'images': [entry for entry in manifest['images'] if entry['output_file'] in used_images],
-                            'numbering': 'Original filenames preserved; gaps after deletion are intentional.'}
-        (SOURCE / 'current-image-manifest.json').write_text(json.dumps(current_manifest, indent=2) + '\n', encoding='utf-8')
-        decisions_path = SOURCE / 'import-decisions.json'
-        decisions = json.loads(decisions_path.read_text(encoding='utf-8'))
+        report['checks'].append('images/ contains exactly the files referenced by the saved JSON')
+        write_json(SOURCE / 'validation-report.json', report)
+        write_json(SOURCE / 'refinement-report.json', report)
+        write_json(SOURCE / 'current-image-manifest.json', {
+            'images': [e for e in manifest['images'] if e['output_file'] in used],
+            'numbering': 'Original per-stage filenames preserved; all referenced originals restored.',
+        })
+        if decisions.get('outputRefinement', {}).get('selection') != 'all approved builds':
+            decisions.setdefault('outputRuleHistory', []).append({
+                'supersededOn': '2026-10-22', 'rules': copy.deepcopy(decisions.get('outputRefinement', {})),
+                'reason': 'User requested every listed multiplier, decimals, and all builds.',
+            })
+        decisions['confirmedRules']['duplicateBuilds'] = 'Keep all approved builds, including more expensive alternatives and matching requirements; no cheapest-build selection.'
+        decisions['confirmedRules']['costPrecision'] = 'Preserve all recorded decimal digits. Keep the explicitly unspecified fractional part unknown.'
+        decisions['confirmedRules']['multiplierCoverage'] = 'Keep every listed exact multiplier with all its approved builds; never consolidate across multipliers.'
         decisions['outputRefinement'] = {
-            'costs': 'Truncate all costs to integers and remove fractional-cost metadata.',
-            'sameMultiplier': 'Keep the cheapest build for identical hazards, supports, Light choices and Base status; equipment/layout differences do not protect a more expensive build at the same multiplier.',
-            'baseClarification': 'User explicitly confirmed keeping base and no-base builds separate.',
-            'consecutiveMultipliers': 'Retain the lowest multiplier in an uninterrupted run with the same integer cost and same build/layout. Preserve rises, falls and returns to earlier costs.',
-            'layoutClarification': 'User explicitly confirmed that different layouts stay separate across consecutive multipliers.',
-            'sourceInformation': 'Removed root/per-build source fields and source-attribution comments from the output JSON.',
-            'imageCleanup': 'Delete unreferenced output images locally; preserve filenames of retained images.',
+            'selection': 'all approved builds',
+            'costs': decisions['confirmedRules']['costPrecision'],
+            'sameMultiplier': decisions['confirmedRules']['duplicateBuilds'],
+            'consecutiveMultipliers': decisions['confirmedRules']['multiplierCoverage'],
+            'exclusions': 'Explicitly omitted entries, missing-cost entries and struck-through text remain excluded.',
+            'baseClarification': 'Base and no-base builds remain separate.',
+            'sourceInformation': 'Root/per-build source fields and standalone author attributions are omitted.',
+            'imageCleanup': 'Keep exactly referenced originals, restoring archived images as needed; preserve filenames.',
             'script': '_source/refine_json.py',
+            'authority': ['We should list every listed multiplier and also have the decimals.', 'Also all builds.'],
         }
-        decisions['status'] = f"Complete after refinement: {len(after_rows)} builds, {len(used_images)} referenced images, integer costs and no source metadata."
+        decisions['normalization']['duplicateSelectionStatus'] = 'Historical comparison only; current output uses all normalizedCandidates.'
+        decisions['status'] = f"Complete: {len(records)} builds, 145 exact multiplier groups, {len(used)} images, original decimal costs and no source metadata."
         decisions['output'] = {k: report[k] for k in ('output', 'sha256', 'stages', 'exactMultiplierGroups', 'builds', 'imagesReferenced', 'buildsWithEmptyImage')}
         decisions['output']['validationReport'] = '_source/validation-report.json'
-        decisions_path.write_text(json.dumps(decisions, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+        write_json(SOURCE / 'import-decisions.json', decisions)
     else:
-        (SOURCE / 'refinement-plan.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
-    print(json.dumps({k: v for k, v in report.items() if k not in ('layoutEvidence', 'checks', 'sameMultiplierBuildsRemoved', 'consecutiveBuildsRemoved')}, indent=2))
-    print(json.dumps({'sameMultiplierBuildsRemoved': len(duplicate_removals), 'consecutiveBuildsRemoved': len(run_removals)}))
+        write_json(SOURCE / 'refinement-plan.json', report)
+    print(json.dumps({k: v for k, v in report.items() if k != 'checks'}, indent=2))
+
 
 if __name__ == '__main__':
     main()

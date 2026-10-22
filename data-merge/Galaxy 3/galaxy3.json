@@ -54,6 +54,17 @@
           ]
         },
         {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 6,
+              "lightChoices": {},
+              "image": "images/B1_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
           "multiplier": "1.825x",
           "builds": [
             {
@@ -86,6 +97,14 @@
           "multiplier": "1.1x",
           "builds": [
             {
+              "cost": 22,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B2A_2.png",
+              "comments": ""
+            },
+            {
               "cost": 20,
               "lightChoices": {
                 "L1": "Corvette"
@@ -97,7 +116,7 @@
               }
             },
             {
-              "cost": 14,
+              "cost": 14.98,
               "lightChoices": {
                 "L1": "Frigate"
               },
@@ -118,7 +137,7 @@
               "comments": ""
             },
             {
-              "cost": 16,
+              "cost": 16.34,
               "lightChoices": {},
               "image": "images/B2A_5.png",
               "comments": ""
@@ -127,6 +146,17 @@
         },
         {
           "multiplier": "1.3x",
+          "builds": [
+            {
+              "cost": 13,
+              "lightChoices": {},
+              "image": "images/B2A_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.4x",
           "builds": [
             {
               "cost": 13,
@@ -159,6 +189,28 @@
           ]
         },
         {
+          "multiplier": "1.7x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B2A_8.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.8x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B2A_8.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
           "multiplier": "2.0x",
           "builds": [
             {
@@ -181,10 +233,32 @@
           ]
         },
         {
+          "multiplier": "2.5x",
+          "builds": [
+            {
+              "cost": 8.24,
+              "lightChoices": {},
+              "image": "images/B2A_9.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.65x",
+          "builds": [
+            {
+              "cost": 8.04,
+              "lightChoices": {},
+              "image": "images/B2A_9.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
           "multiplier": "3.25x",
           "builds": [
             {
-              "cost": 7,
+              "cost": 7.32,
               "lightChoices": {},
               "image": "images/B2A_10.png",
               "comments": ""
@@ -213,7 +287,7 @@
           "multiplier": "1.1x",
           "builds": [
             {
-              "cost": 19,
+              "cost": 19.32,
               "lightChoices": {
                 "L1": "Corvette"
               },
@@ -221,7 +295,7 @@
               "comments": ""
             },
             {
-              "cost": 22,
+              "cost": 22.56,
               "lightChoices": {
                 "L1": "Frigate"
               },
@@ -234,7 +308,7 @@
           "multiplier": "1.2x",
           "builds": [
             {
-              "cost": 16,
+              "cost": 16.46,
               "lightChoices": {},
               "image": "images/B2B_4.png",
               "comments": ""
@@ -306,7 +380,7 @@
           "multiplier": "3.25x",
           "builds": [
             {
-              "cost": 8,
+              "cost": 8.71,
               "lightChoices": {},
               "image": "images/B2B_8.png",
               "comments": ""
@@ -351,7 +425,7 @@
               "comments": ""
             },
             {
-              "cost": 17,
+              "cost": 17.63,
               "lightChoices": {},
               "image": "images/B3A_4.png",
               "comments": ""
@@ -388,11 +462,28 @@
               "lightChoices": {},
               "image": "images/B3A_5.png",
               "comments": ""
+            },
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B3A_6.png",
+              "comments": ""
             }
           ]
         },
         {
           "multiplier": "1.75x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B3A_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.0x",
           "builds": [
             {
               "cost": 11,
@@ -428,7 +519,18 @@
           "multiplier": "2.65x",
           "builds": [
             {
-              "cost": 5,
+              "cost": 5.81,
+              "lightChoices": {},
+              "image": "images/B3A_9.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 5.66,
               "lightChoices": {},
               "image": "images/B3A_9.png",
               "comments": ""
@@ -465,7 +567,7 @@
           "multiplier": "1.2x",
           "builds": [
             {
-              "cost": 17,
+              "cost": 17.5,
               "lightChoices": {
                 "L1": "Corvette"
               },
@@ -478,7 +580,7 @@
           "multiplier": "1.4x",
           "builds": [
             {
-              "cost": 11,
+              "cost": 11.25,
               "lightChoices": {
                 "L1": "Corvette"
               },
@@ -562,6 +664,17 @@
           ]
         },
         {
+          "multiplier": "2.0x",
+          "builds": [
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B4A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
           "multiplier": "2.2x",
           "builds": [
             {
@@ -587,7 +700,7 @@
           "multiplier": "3.25x",
           "builds": [
             {
-              "cost": 7,
+              "cost": 7.38,
               "lightChoices": {},
               "image": "images/B4A_5.png",
               "comments": ""
@@ -616,7 +729,7 @@
           "multiplier": "1.2x",
           "builds": [
             {
-              "cost": 25,
+              "cost": 25.55,
               "lightChoices": {
                 "L1": "Corvette"
               },
@@ -670,6 +783,19 @@
               "cost": 10,
               "lightChoices": {},
               "image": "images/B4B_8.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.6x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B4B_5.png",
               "comments": ""
             }
           ]
@@ -733,6 +859,12 @@
               "cost": 19,
               "lightChoices": {},
               "image": "images/B5A_1.png",
+              "comments": ""
+            },
+            {
+              "cost": 21,
+              "lightChoices": {},
+              "image": "images/B5A_4.png",
               "comments": ""
             }
           ]
@@ -818,7 +950,7 @@
           "multiplier": "2.85x",
           "builds": [
             {
-              "cost": 15,
+              "cost": 15.03,
               "lightChoices": {},
               "image": "images/B5A_5.png",
               "comments": ""
@@ -829,7 +961,7 @@
           "multiplier": "3.25x",
           "builds": [
             {
-              "cost": 17,
+              "cost": 17.5,
               "lightChoices": {},
               "image": "images/B5A_6.png",
               "comments": ""
@@ -859,7 +991,7 @@
           "multiplier": "1.4x",
           "builds": [
             {
-              "cost": 43,
+              "cost": 43.75,
               "lightChoices": {
                 "L1": "Corvette"
               },
@@ -888,6 +1020,17 @@
         },
         {
           "multiplier": "1.6x",
+          "builds": [
+            {
+              "cost": 20,
+              "lightChoices": {},
+              "image": "images/B5B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.7x",
           "builds": [
             {
               "cost": 20,
@@ -956,7 +1099,7 @@
           "multiplier": "2.725x",
           "builds": [
             {
-              "cost": 13,
+              "cost": 13.88,
               "lightChoices": {},
               "image": "images/B5B_6.png",
               "comments": ""
@@ -967,7 +1110,7 @@
           "multiplier": "3.25x",
           "builds": [
             {
-              "cost": 12,
+              "cost": 12.31,
               "lightChoices": {},
               "image": "images/B5B_7.png",
               "comments": ""
@@ -1017,6 +1160,23 @@
         },
         {
           "multiplier": "1.8x",
+          "builds": [
+            {
+              "cost": 31,
+              "lightChoices": {},
+              "image": "images/B6A_2.png",
+              "comments": ""
+            },
+            {
+              "cost": 28,
+              "lightChoices": {},
+              "image": "images/B6A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.825x",
           "builds": [
             {
               "cost": 28,
@@ -1074,7 +1234,7 @@
           "multiplier": "2.6x",
           "builds": [
             {
-              "cost": 19,
+              "cost": 19.65,
               "lightChoices": {},
               "image": "images/B6A_6.png",
               "comments": ""
@@ -1107,7 +1267,7 @@
           "multiplier": "3.25x",
           "builds": [
             {
-              "cost": 18,
+              "cost": 18.64,
               "lightChoices": {},
               "image": "images/B6A_8.png",
               "comments": ""
@@ -1132,6 +1292,32 @@
         },
         {
           "multiplier": "1.7x",
+          "builds": [
+            {
+              "cost": 51,
+              "lightChoices": {},
+              "image": "images/B6B_2.png",
+              "comments": ""
+            },
+            {
+              "cost": 31,
+              "image": "images/B6B_2.png",
+              "comments": "",
+              "lightChoiceAlternatives": [
+                {
+                  "L1": "Frigate",
+                  "L2": "Corvette"
+                },
+                {
+                  "L1": "Corvette",
+                  "L2": "Frigate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "multiplier": "1.8x",
           "builds": [
             {
               "cost": 51,
@@ -1182,7 +1368,7 @@
           "multiplier": "2.15x",
           "builds": [
             {
-              "cost": 22,
+              "cost": 22.33,
               "lightChoices": {},
               "image": "images/B6B_3.png",
               "comments": ""
@@ -1204,7 +1390,7 @@
           "multiplier": "3.25x",
           "builds": [
             {
-              "cost": 19,
+              "cost": 19.06,
               "lightChoices": {},
               "image": "images/B6B_5.png",
               "comments": ""
@@ -1239,6 +1425,17 @@
           ]
         },
         {
+          "multiplier": "2.0x",
+          "builds": [
+            {
+              "cost": 47,
+              "lightChoices": {},
+              "image": "images/B7A_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
           "multiplier": "2.25x",
           "builds": [
             {
@@ -1253,7 +1450,7 @@
           "multiplier": "2.45x",
           "builds": [
             {
-              "cost": 24,
+              "cost": 24.78,
               "lightChoices": {},
               "image": "images/B7A_3.png",
               "comments": ""
@@ -1264,7 +1461,7 @@
           "multiplier": "2.6x",
           "builds": [
             {
-              "cost": 22,
+              "cost": 22.21,
               "lightChoices": {},
               "image": "images/B7A_4.png",
               "comments": ""
@@ -1335,7 +1532,7 @@
           "multiplier": "2.35x",
           "builds": [
             {
-              "cost": 27,
+              "cost": 27.4,
               "lightChoices": {},
               "image": "images/B7B_3.png",
               "comments": ""
@@ -1343,10 +1540,23 @@
           ]
         },
         {
+          "multiplier": "2.375x",
+          "builds": [
+            {
+              "cost": 27,
+              "lightChoices": {},
+              "image": "images/B7B_3.png",
+              "comments": "",
+              "costFractionalPart": null,
+              "costFractionalPartStatus": "unspecified"
+            }
+          ]
+        },
+        {
           "multiplier": "2.45x",
           "builds": [
             {
-              "cost": 22,
+              "cost": 22.37,
               "lightChoices": {},
               "image": "images/B7B_3.png",
               "comments": ""
@@ -1357,7 +1567,7 @@
           "multiplier": "2.65x",
           "builds": [
             {
-              "cost": 21,
+              "cost": 21.52,
               "lightChoices": {},
               "image": "images/B7B_4.png",
               "comments": ""
@@ -1368,9 +1578,20 @@
           "multiplier": "2.9x",
           "builds": [
             {
-              "cost": 19,
+              "cost": 19.72,
               "lightChoices": {},
               "image": "images/B7B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 19.62,
+              "lightChoices": {},
+              "image": "images/B7B_5.png",
               "comments": ""
             }
           ]
@@ -1428,7 +1649,7 @@
           "multiplier": "2.975x",
           "builds": [
             {
-              "cost": 29,
+              "cost": 29.28,
               "lightChoices": {},
               "image": "images/B8_2.png",
               "comments": ""
@@ -1443,6 +1664,12 @@
               "lightChoices": {},
               "image": "images/B8_5.png",
               "comments": ""
+            },
+            {
+              "cost": 28.75,
+              "lightChoices": {},
+              "image": "images/B8_6.png",
+              "comments": ""
             }
           ]
         },
@@ -1450,7 +1677,7 @@
           "multiplier": "3.3x",
           "builds": [
             {
-              "cost": 25,
+              "cost": 25.48,
               "lightChoices": {},
               "image": "images/B8_4.png",
               "comments": ""
@@ -1488,7 +1715,7 @@
           "multiplier": "2.65x",
           "builds": [
             {
-              "cost": 32,
+              "cost": 32.5,
               "lightChoices": {},
               "image": "images/B9_3.png",
               "comments": ""
@@ -1510,7 +1737,7 @@
           "multiplier": "3.3x",
           "builds": [
             {
-              "cost": 26,
+              "cost": 26.98,
               "lightChoices": {},
               "image": "images/B9_4.png",
               "comments": ""
@@ -1521,7 +1748,7 @@
           "multiplier": "3.85x",
           "builds": [
             {
-              "cost": 28,
+              "cost": 28.75,
               "lightChoices": {},
               "image": "images/B9_5.png",
               "comments": ""
@@ -1650,7 +1877,7 @@
           "multiplier": "3.15x",
           "builds": [
             {
-              "cost": 69,
+              "cost": 69.23,
               "lightChoices": {},
               "image": "images/B10_6.png",
               "comments": "",

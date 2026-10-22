@@ -1,0 +1,1700 @@
+{
+  "formatVersion": 1,
+  "galaxy": 3,
+  "stages": [
+    {
+      "stage": "B1",
+      "multipliers": [
+        {
+          "multiplier": "1.0x",
+          "builds": [
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B1_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.1x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B1_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.2x",
+          "builds": [
+            {
+              "cost": 7,
+              "lightChoices": {},
+              "image": "images/B1_3.png",
+              "comments": "",
+              "equipmentRequirements": {
+                "ship": "Corvette",
+                "shield": true
+              }
+            }
+          ]
+        },
+        {
+          "multiplier": "1.4x",
+          "builds": [
+            {
+              "cost": 6,
+              "lightChoices": {},
+              "image": "images/B1_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.825x",
+          "builds": [
+            {
+              "cost": 5,
+              "lightChoices": {},
+              "image": "images/B1_5.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B2A",
+      "multipliers": [
+        {
+          "multiplier": "1.0x",
+          "builds": [
+            {
+              "cost": 15,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B2A_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.1x",
+          "builds": [
+            {
+              "cost": 20,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B2A_2.png",
+              "comments": "",
+              "equipmentRequirements": {
+                "shield": true
+              }
+            },
+            {
+              "cost": 14,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B2A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.2x",
+          "builds": [
+            {
+              "cost": 14,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B2A_4.png",
+              "comments": ""
+            },
+            {
+              "cost": 16,
+              "lightChoices": {},
+              "image": "images/B2A_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.3x",
+          "builds": [
+            {
+              "cost": 13,
+              "lightChoices": {},
+              "image": "images/B2A_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B2A_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.6x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B2A_8.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.0x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B2A_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.425x",
+          "builds": [
+            {
+              "cost": 8,
+              "lightChoices": {},
+              "image": "images/B2A_9.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 7,
+              "lightChoices": {},
+              "image": "images/B2A_10.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B2B",
+      "multipliers": [
+        {
+          "multiplier": "1.0x",
+          "builds": [
+            {
+              "cost": 23,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B2B_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.1x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B2B_2.png",
+              "comments": ""
+            },
+            {
+              "cost": 22,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B2B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.2x",
+          "builds": [
+            {
+              "cost": 16,
+              "lightChoices": {},
+              "image": "images/B2B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.3x",
+          "builds": [
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B2B_5.png",
+              "comments": "",
+              "equipmentRequirements": {
+                "armour": true,
+                "shield": true
+              }
+            }
+          ]
+        },
+        {
+          "multiplier": "1.4x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B2B_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.025x",
+          "builds": [
+            {
+              "cost": 8,
+              "lightChoices": {},
+              "image": "images/B2B_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.1x",
+          "builds": [
+            {
+              "cost": 6,
+              "lightChoices": {},
+              "image": "images/B2B_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.375x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {},
+              "image": "images/B2B_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 8,
+              "lightChoices": {},
+              "image": "images/B2B_8.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B3A",
+      "multipliers": [
+        {
+          "multiplier": "1.1x",
+          "builds": [
+            {
+              "cost": 15,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B3A_1.png",
+              "comments": ""
+            },
+            {
+              "cost": 20,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B3A_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.2x",
+          "builds": [
+            {
+              "cost": 14,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B3A_3.png",
+              "comments": ""
+            },
+            {
+              "cost": 17,
+              "lightChoices": {},
+              "image": "images/B3A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.3x",
+          "builds": [
+            {
+              "cost": 14,
+              "lightChoices": {},
+              "image": "images/B3A_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.4x",
+          "builds": [
+            {
+              "cost": 13,
+              "lightChoices": {},
+              "image": "images/B3A_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B3A_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.75x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B3A_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.25x",
+          "builds": [
+            {
+              "cost": 6,
+              "lightChoices": {},
+              "image": "images/B3A_8.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.3x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {},
+              "image": "images/B3A_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.65x",
+          "builds": [
+            {
+              "cost": 5,
+              "lightChoices": {},
+              "image": "images/B3A_9.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B3B",
+      "multipliers": [
+        {
+          "multiplier": "1.1x",
+          "builds": [
+            {
+              "cost": 20,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B3B_1.png",
+              "comments": ""
+            },
+            {
+              "cost": 25,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B3B_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.2x",
+          "builds": [
+            {
+              "cost": 17,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B3B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.4x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B3B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.375x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B3B_4.png",
+              "comments": "",
+              "equipmentRequirements": {
+                "ship": "Corvette",
+                "CL": true,
+                "shield": true
+              }
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {},
+              "image": "images/B3B_5.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B4A",
+      "multipliers": [
+        {
+          "multiplier": "1.2x",
+          "builds": [
+            {
+              "cost": 22,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B4A_1.png",
+              "comments": "",
+              "equipmentRequirements": {
+                "ship": "Frigate",
+                "armour": true,
+                "shield": true
+              }
+            }
+          ]
+        },
+        {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 13,
+              "lightChoices": {},
+              "image": "images/B4A_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.75x",
+          "builds": [
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B4A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.2x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B4A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.4x",
+          "builds": [
+            {
+              "cost": 11,
+              "lightChoices": {},
+              "image": "images/B4A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 7,
+              "lightChoices": {},
+              "image": "images/B4A_5.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B4B",
+      "multipliers": [
+        {
+          "multiplier": "1.1x",
+          "builds": [
+            {
+              "cost": 32,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B4B_1.png",
+              "comments": "Advisor has 27 but I couldn't match it."
+            }
+          ]
+        },
+        {
+          "multiplier": "1.2x",
+          "builds": [
+            {
+              "cost": 25,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B4B_2.png",
+              "comments": "",
+              "equipmentRequirements": {
+                "shield": true,
+                "armour": false
+              }
+            }
+          ]
+        },
+        {
+          "multiplier": "1.3x",
+          "builds": [
+            {
+              "cost": 22,
+              "lightChoices": {
+                "L1": "Frigate"
+              },
+              "image": "images/B4B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.4x",
+          "builds": [
+            {
+              "cost": 15,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B4B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B4B_5.png",
+              "comments": ""
+            },
+            {
+              "cost": 10,
+              "lightChoices": {},
+              "image": "images/B4B_8.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.625x",
+          "builds": [
+            {
+              "cost": 15,
+              "lightChoices": {},
+              "image": "images/B4B_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.375x",
+          "builds": [
+            {
+              "cost": 10,
+              "lightChoices": {},
+              "image": "",
+              "comments": "Corvette w/CL + shield. Corvettes on B2 and B4."
+            }
+          ]
+        },
+        {
+          "multiplier": "3.0x",
+          "builds": [
+            {
+              "cost": 6,
+              "lightChoices": {},
+              "image": "images/B4B_7.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B5A",
+      "multipliers": [
+        {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 34,
+              "lightChoices": {
+                "L1": "Corvette",
+                "L2": "Frigate"
+              },
+              "image": "images/B5A_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.6x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {},
+              "image": "images/B5A_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.75x",
+          "builds": [
+            {
+              "cost": 20,
+              "lightChoices": {},
+              "image": "images/B5A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.8x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {},
+              "image": "images/B5A_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.925x",
+          "builds": [
+            {
+              "cost": 18,
+              "lightChoices": {},
+              "image": "images/B5A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.0x",
+          "builds": [
+            {
+              "cost": 18,
+              "lightChoices": {},
+              "image": "images/B5A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.2x",
+          "builds": [
+            {
+              "cost": 17,
+              "lightChoices": {},
+              "image": "images/B5A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.275x",
+          "builds": [
+            {
+              "cost": 17,
+              "lightChoices": {},
+              "image": "images/B5A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.75x",
+          "builds": [
+            {
+              "cost": 16,
+              "lightChoices": {},
+              "image": "images/B5A_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.85x",
+          "builds": [
+            {
+              "cost": 15,
+              "lightChoices": {},
+              "image": "images/B5A_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 17,
+              "lightChoices": {},
+              "image": "images/B5A_6.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B5B",
+      "multipliers": [
+        {
+          "multiplier": "1.3x",
+          "builds": [
+            {
+              "cost": 37,
+              "lightChoices": {
+                "L1": "Corvette",
+                "L2": "Corvette"
+              },
+              "image": "images/B5B_1.png",
+              "comments": "SH, AR"
+            }
+          ]
+        },
+        {
+          "multiplier": "1.4x",
+          "builds": [
+            {
+              "cost": 43,
+              "lightChoices": {
+                "L1": "Corvette"
+              },
+              "image": "images/B5B_2.png",
+              "comments": "",
+              "equipmentRequirements": {
+                "shield": true,
+                "armour": false
+              }
+            }
+          ]
+        },
+        {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 30,
+              "lightChoices": {
+                "L1": "Corvette",
+                "L2": "Frigate"
+              },
+              "image": "images/B5B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.6x",
+          "builds": [
+            {
+              "cost": 20,
+              "lightChoices": {},
+              "image": "images/B5B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.8x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {},
+              "image": "images/B5B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.925x",
+          "builds": [
+            {
+              "cost": 17,
+              "lightChoices": {},
+              "image": "images/B5B_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.0x",
+          "builds": [
+            {
+              "cost": 17,
+              "lightChoices": {},
+              "image": "images/B5B_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.125x",
+          "builds": [
+            {
+              "cost": 16,
+              "lightChoices": {},
+              "image": "images/B5B_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.3x",
+          "builds": [
+            {
+              "cost": 15,
+              "lightChoices": {},
+              "image": "images/B5B_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.725x",
+          "builds": [
+            {
+              "cost": 13,
+              "lightChoices": {},
+              "image": "images/B5B_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 12,
+              "lightChoices": {},
+              "image": "images/B5B_7.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B6A",
+      "multipliers": [
+        {
+          "multiplier": "1.5x",
+          "builds": [
+            {
+              "cost": 46,
+              "lightChoices": {
+                "L1": "Corvette",
+                "L2": "Frigate"
+              },
+              "image": "images/B6A_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.6x",
+          "builds": [
+            {
+              "cost": 36,
+              "lightChoices": {},
+              "image": "images/B6A_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.7x",
+          "builds": [
+            {
+              "cost": 28,
+              "lightChoices": {},
+              "image": "images/B6A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.8x",
+          "builds": [
+            {
+              "cost": 28,
+              "lightChoices": {},
+              "image": "images/B6A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.9x",
+          "builds": [
+            {
+              "cost": 27,
+              "lightChoices": {},
+              "image": "images/B6A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.925x",
+          "builds": [
+            {
+              "cost": 26,
+              "lightChoices": {},
+              "image": "images/B6A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.125x",
+          "builds": [
+            {
+              "cost": 22,
+              "lightChoices": {},
+              "image": "images/B6A_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.225x",
+          "builds": [
+            {
+              "cost": 21,
+              "lightChoices": {},
+              "image": "images/B6A_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.6x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {},
+              "image": "images/B6A_6.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.65x",
+          "builds": [
+            {
+              "cost": 18,
+              "lightChoices": {},
+              "image": "images/B6A_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.75x",
+          "builds": [
+            {
+              "cost": 17,
+              "lightChoices": {},
+              "image": "images/B6A_7.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 18,
+              "lightChoices": {},
+              "image": "images/B6A_8.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B6B",
+      "multipliers": [
+        {
+          "multiplier": "1.625x",
+          "builds": [
+            {
+              "cost": 45,
+              "lightChoices": {},
+              "image": "images/B6B_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.7x",
+          "builds": [
+            {
+              "cost": 51,
+              "lightChoices": {},
+              "image": "images/B6B_2.png",
+              "comments": ""
+            },
+            {
+              "cost": 31,
+              "image": "images/B6B_2.png",
+              "comments": "",
+              "lightChoiceAlternatives": [
+                {
+                  "L1": "Frigate",
+                  "L2": "Corvette"
+                },
+                {
+                  "L1": "Corvette",
+                  "L2": "Frigate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "multiplier": "2.025x",
+          "builds": [
+            {
+              "cost": 22,
+              "lightChoices": {},
+              "image": "images/B6B_3.png",
+              "comments": "Neither Shield nor Armour."
+            }
+          ]
+        },
+        {
+          "multiplier": "2.125x",
+          "builds": [
+            {
+              "cost": 21,
+              "lightChoices": {},
+              "image": "images/B6B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.15x",
+          "builds": [
+            {
+              "cost": 22,
+              "lightChoices": {},
+              "image": "images/B6B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.45x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {},
+              "image": "images/B6B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {},
+              "image": "images/B6B_5.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B7A",
+      "multipliers": [
+        {
+          "multiplier": "1.8x",
+          "builds": [
+            {
+              "cost": 52,
+              "lightChoices": {},
+              "image": "images/B7A_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.95x",
+          "builds": [
+            {
+              "cost": 47,
+              "lightChoices": {},
+              "image": "images/B7A_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.25x",
+          "builds": [
+            {
+              "cost": 35,
+              "lightChoices": {},
+              "image": "images/B7A_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.45x",
+          "builds": [
+            {
+              "cost": 24,
+              "lightChoices": {},
+              "image": "images/B7A_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.6x",
+          "builds": [
+            {
+              "cost": 22,
+              "lightChoices": {},
+              "image": "images/B7A_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.675x",
+          "builds": [
+            {
+              "cost": 24,
+              "lightChoices": {},
+              "image": "images/B7A_5.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B7B",
+      "multipliers": [
+        {
+          "multiplier": "1.625x",
+          "builds": [
+            {
+              "cost": 72,
+              "lightChoices": {},
+              "image": "images/B7B_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.8x",
+          "builds": [
+            {
+              "cost": 55,
+              "lightChoices": {},
+              "image": "images/B7B_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.925x",
+          "builds": [
+            {
+              "cost": 51,
+              "lightChoices": {},
+              "image": "images/B7B_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "1.95x",
+          "builds": [
+            {
+              "cost": 50,
+              "lightChoices": {},
+              "image": "images/B7B_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.35x",
+          "builds": [
+            {
+              "cost": 27,
+              "lightChoices": {},
+              "image": "images/B7B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.45x",
+          "builds": [
+            {
+              "cost": 22,
+              "lightChoices": {},
+              "image": "images/B7B_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.65x",
+          "builds": [
+            {
+              "cost": 21,
+              "lightChoices": {},
+              "image": "images/B7B_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.9x",
+          "builds": [
+            {
+              "cost": 19,
+              "lightChoices": {},
+              "image": "images/B7B_4.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B8",
+      "multipliers": [
+        {
+          "multiplier": "2.125x",
+          "builds": [
+            {
+              "cost": 71,
+              "lightChoices": {},
+              "image": "images/B8_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.65x",
+          "builds": [
+            {
+              "cost": 29,
+              "lightChoices": {},
+              "image": "images/B8_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.825x",
+          "builds": [
+            {
+              "cost": 30,
+              "lightChoices": {},
+              "image": "images/B8_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.85x",
+          "builds": [
+            {
+              "cost": 28,
+              "lightChoices": {},
+              "image": "images/B8_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.975x",
+          "builds": [
+            {
+              "cost": 29,
+              "lightChoices": {},
+              "image": "images/B8_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 26,
+              "lightChoices": {},
+              "image": "images/B8_5.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.3x",
+          "builds": [
+            {
+              "cost": 25,
+              "lightChoices": {},
+              "image": "images/B8_4.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B9",
+      "multipliers": [
+        {
+          "multiplier": "2.125x",
+          "builds": [
+            {
+              "cost": 49,
+              "lightChoices": {},
+              "image": "images/B9_1.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.625x",
+          "builds": [
+            {
+              "cost": 37,
+              "lightChoices": {},
+              "image": "images/B9_2.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.65x",
+          "builds": [
+            {
+              "cost": 32,
+              "lightChoices": {},
+              "image": "images/B9_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "2.9x",
+          "builds": [
+            {
+              "cost": 30,
+              "lightChoices": {},
+              "image": "images/B9_3.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.3x",
+          "builds": [
+            {
+              "cost": 26,
+              "lightChoices": {},
+              "image": "images/B9_4.png",
+              "comments": ""
+            }
+          ]
+        },
+        {
+          "multiplier": "3.85x",
+          "builds": [
+            {
+              "cost": 28,
+              "lightChoices": {},
+              "image": "images/B9_5.png",
+              "comments": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "BB1",
+      "multipliers": [
+        {
+          "multiplier": "1.6x",
+          "builds": [
+            {
+              "cost": 110,
+              "lightChoices": {},
+              "image": "images/BB1_1.png",
+              "comments": "",
+              "base": true,
+              "baseKill": false,
+              "baseDamage": 375.44
+            }
+          ]
+        },
+        {
+          "multiplier": "2.15x",
+          "builds": [
+            {
+              "cost": 47,
+              "lightChoices": {},
+              "image": "images/BB1_4.png",
+              "comments": "",
+              "baseKill": false,
+              "base": false
+            }
+          ]
+        },
+        {
+          "multiplier": "2.3x",
+          "builds": [
+            {
+              "cost": 107,
+              "lightChoices": {},
+              "image": "images/BB1_2.png",
+              "comments": "",
+              "base": true,
+              "baseKill": true,
+              "baseShots": 1
+            }
+          ]
+        },
+        {
+          "multiplier": "2.775x",
+          "builds": [
+            {
+              "cost": 24,
+              "lightChoices": {},
+              "image": "images/BB1_4.png",
+              "comments": "",
+              "baseKill": false,
+              "base": false
+            }
+          ]
+        },
+        {
+          "multiplier": "2.85x",
+          "builds": [
+            {
+              "cost": 58,
+              "lightChoices": {},
+              "image": "images/BB1_3.png",
+              "comments": "",
+              "base": true,
+              "baseKill": true,
+              "baseShots": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "B10",
+      "multipliers": [
+        {
+          "multiplier": "2.85x",
+          "builds": [
+            {
+              "cost": 120,
+              "lightChoices": {},
+              "image": "images/B10_1.png",
+              "comments": "",
+              "base": true,
+              "baseKill": true,
+              "baseShots": 2,
+              "sameBuildForAllShots": true,
+              "costBasis": "per attempt",
+              "baseDamageBasis": "per attempt",
+              "baseDamage": 1043.1
+            }
+          ]
+        },
+        {
+          "multiplier": "3.05x",
+          "builds": [
+            {
+              "cost": 170,
+              "lightChoices": {},
+              "image": "images/B10_4.png",
+              "comments": "",
+              "base": true,
+              "baseKill": false,
+              "baseDamage": 1300
+            },
+            {
+              "cost": 82,
+              "lightChoices": {},
+              "image": "images/B10_5.png",
+              "comments": "",
+              "base": false,
+              "baseKill": false
+            }
+          ]
+        },
+        {
+          "multiplier": "3.15x",
+          "builds": [
+            {
+              "cost": 69,
+              "lightChoices": {},
+              "image": "images/B10_6.png",
+              "comments": "",
+              "baseKill": false,
+              "base": false
+            }
+          ]
+        },
+        {
+          "multiplier": "3.25x",
+          "builds": [
+            {
+              "cost": 46,
+              "lightChoices": {},
+              "image": "images/B10_7.png",
+              "comments": "",
+              "base": false,
+              "baseKill": false
+            }
+          ]
+        },
+        {
+          "multiplier": "3.725x",
+          "builds": [
+            {
+              "cost": 110,
+              "lightChoices": {},
+              "image": "images/B10_2.png",
+              "comments": "Up to 110 to deploy if no ships have been bought at L.",
+              "base": true,
+              "baseKill": false,
+              "baseDamage": 1139.85
+            },
+            {
+              "cost": 62,
+              "lightChoices": {},
+              "image": "images/B10_3.png",
+              "comments": "",
+              "base": false,
+              "baseKill": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

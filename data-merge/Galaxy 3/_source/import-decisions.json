@@ -2,7 +2,7 @@
   "spreadsheetId": "1cIQKMM716T8OsKStCdYVO3_NOPGAPqWp7SuVJtMZvWg",
   "outputFormat": "json",
   "confirmedRules": {
-    "duplicateBuilds": "Preserve multiple builds when their requirements differ. For matching requirements at the same stage and multiplier, retain only the cheapest build. Do not assume unstated requirements match.",
+    "duplicateBuilds": "Keep all approved builds, including more expensive alternatives and matching requirements; no cheapest-build selection.",
     "lightChoices": "L means Light. Each L permits buying one additional ship, choosing its type, or buying none.",
     "omittedLightRequirements": "If L requirements are not mentioned, no Light purchases are required. Do not mark them unknown solely because they are omitted.",
     "sharedTrailingLightRequirement": "A trailing L requirement applies to all multipliers in the caption only when the flow is uninterrupted: there are no additional parenthesis groups, no changes between bold and non-bold text, and the L note is the very last text. Otherwise keep the L note local to its variant. Confirmed specifically for B3B E6: both 1.2x cost 17.5 and 1.4x cost 11.25 require L1 Corvette. Check the original rich text formatting before applying this rule.",
@@ -26,7 +26,9 @@
     "slashSeparatedMultipliers": "Separate exact multiplier values, not continuous ranges.",
     "struckText": "Exclude struck-through text.",
     "missingCost": "Omit all entries that have no listed cost at all. Preserve grouped exact multipliers that share an explicitly listed cost. Previously confirmed cost overrides remain valid.",
-    "clarifications": "Review unresolved entries one at a time with the user. Do not hide ambiguous data in Comments."
+    "clarifications": "Review unresolved entries one at a time with the user. Do not hide ambiguous data in Comments.",
+    "costPrecision": "Preserve all recorded decimal digits. Keep the explicitly unspecified fractional part unknown.",
+    "multiplierCoverage": "Keep every listed exact multiplier with all its approved builds; never consolidate across multipliers."
   },
   "excludedEntries": [
     {
@@ -450,27 +452,49 @@
     "candidateBuilds": 161,
     "buildsAfterDuplicateSelection": 157,
     "duplicateSelections": 4,
-    "unresolvedCaptionAnnotations": 0
+    "unresolvedCaptionAnnotations": 0,
+    "duplicateSelectionStatus": "Historical comparison only; current output uses all normalizedCandidates."
   },
-  "status": "Complete after refinement: 139 builds, 105 referenced images, integer costs and no source metadata.",
+  "status": "Complete: 161 builds, 145 exact multiplier groups, 108 images, original decimal costs and no source metadata.",
   "output": {
     "output": "galaxy3.json",
-    "sha256": "3c56c73f87b76cc3c7d950757421ab854023629dbace0b66bdef0f7d807de1fa",
+    "sha256": "c0bab38b1774f3b7c6b45f9b2d381b0437b7e30896ece4aa2df5494b6fdcad4c",
     "stages": 17,
-    "exactMultiplierGroups": 129,
-    "builds": 139,
-    "imagesReferenced": 105,
+    "exactMultiplierGroups": 145,
+    "builds": 161,
+    "imagesReferenced": 108,
     "buildsWithEmptyImage": 1,
     "validationReport": "_source/validation-report.json"
   },
   "outputRefinement": {
-    "costs": "Truncate all costs to integers and remove fractional-cost metadata.",
-    "sameMultiplier": "Keep the cheapest build for identical hazards, supports, Light choices and Base status; equipment/layout differences do not protect a more expensive build at the same multiplier.",
-    "baseClarification": "User explicitly confirmed keeping base and no-base builds separate.",
-    "consecutiveMultipliers": "Retain the lowest multiplier in an uninterrupted run with the same integer cost and same build/layout. Preserve rises, falls and returns to earlier costs.",
-    "layoutClarification": "User explicitly confirmed that different layouts stay separate across consecutive multipliers.",
-    "sourceInformation": "Removed root/per-build source fields and source-attribution comments from the output JSON.",
-    "imageCleanup": "Delete unreferenced output images locally; preserve filenames of retained images.",
-    "script": "_source/refine_json.py"
-  }
+    "selection": "all approved builds",
+    "costs": "Preserve all recorded decimal digits. Keep the explicitly unspecified fractional part unknown.",
+    "sameMultiplier": "Keep all approved builds, including more expensive alternatives and matching requirements; no cheapest-build selection.",
+    "consecutiveMultipliers": "Keep every listed exact multiplier with all its approved builds; never consolidate across multipliers.",
+    "exclusions": "Explicitly omitted entries, missing-cost entries and struck-through text remain excluded.",
+    "baseClarification": "Base and no-base builds remain separate.",
+    "sourceInformation": "Root/per-build source fields and standalone author attributions are omitted.",
+    "imageCleanup": "Keep exactly referenced originals, restoring archived images as needed; preserve filenames.",
+    "script": "_source/refine_json.py",
+    "authority": [
+      "We should list every listed multiplier and also have the decimals.",
+      "Also all builds."
+    ]
+  },
+  "outputRuleHistory": [
+    {
+      "supersededOn": "2026-10-22",
+      "rules": {
+        "costs": "Truncate all costs to integers and remove fractional-cost metadata.",
+        "sameMultiplier": "Keep the cheapest build for identical hazards, supports, Light choices and Base status; equipment/layout differences do not protect a more expensive build at the same multiplier.",
+        "baseClarification": "User explicitly confirmed keeping base and no-base builds separate.",
+        "consecutiveMultipliers": "Retain the lowest multiplier in an uninterrupted run with the same integer cost and same build/layout. Preserve rises, falls and returns to earlier costs.",
+        "layoutClarification": "User explicitly confirmed that different layouts stay separate across consecutive multipliers.",
+        "sourceInformation": "Removed root/per-build source fields and source-attribution comments from the output JSON.",
+        "imageCleanup": "Delete unreferenced output images locally; preserve filenames of retained images.",
+        "script": "_source/refine_json.py"
+      },
+      "reason": "User requested every listed multiplier, decimals, and all builds."
+    }
+  ]
 }

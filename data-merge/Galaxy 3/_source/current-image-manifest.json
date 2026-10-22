@@ -703,6 +703,31 @@
     {
       "sheet": "B1 - B4B",
       "sheet_index": 3,
+      "cell": "D17",
+      "row": 17,
+      "column": 3,
+      "stage": "B3A",
+      "label_cell": "D16",
+      "label": "1.5x - 12",
+      "struck_label": "",
+      "media_path": "xl/media/image17.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image17.png",
+      "dimensions": [
+        1587,
+        903
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        506.0,
+        288.0
+      ],
+      "sha256": "602096ca38b35f38af765273068638da32ee4a1d95c0de17be713ef0929e360e",
+      "bytes": 330068,
+      "output_file": "images/B3A_6.png"
+    },
+    {
+      "sheet": "B1 - B4B",
+      "sheet_index": 3,
       "cell": "D19",
       "row": 19,
       "column": 3,
@@ -2103,6 +2128,31 @@
     {
       "sheet": "B5A-B9",
       "sheet_index": 4,
+      "cell": "F21",
+      "row": 21,
+      "column": 5,
+      "stage": "B7B",
+      "label_cell": "F20",
+      "label": "Stats 3.25 - 19(.62) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image91.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image91.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "9ac0c400a76463a293df8d14d9ed3e09f88fe4f07f69f20dac5cf727187019fa",
+      "bytes": 535822,
+      "output_file": "images/B7B_5.png"
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
       "cell": "G3",
       "row": 3,
       "column": 6,
@@ -2224,6 +2274,31 @@
       "sha256": "a3ef739fa77181e6c25bb1ffab1fd18ff23ef82db7142f87e8b485d0c3460cbb",
       "bytes": 340267,
       "output_file": "images/B8_5.png"
+    },
+    {
+      "sheet": "B5A-B9",
+      "sheet_index": 4,
+      "cell": "G21",
+      "row": 21,
+      "column": 6,
+      "stage": "B8",
+      "label_cell": "G20",
+      "label": "Stats 3.25 - 28(.75) by Nepriceputu",
+      "struck_label": "",
+      "media_path": "xl/media/image67.png",
+      "local_file": "D:\\ChatGPT\\USN\\Galaxies\\data-merge\\Galaxy 3\\_source\\embedded-images\\image67.png",
+      "dimensions": [
+        2048,
+        878
+      ],
+      "format": "PNG",
+      "display_pixels": [
+        521.0,
+        223.0
+      ],
+      "sha256": "e6ee9b656472468433f65b051b811f53e491edce9854b528f29cf3ff069dc80e",
+      "bytes": 516856,
+      "output_file": "images/B8_6.png"
     },
     {
       "sheet": "B5A-B9",
@@ -2626,5 +2701,5 @@
       "output_file": "images/B10_7.png"
     }
   ],
-  "numbering": "Original filenames preserved; gaps after deletion are intentional."
+  "numbering": "Original per-stage filenames preserved; all referenced originals restored."
 }

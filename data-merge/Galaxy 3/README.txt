@@ -1,17 +1,23 @@
 Galaxy 3 data
 
-galaxy3.json contains the final data, organized as stages -> multipliers -> builds.
+galaxy3.json contains 161 builds across 17 stages and 145 exact multiplier
+groups, organized as stages -> multipliers -> builds.
 images/ contains the original full-size PNGs, named <stage>_<number>.png.
 Images were copied without resizing or re-encoding. Original filenames are
-preserved; gaps in numbering result from deleting unused images.
+preserved. All 108 referenced images are present.
 
 Fields
 
 stage: Stage name, such as B2A or BB1.
-multiplier: A listed value such as "1.0x". Consecutive entries with the same
-  integer cost and same build/layout keep only their lowest multiplier.
-  This does not establish results at unlisted intermediate multipliers.
-cost: Integer cost. Fractional digits are discarded, not rounded.
+multiplier: One exact listed value such as "1.0x". Every listed multiplier
+  from the approved entries is retained. Captions listing several multipliers
+  produce separate entries that share the same image. No intermediate values
+  are inferred, and equal-cost entries are not consolidated.
+cost: Numeric cost with all recorded decimal digits, including parenthesized
+  fractional digits from the captions. The game truncates these for display;
+  this JSON preserves them. No extra precision is invented for integer costs.
+costFractionalPart/costFractionalPartStatus: B7B at 2.375x has cost 27, with
+  fractional part null and status "unspecified", as explicitly confirmed.
 lightChoices: Required purchases at specific Lights, e.g. {"L1": "Corvette"}.
   An empty object means no Light purchases are required. Unlisted Lights do
   not require a purchase.
@@ -33,8 +39,8 @@ sameBuildForAllShots: True for the confirmed B10 2.85x two-attempt build.
 costBasis/baseDamageBasis: "per attempt" for that two-attempt build. Its cost
   remains 120 and damage remains 1043.1 per attempt; the cost is not summed.
 
-Source fields, source-attribution comments and fractional-cost metadata have
-been removed from galaxy3.json. Base damage retains its original precision.
+Source fields and standalone source-attribution comments have been removed
+from galaxy3.json. Both costs and base damage retain their recorded precision.
 
 Hazards and Supports are optional and are omitted for Galaxy 3. Base fields
 are omitted on stages where they are not applicable. Unknown shot counts
@@ -42,16 +48,14 @@ and unstated damage are omitted rather than filled with zero.
 
 Selection and source notes
 
-At the same stage/multiplier, only the cheapest build is kept for matching
-Hazards, Supports, Light choices and Base status. Equipment or layout
-differences do not keep a more expensive build at that same multiplier.
-For equal integer costs with matching requirements, the first entry is kept.
+All approved builds are retained, including more expensive alternatives and
+builds with identical requirements at the same multiplier. Each distinct
+caption variant has its own build entry. Shared images remain shared paths.
+Base and no-base builds and different layouts remain separate.
 
-Across consecutive multipliers, equal costs are consolidated only when the
-build/layout also matches. Different layouts remain separate. Price increases,
-decreases and returns to an earlier price are all retained. A different layout
-or an interrupted sequence starts a new run. Base and no-base builds remain
-separate, as explicitly confirmed.
+The user's 2026-10-22 instructions to list every multiplier, preserve decimals,
+and keep all builds supersede the earlier cost truncation, cheapest-build
+selection and consecutive-multiplier consolidation rules.
 
 Struck-through text and all agreed exclusions were removed from the dataset.
 images/ contains only files referenced by the final JSON. Unused output images
@@ -61,9 +65,15 @@ The confirmed caption values take precedence over the screenshots for
 B3B E10 (2.375x, cost 10) and B10 B6 (3.725x, cost 62, Base false).
 
 _source/ preserves the original workbook, extracted media, decisions and
-historical conversion audits. galaxy3.before-refinement.json is the previous
-157-build snapshot. Earlier export scripts describe that historical snapshot;
-refine_json.py applies the latest cost, consolidation and cleanup rules.
-_source/refinement-report.json records each removed entry and image.
-_source/current-image-manifest.json lists the retained original images.
+historical conversion audits. galaxy3.before-refinement.json is the old
+157-build snapshot; galaxy3.before-full-export.json is the later 139-build
+snapshot. Files named *.before-full-export.* document the superseded cleanup.
+
+_source/refine_json.py is the current exporter. It rebuilds from all 161
+normalizedCandidates, before any duplicate selection, and validates them
+against the numeric source candidates and confirmed decisions. Run without
+--apply to preview; add --apply to save. Historical deduplicatedCandidates
+and duplicateSelections are audit data and are not used for the current output.
+_source/refinement-report.json records the export and restored images.
+_source/current-image-manifest.json lists the referenced original images.
 _source/validation-report.json records verification of the current output.
